@@ -1,0 +1,30 @@
+{
+  "title": "Site Config",
+  "status": "published",
+  "siteName": "MazCode",
+  "siteDescription": "Nowoczesne strony internetowe — szybkie, piękne, zoptymalizowane pod SEO.",
+  "siteUrl": "https://mazcode.pl",
+  "navbar": {
+    "links": [
+      { "name": "Usługi", "path": "#uslugi" },
+      { "name": "Realizacje", "path": "#portfolio" },
+      { "name": "Proces", "path": "#proces" }
+    ],
+    "cta": { "text": "Kontakt", "path": "#kontakt" }
+  },
+  "contact": {
+    "phone": "+48 503 401 451",
+    "email": "mazcom.kontakt@gmail.com",
+    "address": "",
+    "openingHours": { "weekdays": "", "weekends": "" }
+  },
+  "social": {
+    "github": "https://github.com/MazCom-Websites"
+  },
+  "footer": {
+    "copyright": "© {year} MazCode. Wszystkie prawa zastrzeżone.",
+    "services": []
+  },
+  "locale": "pl-PL",
+  "domain": "mazcode.pl"
+}
