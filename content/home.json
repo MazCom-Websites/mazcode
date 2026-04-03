@@ -13,9 +13,13 @@
         "title": "Budujemy strony, które sprzedają",
         "subtitle": "Nowoczesne strony internetowe — szybkie, piękne, zoptymalizowane pod SEO. Od projektu po publikację.",
         "cta_text": "Zobacz realizacje",
-        "cta_link": { "url": "#portfolio" },
+        "cta_link": {
+          "url": "#portfolio"
+        },
         "secondary_cta_text": "Kontakt",
-        "secondary_cta_link": { "url": "#kontakt" },
+        "secondary_cta_link": {
+          "url": "#kontakt"
+        },
         "background_style": "dark"
       }
     },
@@ -25,9 +29,18 @@
       "primary": {
         "title": "",
         "stats": [
-          { "value": "160+", "label": "komponentów" },
-          { "value": "99+", "label": "Google PageSpeed" },
-          { "value": "100%", "label": "responsywne" }
+          {
+            "value": "160+",
+            "label": "komponentów"
+          },
+          {
+            "value": "99+",
+            "label": "Google PageSpeed"
+          },
+          {
+            "value": "100%",
+            "label": "responsywne"
+          }
         ]
       }
     },
@@ -38,10 +51,22 @@
         "title": "Jak pracujemy",
         "description": "Przejrzysty proces, regularna komunikacja, terminowa realizacja.",
         "steps": [
-          { "title": "Konsultacja", "description": "Poznajemy Twoje potrzeby, cele biznesowe i grupę docelową. Bezpłatna rozmowa." },
-          { "title": "Projekt", "description": "Tworzymy makiety i design. Iterujemy do momentu, aż będziesz w pełni zadowolony." },
-          { "title": "Realizacja", "description": "Kodujemy i testujemy. Regularne demo co tydzień — widzisz postępy na bieżąco." },
-          { "title": "Publikacja", "description": "Wdrażamy na produkcję i szkolimy z obsługi. Wsparcie techniczne w cenie." }
+          {
+            "title": "Konsultacja",
+            "description": "Poznajemy Twoje potrzeby, cele biznesowe i grupę docelową. Bezpłatna rozmowa."
+          },
+          {
+            "title": "Projekt",
+            "description": "Tworzymy makiety i design. Iterujemy do momentu, aż będziesz w pełni zadowolony."
+          },
+          {
+            "title": "Realizacja",
+            "description": "Kodujemy i testujemy. Regularne demo co tydzień — widzisz postępy na bieżąco."
+          },
+          {
+            "title": "Publikacja",
+            "description": "Wdrażamy na produkcję i szkolimy z obsługi. Wsparcie techniczne w cenie."
+          }
         ]
       }
     },
@@ -52,10 +77,23 @@
         "title": "Gotowy na nową stronę?",
         "description": "Napisz do nas — odpowiadamy w 24h. Pierwsza konsultacja gratis.",
         "cta_text": "Wyślij wiadomość",
-        "cta_link": { "url": "mailto:mazcom.kontakt@gmail.com" },
+        "cta_link": {
+          "url": "mailto:mazcom.kontakt@gmail.com"
+        },
         "secondary_cta_text": "Zadzwoń: +48 503 401 451",
-        "secondary_cta_link": { "url": "tel:+48503401451" }
+        "secondary_cta_link": {
+          "url": "tel:+48503401451"
+        }
       }
     }
-  ]
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
 }
