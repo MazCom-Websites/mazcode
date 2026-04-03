@@ -1,0 +1,19 @@
+{
+  "title": "Theme",
+  "status": "published",
+  "preset": "brutalist",
+  "colors": {
+    "primaryHue": 150,
+    "secondaryHue": 220,
+    "accentHue": 142
+  },
+  "typography": {
+    "headingFont": "Plus Jakarta Sans",
+    "bodyFont": "DM Sans"
+  },
+  "spacing": {
+    "sectionPadding": "80px",
+    "containerMaxWidth": "1152px",
+    "cardGap": "24px"
+  }
+}
