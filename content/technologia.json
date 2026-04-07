@@ -1,0 +1,132 @@
+{
+  "title": "Technologia",
+  "status": "published",
+  "path": "/technologia",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "metaTitle": "Technologia — MazCode Web Agency",
+  "metaDescription": "Next.js, React, TypeScript, Tailwind CSS — poznaj nasz stack technologiczny.",
+  "slices": [
+    {
+      "slice_type": "agency_marquee_hero",
+      "variation": "default",
+      "primary": {
+        "subtitle": "Nowoczesny stack technologiczny",
+        "cta_text": "Porozmawiajmy o technologii",
+        "cta_link": { "url": "/kontakt" },
+        "speed": 25
+      },
+      "items": [
+        { "text": "NEXT.JS 16" },
+        { "text": "REACT 19" },
+        { "text": "TYPESCRIPT" },
+        { "text": "TAILWIND CSS" },
+        { "text": "VERCEL" },
+        { "text": "FRAMER MOTION" }
+      ]
+    },
+    {
+      "slice_type": "agency_tech_stack_grid",
+      "variation": "default",
+      "primary": {
+        "title": "Nasz stack technologiczny",
+        "description": "Używamy najnowocześniejszych technologii, żeby Twoja strona była szybka, bezpieczna i łatwa w zarządzaniu.",
+        "items": [
+          { "name": "Next.js 16", "icon": "Globe", "category": "Frontend", "description": "Framework React z SSG, SSR i Server Components" },
+          { "name": "React 19", "icon": "Code2", "category": "Frontend", "description": "Biblioteka UI z Server Components i Actions" },
+          { "name": "TypeScript", "icon": "FileCode", "category": "Frontend", "description": "Typowany JavaScript — zero błędów w runtime" },
+          { "name": "Tailwind CSS 4", "icon": "Palette", "category": "Frontend", "description": "Utility-first CSS framework z design tokens" },
+          { "name": "Vercel", "icon": "Cloud", "category": "Hosting", "description": "Edge hosting z globalnym CDN i automatycznym deploy" },
+          { "name": "GitHub", "icon": "GitBranch", "category": "CI/CD", "description": "Version control, CI/CD pipeline i code review" },
+          { "name": "Cloudinary", "icon": "Image", "category": "Media", "description": "CDN i automatyczna optymalizacja obrazów" },
+          { "name": "Framer Motion", "icon": "Sparkles", "category": "Frontend", "description": "Płynne animacje i przejścia z reduced motion" },
+          { "name": "Zod", "icon": "ShieldCheck", "category": "Backend", "description": "Schema-first walidacja danych w runtime" }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_tech_comparison",
+      "variation": "default",
+      "primary": {
+        "title": "Dlaczego Next.js, a nie WordPress?",
+        "description": "Porównanie kluczowych metryk — szybkość, bezpieczeństwo, SEO i koszty utrzymania.",
+        "our_label": "MazCode (Next.js)",
+        "their_label": "Typowy WordPress",
+        "metrics": [
+          { "name": "Czas ładowania", "our_value": "0.8s", "their_value": "3.2s", "icon": "Zap", "our_score": 95, "their_score": 40 },
+          { "name": "Lighthouse Score", "our_value": "98-100", "their_value": "55-75", "icon": "Gauge", "our_score": 98, "their_score": 65 },
+          { "name": "Bezpieczeństwo", "our_value": "Statyczne pliki", "their_value": "PHP + baza danych", "icon": "Shield", "our_score": 99, "their_score": 50 },
+          { "name": "SEO", "our_value": "SSG + Schema + OG", "their_value": "Plugin-dependent", "icon": "Search", "our_score": 95, "their_score": 60 },
+          { "name": "Koszt hostingu", "our_value": "0 zł/msc", "their_value": "50-200 zł/msc", "icon": "Wallet", "our_score": 100, "their_score": 40 },
+          { "name": "Aktualizacje", "our_value": "Automatyczne", "their_value": "Ręczne + ryzyko", "icon": "RefreshCw", "our_score": 90, "their_score": 35 }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_architecture",
+      "variation": "default",
+      "primary": {
+        "title": "Architektura naszych rozwiązań",
+        "description": "Od kodu źródłowego po globalny CDN — każdy element jest zoptymalizowany pod kątem wydajności.",
+        "layers": [
+          { "name": "Użytkownik", "icon": "User", "description": "Przeglądarka / urządzenie mobilne", "position": 1 },
+          { "name": "CDN Edge", "icon": "Globe", "description": "Vercel Edge Network — 70+ lokalizacji na świecie", "position": 2 },
+          { "name": "SSG / ISR", "icon": "FileCode", "description": "Statycznie generowane strony z inkrementalną regeneracją", "position": 3 },
+          { "name": "CMS Admin", "icon": "Layout", "description": "Panel administracyjny z edytorem wizualnym", "position": 4 },
+          { "name": "API Layer", "icon": "Server", "description": "Server Actions + API Routes z walidacją Zod", "position": 5 },
+          { "name": "Content Store", "icon": "Database", "description": "JSON flat-file CMS + GitHub version control", "position": 6 }
+        ],
+        "flow_label": "Przepływ danych"
+      }
+    },
+    {
+      "slice_type": "agency_security_features",
+      "variation": "default",
+      "primary": {
+        "title": "Bezpieczeństwo na każdym poziomie",
+        "description": "Twoja strona jest chroniona wielowarstwowymi zabezpieczeniami — od infrastruktury po aplikację.",
+        "items": [
+          { "title": "SSL / HTTPS", "description": "Szyfrowane połączenie dla każdej strony — certyfikat SSL automatycznie.", "icon": "Lock", "severity": "critical" },
+          { "title": "Content Security Policy", "description": "Strict CSP headers blokujące XSS i injection — zero nieautoryzowanych skryptów.", "icon": "Shield", "severity": "critical" },
+          { "title": "Uwierzytelnianie Auth0", "description": "Enterprise-grade auth z MFA, rolami i uprawnieniami per użytkownik.", "icon": "UserCheck", "severity": "high" },
+          { "title": "Rate Limiting", "description": "Ochrona przed brute-force: 5 req/min login, 10 req/min formularze.", "icon": "Timer", "severity": "high" },
+          { "title": "Ochrona CSRF", "description": "Walidacja tokenów CSRF w każdym formularzu i mutacji.", "icon": "ShieldCheck", "severity": "high" },
+          { "title": "Statyczne pliki", "description": "SSG eliminuje wektor ataku na serwer — brak bazy danych, brak PHP.", "icon": "FileCode", "severity": "medium" },
+          { "title": "HSTS Headers", "description": "HTTP Strict Transport Security wymusza HTTPS na wszystkich requestach.", "icon": "ShieldAlert", "severity": "medium" },
+          { "title": "RBAC", "description": "4 role (owner/admin/editor/redaktor) z 9 granularnymi uprawnieniami.", "icon": "Users", "severity": "medium" }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_speed_test",
+      "variation": "default",
+      "primary": {
+        "title": "Szybkość, którą czuć",
+        "description": "Porównanie czasu ładowania naszych stron z przeciętną stroną internetową.",
+        "our_label": "Strona MazCode",
+        "avg_label": "Przeciętna strona",
+        "our_time": 0.8,
+        "avg_time": 3.5,
+        "metrics": [
+          { "name": "First Contentful Paint", "our_value": "0.4s", "avg_value": "1.8s", "icon": "Zap" },
+          { "name": "Largest Contentful Paint", "our_value": "0.8s", "avg_value": "2.5s", "icon": "Image" },
+          { "name": "Total Blocking Time", "our_value": "0ms", "avg_value": "350ms", "icon": "Timer" },
+          { "name": "Cumulative Layout Shift", "our_value": "0.001", "avg_value": "0.25", "icon": "Move" }
+        ],
+        "lighthouse_score": 98,
+        "badge": "Core Web Vitals",
+        "footnote": "Dane na podstawie audytu Lighthouse i raportów CrUX — styczeń 2026."
+      }
+    },
+    {
+      "slice_type": "agency_glow_cta",
+      "variation": "default",
+      "primary": {
+        "title": "Gotowy na stronę zbudowaną na nowoczesnym stacku?",
+        "description": "Next.js, React, TypeScript — technologia, która daje przewagę. Porozmawiajmy o Twoim projekcie.",
+        "cta_text": "Rozpocznij projekt",
+        "cta_link": { "url": "/kontakt" },
+        "glow_color": "#6366f1"
+      }
+    }
+  ]
+}

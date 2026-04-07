@@ -1,0 +1,172 @@
+{
+  "title": "O nas",
+  "status": "published",
+  "path": "/o-nas",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "metaTitle": "O nas — MazCode Web Agency",
+  "metaDescription": "Poznaj zespół MazCode. 8 lat doświadczenia w tworzeniu stron internetowych.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "title": "Tworzymy strony, które robią różnicę",
+        "subtitle": "8 lat doświadczenia, 150+ zrealizowanych projektów i jedno podejście — technologia w służbie biznesu. Poznaj zespół, który stoi za MazCode.",
+        "cta_text": "Porozmawiajmy",
+        "cta_link": { "url": "/kontakt" },
+        "terminal_lines": [
+          "$ git log --oneline | wc -l",
+          "> 12,847 commits",
+          "$ lighthouse https://mazcode.pl",
+          "> Performance: 98 | SEO: 100 | Best Practices: 100"
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_numbers",
+      "variation": "default",
+      "primary": {
+        "title": "MazCode w liczbach",
+        "description": "Lata doświadczenia i setki zrealizowanych projektów mówią same za siebie."
+      },
+      "items": [
+        { "value": 150, "suffix": "+", "label": "Zrealizowanych projektów", "icon": "Briefcase" },
+        { "value": 98, "suffix": "%", "label": "Zadowolonych klientów", "icon": "Heart" },
+        { "value": 8, "suffix": "", "label": "Lat doświadczenia", "icon": "Calendar" },
+        { "value": 50, "suffix": "+", "label": "Stałych klientów", "icon": "Users" }
+      ]
+    },
+    {
+      "slice_type": "agency_design_philosophy",
+      "variation": "default",
+      "primary": {
+        "title": "Nasza filozofia designu",
+        "description": "Wierzymy, że najlepszy design to taki, który rozwiązuje realne problemy użytkowników — elegancko i intuicyjnie."
+      },
+      "items": [
+        {
+          "title": "Funkcja przed formą",
+          "description": "Każdy element na stronie musi mieć jasny cel. Nie dodajemy niczego \"bo ładnie wygląda\" — wszystko służy użytkownikowi.",
+          "icon": "Target"
+        },
+        {
+          "title": "Prostota i czytelność",
+          "description": "Redukujemy szum wizualny do minimum. Czysta typografia, konsekwentna kolorystyka, czytelna hierarchia treści.",
+          "icon": "Minimize2"
+        },
+        {
+          "title": "Mobile-first",
+          "description": "Projektujemy od najmniejszego ekranu w górę. 70% użytkowników przegląda strony na telefonie — i to ich doświadczenie stawiamy na pierwszym miejscu.",
+          "icon": "Smartphone"
+        },
+        {
+          "title": "Wydajność to UX",
+          "description": "Szybkość ładowania strony to nie kwestia techniczna — to kwestia doświadczenia. Każda sekunda opóźnienia to utraceni klienci.",
+          "icon": "Zap"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_methodology",
+      "variation": "default",
+      "primary": {
+        "title": "Jak pracujemy",
+        "description": "Łączymy najlepsze praktyki z branży IT, żeby dostarczać projekty na czas i w budżecie."
+      },
+      "items": [
+        {
+          "name": "Agile / Scrum",
+          "description": "Pracujemy w sprintach 1-2 tygodniowych. Regularnie pokazujemy postępy i zbieramy feedback. Szybko reagujemy na zmiany.",
+          "icon": "RefreshCw",
+          "benefits": ["Elastyczność", "Szybki feedback", "Przejrzystość"]
+        },
+        {
+          "name": "Design Thinking",
+          "description": "Stawiamy użytkownika w centrum. Każda decyzja projektowa opiera się na zrozumieniu potrzeb i zachowań grupy docelowej.",
+          "icon": "Lightbulb",
+          "benefits": ["User-centric", "Innowacyjność", "Walidacja pomysłów"]
+        },
+        {
+          "name": "CI/CD",
+          "description": "Automatyczne testy i wdrożenia. Każda zmiana przechodzi pipeline testowy zanim trafi na produkcję. Zero ręcznych deploymentów.",
+          "icon": "GitBranch",
+          "benefits": ["Automatyzacja", "Jakość kodu", "Szybkie wdrożenia"]
+        },
+        {
+          "name": "Code Review",
+          "description": "Każdy pull request jest przeglądany przez drugiego programistę. Dbamy o jakość, spójność i czytelność kodu.",
+          "icon": "Eye",
+          "benefits": ["Jakość", "Transfer wiedzy", "Mniej bugów"]
+        },
+        {
+          "name": "Performance-First",
+          "description": "Wydajność to nie afterthought. Od pierwszej linii kodu optymalizujemy pod Core Web Vitals i szybkość ładowania.",
+          "icon": "Zap",
+          "benefits": ["Szybkość", "SEO boost", "Lepsze UX"]
+        },
+        {
+          "name": "Dokumentacja",
+          "description": "Dokumentujemy architekturę, decyzje techniczne i proces. Po projekcie otrzymujesz kompletną dokumentację.",
+          "icon": "FileText",
+          "benefits": ["Wiedza", "Onboarding", "Utrzymanie"]
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_guarantees",
+      "variation": "default",
+      "primary": {
+        "title": "Nasze gwarancje",
+        "description": "Pracujemy transparentnie i dajemy Ci pewność, że inwestycja się opłaci.",
+        "guarantees": [
+          {
+            "icon": "BadgeCheck",
+            "title": "Gwarancja satysfakcji",
+            "description": "Jeśli efekt końcowy nie spełni Twoich oczekiwań — wprowadzamy poprawki bez dodatkowych kosztów."
+          },
+          {
+            "icon": "Clock",
+            "title": "Terminowa realizacja",
+            "description": "Ustalony harmonogram jest wiążący. Za każdy dzień opóźnienia z naszej winy — 5% rabatu."
+          },
+          {
+            "icon": "Headphones",
+            "title": "3 miesiące wsparcia gratis",
+            "description": "Po wdrożeniu zapewniamy bezpłatne wsparcie techniczne — poprawki, aktualizacje, pomoc."
+          },
+          {
+            "icon": "RefreshCw",
+            "title": "Darmowe poprawki",
+            "description": "Do 2 rund poprawek w cenie projektu — Twoje uwagi są dla nas priorytetem."
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_awards_bar",
+      "variation": "default",
+      "primary": {
+        "title": "Nagrody i wyróżnienia"
+      },
+      "items": [
+        { "label": "CSS Design Awards", "sublabel": "Site of the Day 2025", "icon": "Award" },
+        { "label": "Awwwards", "sublabel": "Honorable Mention", "icon": "Trophy" },
+        { "label": "Clutch Top Agency", "sublabel": "Polska 2025", "icon": "Star" },
+        { "label": "Google Partner", "sublabel": "Certyfikowany Partner", "icon": "BadgeCheck" },
+        { "label": "Web Excellence", "sublabel": "Best UX 2025", "icon": "Medal" }
+      ]
+    },
+    {
+      "slice_type": "agency_contact_cta",
+      "variation": "default",
+      "primary": {
+        "title": "Porozmawiajmy o Twoim projekcie",
+        "description": "Opowiedz nam o swoich potrzebach, a my zaproponujemy najlepsze rozwiązanie. Bezpłatna konsultacja wstępna.",
+        "cta_text": "Umów bezpłatną konsultację",
+        "cta_link": { "url": "/kontakt" },
+        "phone": "+48 503 401 451",
+        "email": "mazcom.kontakt@gmail.com"
+      }
+    }
+  ]
+}

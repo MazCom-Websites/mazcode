@@ -1,0 +1,136 @@
+{
+  "title": "Kontakt",
+  "status": "published",
+  "path": "/kontakt",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "metaTitle": "Kontakt — MazCode Web Agency",
+  "metaDescription": "Skontaktuj się z nami. Bezpłatna konsultacja i wycena projektu.",
+  "slices": [
+    {
+      "slice_type": "agency_stats_hero",
+      "variation": "default",
+      "primary": {
+        "title": "Skontaktuj się z nami",
+        "subtitle": "Masz pytanie, pomysł na projekt lub chcesz uzyskać bezpłatną wycenę? Napisz do nas — odpowiadamy w ciągu 24 godzin.",
+        "cta_text": "Wypełnij formularz",
+        "cta_link": { "url": "#formularz" }
+      },
+      "items": [
+        { "stat_value": "24", "stat_suffix": "h", "stat_label": "Czas odpowiedzi" },
+        { "stat_value": "0", "stat_suffix": " zł", "stat_label": "Koszt konsultacji" },
+        { "stat_value": "150", "stat_suffix": "+", "stat_label": "Zadowolonych klientów" },
+        { "stat_value": "98", "stat_suffix": "%", "stat_label": "Pozytywnych opinii" }
+      ]
+    },
+    {
+      "slice_type": "agency_contact_form",
+      "variation": "default",
+      "primary": {
+        "title": "Porozmawiajmy o Twoim projekcie",
+        "description": "Wypełnij formularz, a nasz zespół skontaktuje się z Tobą w ciągu 24 godzin z indywidualną propozycją.",
+        "name_label": "Imię i nazwisko",
+        "email_label": "Adres e-mail",
+        "phone_label": "Numer telefonu",
+        "project_type_label": "Rodzaj projektu",
+        "budget_label": "Orientacyjny budżet",
+        "message_label": "Opis projektu",
+        "submit_label": "Wyślij zapytanie",
+        "success_message": "Dziękujemy! Odezwiemy się w ciągu 24 godzin."
+      },
+      "items": [
+        { "value": "website", "label": "Strona internetowa" },
+        { "value": "ecommerce", "label": "Sklep online" },
+        { "value": "webapp", "label": "Aplikacja webowa" },
+        { "value": "redesign", "label": "Redesign istniejącej strony" },
+        { "value": "seo", "label": "SEO i marketing" },
+        { "value": "other", "label": "Inne" }
+      ]
+    },
+    {
+      "slice_type": "agency_office_info",
+      "variation": "default",
+      "primary": {
+        "title": "Dane kontaktowe",
+        "description": "Możesz się z nami skontaktować również telefonicznie lub mailowo.",
+        "address": "Katowice",
+        "city": "Polska",
+        "map_embed_url": "https://maps.google.com/maps?q=Katowice+Polska",
+        "phone": "+48 503 401 451",
+        "email": "mazcom.kontakt@gmail.com"
+      },
+      "items": [
+        { "day": "Poniedziałek – Piątek", "hours": "9:00 – 17:00" },
+        { "day": "Sobota", "hours": "Po wcześniejszym umówieniu" },
+        { "day": "Niedziela", "hours": "Nieczynne" }
+      ]
+    },
+    {
+      "slice_type": "agency_social_links",
+      "variation": "default",
+      "primary": {
+        "title": "Znajdź nas w sieci",
+        "description": "Obserwuj nas w social mediach — dzielimy się wiedzą, inspiracjami i kulisami projektów."
+      },
+      "items": [
+        {
+          "platform": "GitHub",
+          "icon": "Github",
+          "url": "https://github.com/MazCom-Websites",
+          "handle": "@MazCom-Websites",
+          "color": "#333333"
+        },
+        {
+          "platform": "LinkedIn",
+          "icon": "Linkedin",
+          "url": "https://linkedin.com/company/mazcode",
+          "handle": "@mazcode",
+          "color": "#0A66C2"
+        },
+        {
+          "platform": "X / Twitter",
+          "icon": "Twitter",
+          "url": "https://x.com/mazcode",
+          "handle": "@mazcode",
+          "color": "#1DA1F2"
+        },
+        {
+          "platform": "Instagram",
+          "icon": "Instagram",
+          "url": "https://instagram.com/mazcode",
+          "handle": "@mazcode",
+          "color": "#E4405F"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_faq",
+      "variation": "default",
+      "primary": {
+        "title": "Najczęściej zadawane pytania",
+        "description": "Odpowiedzi na pytania, które słyszymy najczęściej od naszych klientów."
+      },
+      "items": [
+        {
+          "question": "Ile kosztuje strona internetowa?",
+          "answer": "Ceny zaczynają się od 4 900 zł za stronę one-page. Ostateczna cena zależy od zakresu projektu, liczby podstron i dodatkowych funkcjonalności. Przygotowujemy indywidualną wycenę po zapoznaniu się z briefem."
+        },
+        {
+          "question": "Jak długo trwa realizacja projektu?",
+          "answer": "Standardowa strona firmowa to 4–6 tygodni od zatwierdzenia projektu graficznego. Bardziej rozbudowane projekty z aplikacją webową mogą trwać 8–12 tygodni."
+        },
+        {
+          "question": "Czy mogę zobaczyć projekt przed realizacją?",
+          "answer": "Tak! Przygotowujemy interaktywny prototyp w Figma, który możesz przeglądać i komentować przed rozpoczęciem programowania."
+        },
+        {
+          "question": "Co obejmuje opieka techniczna?",
+          "answer": "Monitoring dostępności, aktualizacje bezpieczeństwa, backup danych, drobne poprawki treści (do 2h/mies.) oraz priorytetowe wsparcie techniczne."
+        },
+        {
+          "question": "Czy pomagacie w treściach na stronę?",
+          "answer": "Tak, oferujemy copywriting z wykorzystaniem AI i doświadczeniem naszego zespołu. Tworzymy treści zoptymalizowane pod SEO w języku polskim i angielskim."
+        }
+      ]
+    }
+  ]
+}

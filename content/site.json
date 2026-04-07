@@ -6,11 +6,13 @@
   "siteUrl": "https://mazcode.pl",
   "navbar": {
     "links": [
-      { "name": "Usługi", "path": "#uslugi" },
-      { "name": "Realizacje", "path": "#portfolio" },
-      { "name": "Proces", "path": "#proces" }
+      { "name": "Usługi", "path": "/uslugi" },
+      { "name": "Realizacje", "path": "/portfolio" },
+      { "name": "Cennik", "path": "/cennik" },
+      { "name": "Technologia", "path": "/technologia" },
+      { "name": "O nas", "path": "/o-nas" }
     ],
-    "cta": { "text": "Kontakt", "path": "#kontakt" }
+    "cta": { "text": "Kontakt", "path": "/kontakt" }
   },
   "contact": {
     "phone": "+48 503 401 451",

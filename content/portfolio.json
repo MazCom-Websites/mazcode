@@ -1,0 +1,173 @@
+{
+  "title": "Realizacje",
+  "status": "published",
+  "path": "/portfolio",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "metaTitle": "Portfolio — MazCode Web Agency",
+  "metaDescription": "Zobacz nasze realizacje — strony internetowe, sklepy online, aplikacje webowe.",
+  "slices": [
+    {
+      "slice_type": "agency_minimal_hero",
+      "variation": "default",
+      "primary": {
+        "label": "Portfolio",
+        "title": "Nasze realizacje",
+        "subtitle": "Projekty, które zbudowaliśmy dla naszych klientów — od stron firmowych po zaawansowane aplikacje webowe. Każdy projekt to unikalne rozwiązanie dopasowane do potrzeb biznesu.",
+        "cta_text": "Rozpocznij swój projekt",
+        "cta_link": { "url": "/kontakt" }
+      }
+    },
+    {
+      "slice_type": "portfolio_grid",
+      "variation": "default",
+      "primary": {
+        "title": "Nasze realizacje",
+        "description": "Projekty, które zbudowaliśmy dla naszych klientów — od stron firmowych po zaawansowane aplikacje webowe.",
+        "badge": "Portfolio"
+      },
+      "items": [
+        {
+          "title": "Klinika Exura Ortho",
+          "description": "Strona dla kliniki ortopedycznej z systemem rezerwacji wizyt online i blogiem eksperckim.",
+          "image": { "url": "https://placehold.co/800x600/1a1a2e/e0e0e0?text=Exura+Ortho", "alt": "Exura Ortho" },
+          "tech_stack": "Next.js, TypeScript, Tailwind CSS",
+          "category": "Healthcare",
+          "link": "https://exura-ortho.pl"
+        },
+        {
+          "title": "Kancelaria Włoszczyński",
+          "description": "Elegancka strona dla kancelarii notarialnej z bazą aktów prawnych i systemem kontaktowym.",
+          "image": { "url": "https://placehold.co/800x600/2d1b69/e0e0e0?text=Notariusz", "alt": "Kancelaria Włoszczyński" },
+          "tech_stack": "Next.js, MDX, Framer Motion",
+          "category": "Prawo",
+          "link": "https://wloszczynski-notariusz.pl"
+        },
+        {
+          "title": "StyleShop E-commerce",
+          "description": "Sklep internetowy z modą — pełna integracja płatności i logistyki.",
+          "image": { "url": "https://placehold.co/800x600/0d3b66/e0e0e0?text=StyleShop", "alt": "StyleShop" },
+          "tech_stack": "Next.js, Stripe, Sanity CMS",
+          "category": "E-commerce",
+          "link": "https://styleshop.pl"
+        },
+        {
+          "title": "FitZone Studio",
+          "description": "Strona dla studia fitness z kalendarzem zajęć i panelem trenerskim.",
+          "image": { "url": "https://placehold.co/800x600/1b4332/e0e0e0?text=FitZone", "alt": "FitZone Studio" },
+          "tech_stack": "React, Node.js, PostgreSQL",
+          "category": "Fitness",
+          "link": "https://fitzone.pl"
+        },
+        {
+          "title": "GastroMax Restaurant",
+          "description": "Strona restauracji z menu online, rezerwacjami i integracją z dostawą.",
+          "image": { "url": "https://placehold.co/800x600/5c1a1a/e0e0e0?text=GastroMax", "alt": "GastroMax" },
+          "tech_stack": "Next.js, Supabase, Tailwind",
+          "category": "Gastronomia",
+          "link": "https://gastromax.pl"
+        },
+        {
+          "title": "EduPlatform Online",
+          "description": "Platforma e-learningowa z kursami video i systemem certyfikatów.",
+          "image": { "url": "https://placehold.co/800x600/1a3c5e/e0e0e0?text=EduPlatform", "alt": "EduPlatform" },
+          "tech_stack": "Next.js, AWS, Prisma",
+          "category": "Edukacja",
+          "link": "https://eduplatform.pl"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_client_results",
+      "variation": "default",
+      "primary": {
+        "title": "Wyniki naszych klientów",
+        "description": "Mierzalne efekty współpracy z MazCode — dane mówią same za siebie."
+      },
+      "items": [
+        {
+          "client_name": "Exura Ortho",
+          "metric_label": "Wzrost ruchu organicznego",
+          "before_value": "800",
+          "after_value": "3 400",
+          "change_percent": "+325%",
+          "icon": "TrendingUp"
+        },
+        {
+          "client_name": "Kancelaria Włoszczyński",
+          "metric_label": "Współczynnik konwersji",
+          "before_value": "0.8%",
+          "after_value": "3.2%",
+          "change_percent": "+300%",
+          "icon": "Target"
+        },
+        {
+          "client_name": "StyleShop",
+          "metric_label": "Czas ładowania strony",
+          "before_value": "4.2s",
+          "after_value": "0.9s",
+          "change_percent": "-78%",
+          "icon": "Zap"
+        },
+        {
+          "client_name": "FitZone Studio",
+          "metric_label": "Zapytania z formularza",
+          "before_value": "8/mies.",
+          "after_value": "42/mies.",
+          "change_percent": "+425%",
+          "icon": "MessageSquare"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_case_study_preview",
+      "variation": "default",
+      "primary": {
+        "title": "Case Studies",
+        "description": "Poznaj szczegóły naszych najciekawszych realizacji."
+      },
+      "items": [
+        {
+          "title": "Exura Ortho — Strona kliniki ortopedycznej",
+          "description": "Kompleksowa strona z systemem rezerwacji wizyt, blogiem eksperckim i katalogiem usług medycznych.",
+          "image": { "url": "https://placehold.co/600x400/1a1a2e/e8f0fe?text=Exura+Ortho", "alt": "Exura Ortho case study" },
+          "metric_1_label": "Wzrost rezerwacji online",
+          "metric_1_value": "+280%",
+          "metric_2_label": "Czas ładowania",
+          "metric_2_value": "0.9s",
+          "link": { "url": "/portfolio/exura-ortho", "text": "Zobacz szczegóły" }
+        },
+        {
+          "title": "Kancelaria Włoszczyński — Strona notariusza",
+          "description": "Elegancka strona kancelarii z bazą aktów prawnych, systemem kontaktowym i kalendarzem spotkań.",
+          "image": { "url": "https://placehold.co/600x400/2d1b69/e8f0fe?text=Notariusz", "alt": "Kancelaria Włoszczyński case study" },
+          "metric_1_label": "Zapytania online",
+          "metric_1_value": "+350%",
+          "metric_2_label": "Pozycja w Google",
+          "metric_2_value": "Top 3",
+          "link": { "url": "/portfolio/wloszczynski", "text": "Zobacz szczegóły" }
+        },
+        {
+          "title": "StyleShop — Redesign e-commerce",
+          "description": "Kompleksowy redesign sklepu internetowego z modą — optymalizacja konwersji i wydajności.",
+          "image": { "url": "https://placehold.co/600x400/0d3b66/e8f0fe?text=StyleShop", "alt": "StyleShop case study" },
+          "metric_1_label": "Wzrost konwersji",
+          "metric_1_value": "+240%",
+          "metric_2_label": "Bounce rate",
+          "metric_2_value": "-52%",
+          "link": { "url": "/portfolio/styleshop", "text": "Zobacz szczegóły" }
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_glow_cta",
+      "variation": "default",
+      "primary": {
+        "title": "Masz pomysł na projekt? Porozmawiajmy!",
+        "description": "Dołącz do grona naszych zadowolonych klientów. Twoja nowa strona czeka na realizację.",
+        "cta_text": "Rozpocznij projekt",
+        "cta_link": { "url": "/kontakt" },
+        "glow_color": "#6366f1"
+      }
+    }
+  ]
+}

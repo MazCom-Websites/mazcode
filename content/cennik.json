@@ -1,0 +1,180 @@
+{
+  "title": "Cennik",
+  "status": "published",
+  "path": "/cennik",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "metaTitle": "Cennik — MazCode Web Agency",
+  "metaDescription": "Przejrzyste ceny stron internetowych. Od 4900 zł za stronę one-page.",
+  "slices": [
+    {
+      "slice_type": "agency_split_hero",
+      "variation": "default",
+      "primary": {
+        "badge": "Cennik",
+        "title": "Przejrzyste ceny, bez ukrytych kosztów",
+        "subtitle": "Wybierz pakiet dopasowany do potrzeb Twojego biznesu. Każdy projekt wyceniamy indywidualnie — podane ceny to punkt wyjścia.",
+        "cta_text": "Zamów bezpłatną wycenę",
+        "cta_link": { "url": "/kontakt" }
+      },
+      "items": [
+        { "image": { "url": "https://placehold.co/600x400/1a1a2e/e8f0fe?text=Starter", "alt": "Pakiet Starter" } },
+        { "image": { "url": "https://placehold.co/600x400/2d1b69/e8f0fe?text=Business", "alt": "Pakiet Business" } },
+        { "image": { "url": "https://placehold.co/600x400/0d3b66/e8f0fe?text=Enterprise", "alt": "Pakiet Enterprise" } }
+      ]
+    },
+    {
+      "slice_type": "agency_pricing_cards",
+      "variation": "default",
+      "primary": {
+        "title": "Pakiety cenowe",
+        "description": "Wybierz plan idealnie dopasowany do Twojego biznesu. Każdy pakiet zawiera pełne wsparcie zespołu MazCode."
+      },
+      "items": [
+        {
+          "name": "Starter",
+          "price": "4 900 zł",
+          "period": "jednorazowo",
+          "popular": false,
+          "features": [
+            "Strona one-page do 5 sekcji",
+            "Responsywny design",
+            "Formularz kontaktowy",
+            "Podstawowe SEO",
+            "Hosting na 12 miesięcy"
+          ],
+          "cta_label": "Wybierz Starter",
+          "cta_url": "/kontakt"
+        },
+        {
+          "name": "Business",
+          "price": "12 900 zł",
+          "period": "jednorazowo",
+          "popular": true,
+          "features": [
+            "Do 10 podstron z CMS",
+            "Indywidualny projekt graficzny",
+            "Animacje i interakcje",
+            "Zaawansowane SEO + Analytics",
+            "Blog z panelem admina",
+            "Integracja z social media",
+            "Wsparcie techniczne 6 mies."
+          ],
+          "cta_label": "Wybierz Business",
+          "cta_url": "/kontakt"
+        },
+        {
+          "name": "Enterprise",
+          "price": "od 24 900 zł",
+          "period": "wycena indywidualna",
+          "popular": false,
+          "features": [
+            "Dedykowana aplikacja webowa",
+            "System zarządzania treścią",
+            "Integracje API (CRM, ERP)",
+            "Panel administracyjny",
+            "Testy A/B i personalizacja",
+            "SLA i priorytetowe wsparcie",
+            "Szkolenie zespołu",
+            "Opieka techniczna 12 mies."
+          ],
+          "cta_label": "Umów konsultację",
+          "cta_url": "/kontakt"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_included_features",
+      "variation": "default",
+      "primary": {
+        "title": "Co jest w cenie każdego projektu",
+        "description": "Bez ukrytych kosztów — to wszystko dostajesz w standardzie.",
+        "features": [
+          { "text": "Responsywny design (mobile, tablet, desktop)" },
+          { "text": "Optymalizacja SEO on-page" },
+          { "text": "Certyfikat SSL / HTTPS" },
+          { "text": "Integracja z Google Analytics" },
+          { "text": "Formularz kontaktowy z powiadomieniami" },
+          { "text": "Panel CMS do edycji treści" },
+          { "text": "Optymalizacja Core Web Vitals" },
+          { "text": "Sitemap XML i robots.txt" },
+          { "text": "Dane strukturalne schema.org" },
+          { "text": "Hosting na Vercel (pierwszy rok gratis)" },
+          { "text": "Szkolenie z obsługi CMS" },
+          { "text": "3 miesiące wsparcia technicznego" }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_comparison_vs_competition",
+      "variation": "default",
+      "primary": {
+        "title": "MazCode vs typowa agencja",
+        "description": "Porównaj naszą ofertę z tym, co standardowo oferują inne agencje webowe.",
+        "mazcode_label": "MazCode",
+        "competitor_label": "Typowa agencja",
+        "features": [
+          { "feature": "Stack technologiczny", "mazcode": "Next.js 16, React 19, SSG", "competitor": "WordPress + Page Builder" },
+          { "feature": "Czas ładowania", "mazcode": "< 1s", "competitor": "3-5s" },
+          { "feature": "Lighthouse Score", "mazcode": "95-100", "competitor": "40-70" },
+          { "feature": "CMS", "mazcode": "Dedykowany, headless", "competitor": "WordPress Admin" },
+          { "feature": "Hosting", "mazcode": "Vercel Edge / GitHub Pages", "competitor": "Shared hosting" },
+          { "feature": "Bezpieczeństwo", "mazcode": "CSP, HSTS, Rate Limiting", "competitor": "Podstawowe SSL" },
+          { "feature": "SEO", "mazcode": "Automatyczne schema.org, sitemap", "competitor": "Wtyczka Yoast" },
+          { "feature": "Wsparcie po wdrożeniu", "mazcode": "3 miesiące gratis", "competitor": "Płatne od dnia 1" }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_pricing_faq",
+      "variation": "default",
+      "primary": {
+        "title": "Pytania o cennik",
+        "description": "Odpowiedzi na najczęściej zadawane pytania dotyczące kosztów i warunków współpracy."
+      },
+      "items": [
+        {
+          "question": "Czy cena zawiera hosting i domenę?",
+          "answer": "Tak, każdy pakiet zawiera hosting na 12 miesięcy. Domena jest wliczona w cenę pakietu Business i Enterprise. W pakiecie Starter koszt domeny to ok. 50–100 zł/rok."
+        },
+        {
+          "question": "Jakie są warunki płatności?",
+          "answer": "Standardowo dzielimy płatność na 3 raty: 40% przy podpisaniu umowy, 30% po akceptacji projektu graficznego, 30% przy oddaniu gotowej strony. Dla większych projektów możemy ustalić indywidualny harmonogram."
+        },
+        {
+          "question": "Czy mogę rozszerzyć pakiet w przyszłości?",
+          "answer": "Oczywiście. Każdy projekt budujemy w sposób modularny, więc dodanie nowych funkcji, podstron czy integracji jest możliwe w dowolnym momencie. Wyceniamy rozszerzenie indywidualnie."
+        },
+        {
+          "question": "Co wchodzi w skład wsparcia technicznego?",
+          "answer": "Wsparcie techniczne obejmuje naprawianie błędów, aktualizacje bezpieczeństwa, drobne zmiany treści (do 2h/mies.) oraz monitoring dostępności strony. Poważniejsze modyfikacje wyceniamy oddzielnie."
+        },
+        {
+          "question": "Ile trwa realizacja projektu?",
+          "answer": "Czas realizacji zależy od zakresu: strona wizytówka 2-3 tygodnie, strona firmowa 4-6 tygodni, sklep online 6-10 tygodni, aplikacja webowa 8-16 tygodni. Dokładny harmonogram ustalamy po briefingu."
+        },
+        {
+          "question": "Czy oferujecie fakturę VAT?",
+          "answer": "Tak, wystawiamy faktury VAT. Podane ceny są cenami netto. Dla klientów indywidualnych ceny brutto są wyższe o 23% VAT."
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_consultation_cta",
+      "variation": "default",
+      "primary": {
+        "title": "Umów się na bezpłatną konsultację",
+        "description": "Porozmawiamy o Twoim projekcie, celach biznesowych i zaproponujemy dopasowane rozwiązanie.",
+        "cta_text": "Wybierz termin",
+        "cta_link": { "url": "/kontakt" },
+        "duration": "30 min",
+        "format": "Online lub telefonicznie",
+        "price": "Bezpłatnie"
+      },
+      "items": [
+        { "step": "1", "label": "Wybierz termin", "description": "Znajdź wygodny termin w naszym kalendarzu" },
+        { "step": "2", "label": "Opowiedz o projekcie", "description": "Krótko opisz swoje potrzeby i cele" },
+        { "step": "3", "label": "Otrzymaj propozycję", "description": "Przygotujemy spersonalizowaną ofertę" }
+      ]
+    }
+  ]
+}

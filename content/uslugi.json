@@ -1,0 +1,173 @@
+{
+  "title": "Usługi",
+  "status": "published",
+  "path": "/uslugi",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "contextType": "services",
+  "contextKey": "service",
+  "metaTitle": "Usługi — MazCode Web Agency",
+  "metaDescription": "Web design, development, SEO, utrzymanie — pełen zakres usług webowych.",
+  "slices": [
+    {
+      "slice_type": "agency_gradient_hero",
+      "variation": "default",
+      "primary": {
+        "title": "Nasze usługi",
+        "subtitle": "Od projektu graficznego po wdrożenie i utrzymanie — dostarczamy kompletne rozwiązania webowe, które napędzają Twój biznes.",
+        "cta_text": "Bezpłatna wycena",
+        "cta_link": { "url": "/kontakt" },
+        "secondary_cta_text": "Zobacz realizacje",
+        "secondary_cta_link": { "url": "/portfolio" }
+      }
+    },
+    {
+      "slice_type": "agency_services_list",
+      "variation": "default",
+      "primary": {
+        "title": "Co możemy dla Ciebie zrobić",
+        "description": "Pełen zakres usług web development — od projektu po wdrożenie i utrzymanie."
+      },
+      "items": [
+        {
+          "icon": "Globe",
+          "title": "Strony internetowe",
+          "description": "Responsywne, szybkie strony firmowe i landing page w Next.js z CMS.",
+          "price_from": "od 4 900 zł",
+          "features": ["SSG/SSR", "CMS", "SEO", "Formularze"]
+        },
+        {
+          "icon": "ShoppingCart",
+          "title": "Sklepy internetowe",
+          "description": "E-commerce z integracją płatności, koszykiem i panelem zarządzania.",
+          "price_from": "od 12 000 zł",
+          "features": ["Koszyk", "Płatności", "Magazyn", "Zamówienia"]
+        },
+        {
+          "icon": "Layers",
+          "title": "Aplikacje webowe",
+          "description": "Dedykowane aplikacje SaaS, dashboardy, panele klienta i systemy CRM.",
+          "price_from": "od 24 900 zł",
+          "features": ["Auth", "API", "Real-time", "Integracje"]
+        },
+        {
+          "icon": "Search",
+          "title": "SEO & Optymalizacja",
+          "description": "Audyt SEO, optymalizacja szybkości, Core Web Vitals i content strategy.",
+          "price_from": "od 1 500 zł/msc",
+          "features": ["Audyt", "Optymalizacja", "Raportowanie", "Content"]
+        },
+        {
+          "icon": "Wrench",
+          "title": "Utrzymanie & Support",
+          "description": "Regularne aktualizacje, monitoring, backupy i wsparcie techniczne 24/7.",
+          "price_from": "od 500 zł/msc",
+          "features": ["Aktualizacje", "Monitoring", "Backup", "SLA"]
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_tech_advantages",
+      "variation": "default",
+      "primary": {
+        "title": "Przewagi technologiczne MazCode",
+        "description": "Dlaczego nasze podejście technologiczne przekłada się na realne korzyści biznesowe."
+      },
+      "items": [
+        {
+          "icon": "Zap",
+          "title": "Błyskawiczna szybkość",
+          "description": "Static Site Generation oznacza czas ładowania poniżej 1 sekundy. Google to nagradza wyższymi pozycjami.",
+          "stat": "< 1s",
+          "stat_label": "Czas ładowania"
+        },
+        {
+          "icon": "Shield",
+          "title": "Maksymalne bezpieczeństwo",
+          "description": "Brak bazy danych, PHP ani CMS-a na serwerze. Statyczne pliki eliminują wektory ataku.",
+          "stat": "0",
+          "stat_label": "Podatności"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "SEO na sterydach",
+          "description": "SSG + Schema.org + Core Web Vitals = wyższe pozycje w Google bez dodatkowych kosztów.",
+          "stat": "98+",
+          "stat_label": "Lighthouse Score"
+        },
+        {
+          "icon": "DollarSign",
+          "title": "Zero kosztów hostingu",
+          "description": "Hosting na Vercel lub GitHub Pages — 0 zł miesięcznie, nawet przy dużym ruchu.",
+          "stat": "0 zł",
+          "stat_label": "Hosting / miesiąc"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_performance_metrics",
+      "variation": "default",
+      "primary": {
+        "title": "Wydajność, która robi różnicę",
+        "description": "Nasze strony osiągają najwyższe wyniki w testach Google Lighthouse i Core Web Vitals.",
+        "badge": "Performance"
+      },
+      "items": [
+        {
+          "metric": "Performance",
+          "score": 98,
+          "description": "Szybkość ładowania i responsywność",
+          "icon": "Zap",
+          "color": "green"
+        },
+        {
+          "metric": "Accessibility",
+          "score": 100,
+          "description": "Dostępność dla wszystkich użytkowników",
+          "icon": "Accessibility",
+          "color": "green"
+        },
+        {
+          "metric": "Best Practices",
+          "score": 100,
+          "description": "Zgodność z najlepszymi praktykami",
+          "icon": "Shield",
+          "color": "green"
+        },
+        {
+          "metric": "SEO",
+          "score": 100,
+          "description": "Optymalizacja pod wyszukiwarki",
+          "icon": "Search",
+          "color": "green"
+        },
+        {
+          "metric": "LCP",
+          "score": 1.2,
+          "unit": "s",
+          "description": "Largest Contentful Paint",
+          "icon": "Clock",
+          "threshold": "< 2.5s"
+        },
+        {
+          "metric": "CLS",
+          "score": 0.01,
+          "description": "Cumulative Layout Shift",
+          "icon": "Layers",
+          "threshold": "< 0.1"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_contact_cta",
+      "variation": "default",
+      "primary": {
+        "title": "Porozmawiajmy o Twoim projekcie",
+        "description": "Opowiedz nam o swoich potrzebach, a my zaproponujemy najlepsze rozwiązanie. Bezpłatna konsultacja wstępna.",
+        "cta_text": "Umów bezpłatną konsultację",
+        "cta_link": { "url": "/kontakt" },
+        "phone": "+48 503 401 451",
+        "email": "mazcom.kontakt@gmail.com"
+      }
+    }
+  ]
+}

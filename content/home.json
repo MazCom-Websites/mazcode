@@ -1,99 +1,491 @@
 {
-  "title": "MazCode — Web Builder",
+  "title": "MazCode — Nowoczesne strony internetowe",
   "status": "published",
   "path": "/",
-  "publishedAt": "2026-04-03T00:00:00Z",
-  "metaTitle": "MazCode — Web Builder | Nowoczesne strony internetowe",
-  "metaDescription": "Tworzymy szybkie, piękne strony internetowe. Od projektu po publikację.",
+  "publishedAt": "2026-04-07T00:00:00Z",
+  "metaTitle": "MazCode — Web Agency | Tworzymy strony, które sprzedają",
+  "metaDescription": "Profesjonalna agencja webowa. Projektujemy i budujemy nowoczesne strony internetowe w Next.js — szybkie, piękne, zoptymalizowane pod SEO.",
   "slices": [
     {
-      "slice_type": "text_title_hero",
+      "slice_type": "agency_hero",
       "variation": "default",
       "primary": {
-        "title": "Budujemy strony, które sprzedają",
-        "subtitle": "Nowoczesne strony internetowe — szybkie, piękne, zoptymalizowane pod SEO. Od projektu po publikację.",
-        "cta_text": "Zobacz realizacje",
-        "cta_link": {
-          "url": "#portfolio"
-        },
-        "secondary_cta_text": "Kontakt",
-        "secondary_cta_link": {
-          "url": "#kontakt"
-        },
-        "background_style": "dark"
+        "title": "Tworzymy strony, które sprzedają",
+        "subtitle": "Projektujemy i budujemy nowoczesne strony internetowe, które przyciągają klientów i zwiększają konwersję. Od pomysłu do realizacji — z pasją do detalu.",
+        "cta_text": "Rozpocznij projekt",
+        "cta_link": { "url": "/kontakt" },
+        "badge": "Web Agency",
+        "floating_element_1": "UI/UX Design",
+        "floating_element_2": "Next.js",
+        "floating_element_3": "98% Konwersji"
       }
     },
     {
-      "slice_type": "stats_grid",
+      "slice_type": "agency_client_logos",
       "variation": "default",
       "primary": {
-        "title": "",
-        "stats": [
+        "title": "Zaufali nam",
+        "description": "Firmy, które wybrały MazCode do budowy swojej obecności w sieci."
+      },
+      "items": [
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=TechStart", "alt": "TechStart" }, "company_name": "TechStart" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=InnoLab", "alt": "InnoLab" }, "company_name": "InnoLab" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=Klinika+Urody", "alt": "Klinika Urody" }, "company_name": "Klinika Urody" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=FitZone", "alt": "FitZone" }, "company_name": "FitZone" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=LegalPro", "alt": "LegalPro" }, "company_name": "LegalPro" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=EduSmart", "alt": "EduSmart" }, "company_name": "EduSmart" }
+      ]
+    },
+    {
+      "slice_type": "agency_numbers",
+      "variation": "default",
+      "primary": {
+        "title": "MazCode w liczbach",
+        "description": "Lata doświadczenia i setki zrealizowanych projektów."
+      },
+      "items": [
+        { "value": 150, "suffix": "+", "label": "Zrealizowanych projektów", "icon": "Briefcase" },
+        { "value": 98, "suffix": "%", "label": "Zadowolonych klientów", "icon": "Heart" },
+        { "value": 8, "suffix": "", "label": "Lat doświadczenia", "icon": "Calendar" },
+        { "value": 50, "suffix": "+", "label": "Stałych klientów", "icon": "Users" }
+      ]
+    },
+    {
+      "slice_type": "agency_feature_cards",
+      "variation": "default",
+      "primary": {
+        "title": "Co wyróżnia nasze realizacje",
+        "description": "Każdy projekt budujemy z myślą o konwersji, szybkości i łatwości zarządzania.",
+        "features": [
           {
-            "value": "160+",
-            "label": "komponentów"
+            "icon": "Palette",
+            "title": "Unikalny design",
+            "description": "Projektujemy od zera — żadnych szablonów. Każda strona odzwierciedla charakter Twojej marki."
           },
           {
-            "value": "99+",
-            "label": "Google PageSpeed"
+            "icon": "Rocket",
+            "title": "Błyskawiczna szybkość",
+            "description": "Statyczne generowanie (SSG) zapewnia czas ładowania poniżej sekundy na każdym urządzeniu."
           },
           {
-            "value": "100%",
-            "label": "responsywne"
+            "icon": "Search",
+            "title": "SEO od podstaw",
+            "description": "Struktura HTML, meta tagi, schema.org, sitemap — wszystko wbudowane od pierwszego dnia."
+          },
+          {
+            "icon": "Smartphone",
+            "title": "Mobile-first",
+            "description": "Responsywny design zaczynamy od telefonu — 70% ruchu pochodzi z urządzeń mobilnych."
+          },
+          {
+            "icon": "Lock",
+            "title": "Bezpieczeństwo",
+            "description": "HTTPS, CSP headers, ochrona przed XSS i CSRF — bezpieczeństwo to standard."
+          },
+          {
+            "icon": "HeadphonesIcon",
+            "title": "Wsparcie techniczne",
+            "description": "Po wdrożeniu nie zostawiamy Cię samego — oferujemy pakiety wsparcia i utrzymania."
           }
         ]
       }
     },
     {
-      "slice_type": "process_steps",
+      "slice_type": "portfolio_grid",
+      "variation": "default",
+      "primary": {
+        "title": "Nasze realizacje",
+        "description": "Projekty, które zbudowaliśmy dla naszych klientów — od stron firmowych po zaawansowane aplikacje webowe.",
+        "badge": "Portfolio"
+      },
+      "items": [
+        {
+          "title": "Klinika Exura Ortho",
+          "description": "Strona dla kliniki ortopedycznej z systemem rezerwacji wizyt online.",
+          "image": { "url": "https://placehold.co/800x600/1a1a2e/e0e0e0?text=Exura+Ortho", "alt": "Exura Ortho" },
+          "tech_stack": "Next.js, TypeScript, Tailwind CSS",
+          "category": "Healthcare",
+          "link": "https://exura-ortho.pl"
+        },
+        {
+          "title": "Kancelaria Włoszczyński",
+          "description": "Elegancka strona dla kancelarii notarialnej z bazą aktów prawnych.",
+          "image": { "url": "https://placehold.co/800x600/2d1b69/e0e0e0?text=Notariusz", "alt": "Kancelaria Włoszczyński" },
+          "tech_stack": "Next.js, MDX, Framer Motion",
+          "category": "Prawo",
+          "link": "https://wloszczynski-notariusz.pl"
+        },
+        {
+          "title": "StyleShop E-commerce",
+          "description": "Sklep internetowy z modą — pełna integracja płatności i logistyki.",
+          "image": { "url": "https://placehold.co/800x600/0d3b66/e0e0e0?text=StyleShop", "alt": "StyleShop" },
+          "tech_stack": "Next.js, Stripe, Sanity CMS",
+          "category": "E-commerce",
+          "link": "https://styleshop.pl"
+        },
+        {
+          "title": "FitZone Studio",
+          "description": "Strona dla studia fitness z kalendarzem zajęć i panelem trenerskim.",
+          "image": { "url": "https://placehold.co/800x600/1b4332/e0e0e0?text=FitZone", "alt": "FitZone Studio" },
+          "tech_stack": "React, Node.js, PostgreSQL",
+          "category": "Fitness",
+          "link": "https://fitzone.pl"
+        },
+        {
+          "title": "GastroMax Restaurant",
+          "description": "Strona restauracji z menu online, rezerwacjami i integracją z dostawą.",
+          "image": { "url": "https://placehold.co/800x600/5c1a1a/e0e0e0?text=GastroMax", "alt": "GastroMax" },
+          "tech_stack": "Next.js, Supabase, Tailwind",
+          "category": "Gastronomia",
+          "link": "https://gastromax.pl"
+        },
+        {
+          "title": "EduPlatform Online",
+          "description": "Platforma e-learningowa z kursami video i systemem certyfikatów.",
+          "image": { "url": "https://placehold.co/800x600/1a3c5e/e0e0e0?text=EduPlatform", "alt": "EduPlatform" },
+          "tech_stack": "Next.js, AWS, Prisma",
+          "category": "Edukacja",
+          "link": "https://eduplatform.pl"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_process_steps",
       "variation": "default",
       "primary": {
         "title": "Jak pracujemy",
-        "description": "Przejrzysty proces, regularna komunikacja, terminowa realizacja.",
-        "steps": [
+        "description": "Sprawdzony proces od briefingu do launchu. Każdy krok zbliża Cię do idealnej strony."
+      },
+      "items": [
+        {
+          "step_number": "01",
+          "title": "Briefing",
+          "description": "Poznajemy Twój biznes, cele i grupę docelową. Definiujemy zakres projektu i ustalamy harmonogram.",
+          "icon": "MessageSquare"
+        },
+        {
+          "step_number": "02",
+          "title": "Projekt",
+          "description": "Tworzymy wireframy i projekt graficzny. Iterujemy do momentu, aż design będzie idealny.",
+          "icon": "Palette"
+        },
+        {
+          "step_number": "03",
+          "title": "Rozwój",
+          "description": "Kodujemy w Next.js i React. Responsywność, wydajność i dostępność to nasze priorytety.",
+          "icon": "Code2"
+        },
+        {
+          "step_number": "04",
+          "title": "Testy",
+          "description": "Testujemy na wszystkich urządzeniach i przeglądarkach. Sprawdzamy SEO, szybkość i bezpieczeństwo.",
+          "icon": "Shield"
+        },
+        {
+          "step_number": "05",
+          "title": "Launch",
+          "description": "Publikujemy stronę, konfigurujemy analitykę i przekazujemy pełną dokumentację.",
+          "icon": "Rocket"
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_comparison_vs_diy",
+      "variation": "default",
+      "primary": {
+        "title": "Profesjonalna strona vs DIY",
+        "description": "Zobacz, co tracisz, wybierając Wix, WordPress czy darmowy kreator.",
+        "agency_label": "MazCode",
+        "diy_label": "DIY / Wix / WordPress",
+        "features": [
+          { "feature": "Unikalny design", "agency": true, "diy": false },
+          { "feature": "Lighthouse 100/100", "agency": true, "diy": false },
+          { "feature": "SEO on-page", "agency": true, "diy": false },
+          { "feature": "Własny CMS", "agency": true, "diy": false },
+          { "feature": "Core Web Vitals w zieleni", "agency": true, "diy": false },
+          { "feature": "Wsparcie techniczne", "agency": true, "diy": false },
+          { "feature": "Responsywność", "agency": true, "diy": true },
+          { "feature": "SSL / HTTPS", "agency": true, "diy": true },
+          { "feature": "Niski koszt początkowy", "agency": false, "diy": true },
+          { "feature": "Brak wymaganej wiedzy", "agency": false, "diy": true }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_testimonial_cards",
+      "variation": "default",
+      "primary": {
+        "title": "Co mówią nasi klienci",
+        "description": "Opinie firm, które zaufały MazCode w budowie swojej obecności online."
+      },
+      "items": [
+        {
+          "quote": "MazCode stworzył dla nas stronę, która generuje 3x więcej zapytań niż poprzednia. Profesjonalizm na najwyższym poziomie.",
+          "author_name": "Anna Kowalska",
+          "author_role": "CEO, TechStart Sp. z o.o.",
+          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=AK", "alt": "Anna Kowalska" },
+          "company": "TechStart",
+          "rating": 5
+        },
+        {
+          "quote": "Współpraca z MazCode to czysta przyjemność. Szybka komunikacja, terminowość i świetny design.",
+          "author_name": "Marcin Nowak",
+          "author_role": "Marketing Manager, InnoLab",
+          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=MN", "alt": "Marcin Nowak" },
+          "company": "InnoLab",
+          "rating": 5
+        },
+        {
+          "quote": "Nasza nowa strona zwiększyła konwersję o 180%. Polecam każdemu, kto szuka agencji z prawdziwym doświadczeniem.",
+          "author_name": "Katarzyna Wiśniewska",
+          "author_role": "Właścicielka, Klinika Urody",
+          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=KW", "alt": "Katarzyna Wiśniewska" },
+          "company": "Klinika Urody",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_why_us",
+      "variation": "default",
+      "primary": {
+        "title": "Dlaczego my?",
+        "description": "6 powodów, dla których firmy wybierają MazCode jako partnera technologicznego.",
+        "reasons": [
           {
-            "title": "Konsultacja",
-            "description": "Poznajemy Twoje potrzeby, cele biznesowe i grupę docelową. Bezpłatna rozmowa."
+            "icon": "Code2",
+            "title": "Kod pisany ręcznie",
+            "description": "Żadnych page builderów ani szablonów. Każda linia kodu jest napisana z myślą o Twoim biznesie."
           },
           {
-            "title": "Projekt",
-            "description": "Tworzymy makiety i design. Iterujemy do momentu, aż będziesz w pełni zadowolony."
+            "icon": "Zap",
+            "title": "Najszybsze technologie",
+            "description": "Next.js, React, Tailwind CSS — używamy stacku, który zapewnia najwyższą wydajność."
           },
           {
-            "title": "Realizacja",
-            "description": "Kodujemy i testujemy. Regularne demo co tydzień — widzisz postępy na bieżąco."
+            "icon": "Users",
+            "title": "Dedykowany opiekun",
+            "description": "Jeden punkt kontaktu przez cały projekt — od briefu po utrzymanie strony."
           },
           {
-            "title": "Publikacja",
-            "description": "Wdrażamy na produkcję i szkolimy z obsługi. Wsparcie techniczne w cenie."
+            "icon": "Shield",
+            "title": "Gwarancja jakości",
+            "description": "Każdy projekt przechodzi testy wydajności, dostępności i SEO przed wdrożeniem."
+          },
+          {
+            "icon": "Clock",
+            "title": "Terminowość",
+            "description": "Ustalamy realistyczny harmonogram i go dotrzymujemy — 98% projektów na czas."
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Wyniki, nie obietnice",
+            "description": "Średnio +180% wzrost ruchu organicznego w ciągu 6 miesięcy od wdrożenia."
           }
         ]
       }
     },
     {
-      "slice_type": "cta_section",
+      "slice_type": "agency_bento_features",
       "variation": "default",
       "primary": {
-        "title": "Gotowy na nową stronę?",
-        "description": "Napisz do nas — odpowiadamy w 24h. Pierwsza konsultacja gratis.",
-        "cta_text": "Wyślij wiadomość",
-        "cta_link": {
-          "url": "mailto:mazcom.kontakt@gmail.com"
+        "title": "Wszystko, czego potrzebujesz w jednym pakiecie",
+        "description": "Każda strona od MazCode to kompletne rozwiązanie — od designu po wdrożenie i wsparcie.",
+        "items": [
+          {
+            "title": "Responsywność",
+            "description": "Strona idealnie dopasowuje się do każdego urządzenia — telefon, tablet, desktop.",
+            "icon": "Smartphone",
+            "size": "large",
+            "bg_color": "primary"
+          },
+          {
+            "title": "SEO On-page",
+            "description": "Wbudowana optymalizacja pod wyszukiwarki — meta tagi, schema, sitemap.",
+            "icon": "Search",
+            "size": "small",
+            "bg_color": "dark"
+          },
+          {
+            "title": "Wydajność",
+            "description": "Lighthouse 100/100, Core Web Vitals w zieleni, czas ładowania poniżej 1s.",
+            "icon": "Zap",
+            "size": "medium",
+            "bg_color": "white"
+          },
+          {
+            "title": "CMS",
+            "description": "Intuicyjny panel administracyjny do zarządzania treścią bez programisty.",
+            "icon": "Layout",
+            "size": "medium",
+            "bg_color": "white"
+          },
+          {
+            "title": "Bezpieczeństwo",
+            "description": "HTTPS, CSP headers, rate limiting, ochrona przed atakami XSS i CSRF.",
+            "icon": "Shield",
+            "size": "large",
+            "bg_color": "primary"
+          },
+          {
+            "title": "Analityka",
+            "description": "Wbudowane śledzenie konwersji, heatmapy i raporty wydajności.",
+            "icon": "BarChart3",
+            "size": "small",
+            "bg_color": "dark"
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_tech_stack_grid",
+      "variation": "default",
+      "primary": {
+        "title": "Nasz stack technologiczny",
+        "description": "Używamy najnowocześniejszych technologii, żeby Twoja strona była szybka, bezpieczna i łatwa w zarządzaniu.",
+        "items": [
+          { "name": "Next.js", "icon": "Globe", "category": "Frontend", "description": "Framework React z SSG i SSR" },
+          { "name": "React 19", "icon": "Code2", "category": "Frontend", "description": "Biblioteka UI z Server Components" },
+          { "name": "TypeScript", "icon": "FileCode", "category": "Frontend", "description": "Typowany JavaScript — zero błędów" },
+          { "name": "Tailwind CSS", "icon": "Palette", "category": "Frontend", "description": "Utility-first CSS framework" },
+          { "name": "Vercel", "icon": "Cloud", "category": "Hosting", "description": "Edge hosting z globalnym CDN" },
+          { "name": "GitHub", "icon": "GitBranch", "category": "CI/CD", "description": "Version control i CI/CD pipeline" },
+          { "name": "Cloudinary", "icon": "Image", "category": "Media", "description": "CDN i optymalizacja obrazów" },
+          { "name": "Framer Motion", "icon": "Sparkles", "category": "Frontend", "description": "Płynne animacje i przejścia" },
+          { "name": "Zod", "icon": "ShieldCheck", "category": "Backend", "description": "Walidacja danych w runtime" }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_pricing_cards",
+      "variation": "default",
+      "primary": {
+        "title": "Pakiety cenowe",
+        "description": "Wybierz plan idealnie dopasowany do Twojego biznesu. Każdy pakiet zawiera pełne wsparcie zespołu MazCode."
+      },
+      "items": [
+        {
+          "name": "Starter",
+          "price": "4 900 zł",
+          "period": "jednorazowo",
+          "popular": false,
+          "features": [
+            "Strona one-page do 5 sekcji",
+            "Responsywny design",
+            "Formularz kontaktowy",
+            "Podstawowe SEO",
+            "Hosting na 12 miesięcy"
+          ],
+          "cta_label": "Wybierz Starter",
+          "cta_url": "/kontakt"
         },
-        "secondary_cta_text": "Zadzwoń: +48 503 401 451",
-        "secondary_cta_link": {
-          "url": "tel:+48503401451"
+        {
+          "name": "Business",
+          "price": "12 900 zł",
+          "period": "jednorazowo",
+          "popular": true,
+          "features": [
+            "Do 10 podstron z CMS",
+            "Indywidualny projekt graficzny",
+            "Animacje i interakcje",
+            "Zaawansowane SEO + Analytics",
+            "Blog z panelem admina",
+            "Integracja z social media",
+            "Wsparcie techniczne 6 mies."
+          ],
+          "cta_label": "Wybierz Business",
+          "cta_url": "/kontakt"
+        },
+        {
+          "name": "Enterprise",
+          "price": "od 24 900 zł",
+          "period": "wycena indywidualna",
+          "popular": false,
+          "features": [
+            "Dedykowana aplikacja webowa",
+            "System zarządzania treścią",
+            "Integracje API (CRM, ERP)",
+            "Panel administracyjny",
+            "Testy A/B i personalizacja",
+            "SLA i priorytetowe wsparcie",
+            "Szkolenie zespołu",
+            "Opieka techniczna 12 mies."
+          ],
+          "cta_label": "Umów konsultację",
+          "cta_url": "/kontakt"
         }
+      ]
+    },
+    {
+      "slice_type": "agency_guarantees",
+      "variation": "default",
+      "primary": {
+        "title": "Nasze gwarancje",
+        "description": "Pracujemy transparentnie i dajemy Ci pewność, że inwestycja się opłaci.",
+        "guarantees": [
+          {
+            "icon": "BadgeCheck",
+            "title": "Gwarancja satysfakcji",
+            "description": "Jeśli efekt końcowy nie spełni Twoich oczekiwań — wprowadzamy poprawki bez dodatkowych kosztów."
+          },
+          {
+            "icon": "Clock",
+            "title": "Terminowa realizacja",
+            "description": "Ustalony harmonogram jest wiążący. Za każdy dzień opóźnienia z naszej winy — 5% rabatu."
+          },
+          {
+            "icon": "Headphones",
+            "title": "3 miesiące wsparcia gratis",
+            "description": "Po wdrożeniu zapewniamy bezpłatne wsparcie techniczne — poprawki, aktualizacje, pomoc."
+          },
+          {
+            "icon": "RefreshCw",
+            "title": "Darmowe poprawki",
+            "description": "Do 2 rund poprawek w cenie projektu — Twoje uwagi są dla nas priorytetem."
+          }
+        ]
+      }
+    },
+    {
+      "slice_type": "agency_faq",
+      "variation": "default",
+      "primary": {
+        "title": "Najczęściej zadawane pytania",
+        "description": "Odpowiedzi na pytania, które słyszymy najczęściej od naszych klientów."
+      },
+      "items": [
+        {
+          "question": "Ile kosztuje strona internetowa?",
+          "answer": "Ceny zaczynają się od 4 900 zł za stronę one-page. Ostateczna cena zależy od zakresu projektu, liczby podstron i dodatkowych funkcjonalności. Przygotowujemy indywidualną wycenę po zapoznaniu się z briefem."
+        },
+        {
+          "question": "Jak długo trwa realizacja projektu?",
+          "answer": "Standardowa strona firmowa to 4–6 tygodni od zatwierdzenia projektu graficznego. Bardziej rozbudowane projekty z aplikacją webową mogą trwać 8–12 tygodni."
+        },
+        {
+          "question": "Czy mogę zobaczyć projekt przed realizacją?",
+          "answer": "Tak! Przygotowujemy interaktywny prototyp w Figma, który możesz przeglądać i komentować przed rozpoczęciem programowania."
+        },
+        {
+          "question": "Co obejmuje opieka techniczna?",
+          "answer": "Monitoring dostępności, aktualizacje bezpieczeństwa, backup danych, drobne poprawki treści (do 2h/mies.) oraz priorytetowe wsparcie techniczne."
+        },
+        {
+          "question": "Czy pomagacie w treściach na stronę?",
+          "answer": "Tak, oferujemy copywriting z wykorzystaniem AI i doświadczeniem naszego zespołu. Tworzymy treści zoptymalizowane pod SEO w języku polskim i angielskim."
+        }
+      ]
+    },
+    {
+      "slice_type": "agency_glow_cta",
+      "variation": "default",
+      "primary": {
+        "title": "Gotowy na stronę, która naprawdę działa?",
+        "description": "Dołącz do ponad 150 firm, które zaufały MazCode. Twoja nowa strona czeka.",
+        "cta_text": "Rozpocznij projekt",
+        "cta_link": { "url": "/kontakt" },
+        "glow_color": "#6366f1"
       }
     }
-  ],
-  "metadata": {
-    "metaTitle": "",
-    "metaDescription": "",
-    "metaImage": "",
-    "ogImage": "",
-    "robots": "",
-    "keywords": "",
-    "canonicalUrl": ""
-  }
+  ]
 }
