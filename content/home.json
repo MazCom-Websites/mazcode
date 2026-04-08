@@ -10,10 +10,12 @@
       "slice_type": "agency_hero",
       "variation": "default",
       "primary": {
-        "title": "Tworzymy strony, które sprzedają",
+        "title": "Tworzymy , które sprzedają",
         "subtitle": "Projektujemy i budujemy nowoczesne strony internetowe, które przyciągają klientów i zwiększają konwersję. Od pomysłu do realizacji — z pasją do detalu.",
         "cta_text": "Rozpocznij projekt",
-        "cta_link": { "url": "/kontakt" },
+        "cta_link": {
+          "url": "/kontakt"
+        },
         "badge": "Web Agency",
         "floating_element_1": "UI/UX Design",
         "floating_element_2": "Next.js",
@@ -28,12 +30,48 @@
         "description": "Firmy, które wybrały MazCode do budowy swojej obecności w sieci."
       },
       "items": [
-        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=TechStart", "alt": "TechStart" }, "company_name": "TechStart" },
-        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=InnoLab", "alt": "InnoLab" }, "company_name": "InnoLab" },
-        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=Klinika+Urody", "alt": "Klinika Urody" }, "company_name": "Klinika Urody" },
-        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=FitZone", "alt": "FitZone" }, "company_name": "FitZone" },
-        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=LegalPro", "alt": "LegalPro" }, "company_name": "LegalPro" },
-        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=EduSmart", "alt": "EduSmart" }, "company_name": "EduSmart" }
+        {
+          "logo": {
+            "url": "https://placehold.co/200x80/f5f5f5/333333?text=TechStart",
+            "alt": "TechStart"
+          },
+          "company_name": "TechStart"
+        },
+        {
+          "logo": {
+            "url": "https://placehold.co/200x80/f5f5f5/333333?text=InnoLab",
+            "alt": "InnoLab"
+          },
+          "company_name": "InnoLab"
+        },
+        {
+          "logo": {
+            "url": "https://placehold.co/200x80/f5f5f5/333333?text=Klinika+Urody",
+            "alt": "Klinika Urody"
+          },
+          "company_name": "Klinika Urody"
+        },
+        {
+          "logo": {
+            "url": "https://placehold.co/200x80/f5f5f5/333333?text=FitZone",
+            "alt": "FitZone"
+          },
+          "company_name": "FitZone"
+        },
+        {
+          "logo": {
+            "url": "https://placehold.co/200x80/f5f5f5/333333?text=LegalPro",
+            "alt": "LegalPro"
+          },
+          "company_name": "LegalPro"
+        },
+        {
+          "logo": {
+            "url": "https://placehold.co/200x80/f5f5f5/333333?text=EduSmart",
+            "alt": "EduSmart"
+          },
+          "company_name": "EduSmart"
+        }
       ]
     },
     {
@@ -44,10 +82,30 @@
         "description": "Lata doświadczenia i setki zrealizowanych projektów."
       },
       "items": [
-        { "value": 150, "suffix": "+", "label": "Zrealizowanych projektów", "icon": "Briefcase" },
-        { "value": 98, "suffix": "%", "label": "Zadowolonych klientów", "icon": "Heart" },
-        { "value": 8, "suffix": "", "label": "Lat doświadczenia", "icon": "Calendar" },
-        { "value": 50, "suffix": "+", "label": "Stałych klientów", "icon": "Users" }
+        {
+          "value": 150,
+          "suffix": "+",
+          "label": "Zrealizowanych projektów",
+          "icon": "Briefcase"
+        },
+        {
+          "value": 98,
+          "suffix": "%",
+          "label": "Zadowolonych klientów",
+          "icon": "Heart"
+        },
+        {
+          "value": 8,
+          "suffix": "",
+          "label": "Lat doświadczenia",
+          "icon": "Calendar"
+        },
+        {
+          "value": 50,
+          "suffix": "+",
+          "label": "Stałych klientów",
+          "icon": "Users"
+        }
       ]
     },
     {
@@ -102,7 +160,10 @@
         {
           "title": "Klinika Exura Ortho",
           "description": "Strona dla kliniki ortopedycznej z systemem rezerwacji wizyt online.",
-          "image": { "url": "https://placehold.co/800x600/1a1a2e/e0e0e0?text=Exura+Ortho", "alt": "Exura Ortho" },
+          "image": {
+            "url": "https://placehold.co/800x600/1a1a2e/e0e0e0?text=Exura+Ortho",
+            "alt": "Exura Ortho"
+          },
           "tech_stack": "Next.js, TypeScript, Tailwind CSS",
           "category": "Healthcare",
           "link": "https://exura-ortho.pl"
@@ -110,7 +171,10 @@
         {
           "title": "Kancelaria Włoszczyński",
           "description": "Elegancka strona dla kancelarii notarialnej z bazą aktów prawnych.",
-          "image": { "url": "https://placehold.co/800x600/2d1b69/e0e0e0?text=Notariusz", "alt": "Kancelaria Włoszczyński" },
+          "image": {
+            "url": "https://placehold.co/800x600/2d1b69/e0e0e0?text=Notariusz",
+            "alt": "Kancelaria Włoszczyński"
+          },
           "tech_stack": "Next.js, MDX, Framer Motion",
           "category": "Prawo",
           "link": "https://wloszczynski-notariusz.pl"
@@ -118,7 +182,10 @@
         {
           "title": "StyleShop E-commerce",
           "description": "Sklep internetowy z modą — pełna integracja płatności i logistyki.",
-          "image": { "url": "https://placehold.co/800x600/0d3b66/e0e0e0?text=StyleShop", "alt": "StyleShop" },
+          "image": {
+            "url": "https://placehold.co/800x600/0d3b66/e0e0e0?text=StyleShop",
+            "alt": "StyleShop"
+          },
           "tech_stack": "Next.js, Stripe, Sanity CMS",
           "category": "E-commerce",
           "link": "https://styleshop.pl"
@@ -126,7 +193,10 @@
         {
           "title": "FitZone Studio",
           "description": "Strona dla studia fitness z kalendarzem zajęć i panelem trenerskim.",
-          "image": { "url": "https://placehold.co/800x600/1b4332/e0e0e0?text=FitZone", "alt": "FitZone Studio" },
+          "image": {
+            "url": "https://placehold.co/800x600/1b4332/e0e0e0?text=FitZone",
+            "alt": "FitZone Studio"
+          },
           "tech_stack": "React, Node.js, PostgreSQL",
           "category": "Fitness",
           "link": "https://fitzone.pl"
@@ -134,7 +204,10 @@
         {
           "title": "GastroMax Restaurant",
           "description": "Strona restauracji z menu online, rezerwacjami i integracją z dostawą.",
-          "image": { "url": "https://placehold.co/800x600/5c1a1a/e0e0e0?text=GastroMax", "alt": "GastroMax" },
+          "image": {
+            "url": "https://placehold.co/800x600/5c1a1a/e0e0e0?text=GastroMax",
+            "alt": "GastroMax"
+          },
           "tech_stack": "Next.js, Supabase, Tailwind",
           "category": "Gastronomia",
           "link": "https://gastromax.pl"
@@ -142,7 +215,10 @@
         {
           "title": "EduPlatform Online",
           "description": "Platforma e-learningowa z kursami video i systemem certyfikatów.",
-          "image": { "url": "https://placehold.co/800x600/1a3c5e/e0e0e0?text=EduPlatform", "alt": "EduPlatform" },
+          "image": {
+            "url": "https://placehold.co/800x600/1a3c5e/e0e0e0?text=EduPlatform",
+            "alt": "EduPlatform"
+          },
           "tech_stack": "Next.js, AWS, Prisma",
           "category": "Edukacja",
           "link": "https://eduplatform.pl"
@@ -198,16 +274,56 @@
         "agency_label": "MazCode",
         "diy_label": "DIY / Wix / WordPress",
         "features": [
-          { "feature": "Unikalny design", "agency": true, "diy": false },
-          { "feature": "Lighthouse 100/100", "agency": true, "diy": false },
-          { "feature": "SEO on-page", "agency": true, "diy": false },
-          { "feature": "Własny CMS", "agency": true, "diy": false },
-          { "feature": "Core Web Vitals w zieleni", "agency": true, "diy": false },
-          { "feature": "Wsparcie techniczne", "agency": true, "diy": false },
-          { "feature": "Responsywność", "agency": true, "diy": true },
-          { "feature": "SSL / HTTPS", "agency": true, "diy": true },
-          { "feature": "Niski koszt początkowy", "agency": false, "diy": true },
-          { "feature": "Brak wymaganej wiedzy", "agency": false, "diy": true }
+          {
+            "feature": "Unikalny design",
+            "agency": true,
+            "diy": false
+          },
+          {
+            "feature": "Lighthouse 100/100",
+            "agency": true,
+            "diy": false
+          },
+          {
+            "feature": "SEO on-page",
+            "agency": true,
+            "diy": false
+          },
+          {
+            "feature": "Własny CMS",
+            "agency": true,
+            "diy": false
+          },
+          {
+            "feature": "Core Web Vitals w zieleni",
+            "agency": true,
+            "diy": false
+          },
+          {
+            "feature": "Wsparcie techniczne",
+            "agency": true,
+            "diy": false
+          },
+          {
+            "feature": "Responsywność",
+            "agency": true,
+            "diy": true
+          },
+          {
+            "feature": "SSL / HTTPS",
+            "agency": true,
+            "diy": true
+          },
+          {
+            "feature": "Niski koszt początkowy",
+            "agency": false,
+            "diy": true
+          },
+          {
+            "feature": "Brak wymaganej wiedzy",
+            "agency": false,
+            "diy": true
+          }
         ]
       }
     },
@@ -223,7 +339,10 @@
           "quote": "MazCode stworzył dla nas stronę, która generuje 3x więcej zapytań niż poprzednia. Profesjonalizm na najwyższym poziomie.",
           "author_name": "Anna Kowalska",
           "author_role": "CEO, TechStart Sp. z o.o.",
-          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=AK", "alt": "Anna Kowalska" },
+          "author_image": {
+            "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=AK",
+            "alt": "Anna Kowalska"
+          },
           "company": "TechStart",
           "rating": 5
         },
@@ -231,7 +350,10 @@
           "quote": "Współpraca z MazCode to czysta przyjemność. Szybka komunikacja, terminowość i świetny design.",
           "author_name": "Marcin Nowak",
           "author_role": "Marketing Manager, InnoLab",
-          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=MN", "alt": "Marcin Nowak" },
+          "author_image": {
+            "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=MN",
+            "alt": "Marcin Nowak"
+          },
           "company": "InnoLab",
           "rating": 5
         },
@@ -239,7 +361,10 @@
           "quote": "Nasza nowa strona zwiększyła konwersję o 180%. Polecam każdemu, kto szuka agencji z prawdziwym doświadczeniem.",
           "author_name": "Katarzyna Wiśniewska",
           "author_role": "Właścicielka, Klinika Urody",
-          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=KW", "alt": "Katarzyna Wiśniewska" },
+          "author_image": {
+            "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=KW",
+            "alt": "Katarzyna Wiśniewska"
+          },
           "company": "Klinika Urody",
           "rating": 5
         }
@@ -344,15 +469,60 @@
         "title": "Nasz stack technologiczny",
         "description": "Używamy najnowocześniejszych technologii, żeby Twoja strona była szybka, bezpieczna i łatwa w zarządzaniu.",
         "items": [
-          { "name": "Next.js", "icon": "Globe", "category": "Frontend", "description": "Framework React z SSG i SSR" },
-          { "name": "React 19", "icon": "Code2", "category": "Frontend", "description": "Biblioteka UI z Server Components" },
-          { "name": "TypeScript", "icon": "FileCode", "category": "Frontend", "description": "Typowany JavaScript — zero błędów" },
-          { "name": "Tailwind CSS", "icon": "Palette", "category": "Frontend", "description": "Utility-first CSS framework" },
-          { "name": "Vercel", "icon": "Cloud", "category": "Hosting", "description": "Edge hosting z globalnym CDN" },
-          { "name": "GitHub", "icon": "GitBranch", "category": "CI/CD", "description": "Version control i CI/CD pipeline" },
-          { "name": "Cloudinary", "icon": "Image", "category": "Media", "description": "CDN i optymalizacja obrazów" },
-          { "name": "Framer Motion", "icon": "Sparkles", "category": "Frontend", "description": "Płynne animacje i przejścia" },
-          { "name": "Zod", "icon": "ShieldCheck", "category": "Backend", "description": "Walidacja danych w runtime" }
+          {
+            "name": "Next.js",
+            "icon": "Globe",
+            "category": "Frontend",
+            "description": "Framework React z SSG i SSR"
+          },
+          {
+            "name": "React 19",
+            "icon": "Code2",
+            "category": "Frontend",
+            "description": "Biblioteka UI z Server Components"
+          },
+          {
+            "name": "TypeScript",
+            "icon": "FileCode",
+            "category": "Frontend",
+            "description": "Typowany JavaScript — zero błędów"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "Palette",
+            "category": "Frontend",
+            "description": "Utility-first CSS framework"
+          },
+          {
+            "name": "Vercel",
+            "icon": "Cloud",
+            "category": "Hosting",
+            "description": "Edge hosting z globalnym CDN"
+          },
+          {
+            "name": "GitHub",
+            "icon": "GitBranch",
+            "category": "CI/CD",
+            "description": "Version control i CI/CD pipeline"
+          },
+          {
+            "name": "Cloudinary",
+            "icon": "Image",
+            "category": "Media",
+            "description": "CDN i optymalizacja obrazów"
+          },
+          {
+            "name": "Framer Motion",
+            "icon": "Sparkles",
+            "category": "Frontend",
+            "description": "Płynne animacje i przejścia"
+          },
+          {
+            "name": "Zod",
+            "icon": "ShieldCheck",
+            "category": "Backend",
+            "description": "Walidacja danych w runtime"
+          }
         ]
       }
     },
@@ -483,9 +653,20 @@
         "title": "Gotowy na stronę, która naprawdę działa?",
         "description": "Dołącz do ponad 150 firm, które zaufały MazCode. Twoja nowa strona czeka.",
         "cta_text": "Rozpocznij projekt",
-        "cta_link": { "url": "/kontakt" },
+        "cta_link": {
+          "url": "/kontakt"
+        },
         "glow_color": "#6366f1"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
 }
