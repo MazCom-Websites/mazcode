@@ -167,61 +167,6 @@
           "tech_stack": "Next.js, TypeScript, Tailwind CSS",
           "category": "Healthcare",
           "link": "https://exura-ortho.pl"
-        },
-        {
-          "title": "Kancelaria Włoszczyński",
-          "description": "Elegancka strona dla kancelarii notarialnej z bazą aktów prawnych.",
-          "image": {
-            "url": "https://placehold.co/800x600/2d1b69/e0e0e0?text=Notariusz",
-            "alt": "Kancelaria Włoszczyński"
-          },
-          "tech_stack": "Next.js, MDX, Framer Motion",
-          "category": "Prawo",
-          "link": "https://wloszczynski-notariusz.pl"
-        },
-        {
-          "title": "StyleShop E-commerce",
-          "description": "Sklep internetowy z modą — pełna integracja płatności i logistyki.",
-          "image": {
-            "url": "https://placehold.co/800x600/0d3b66/e0e0e0?text=StyleShop",
-            "alt": "StyleShop"
-          },
-          "tech_stack": "Next.js, Stripe, Sanity CMS",
-          "category": "E-commerce",
-          "link": "https://styleshop.pl"
-        },
-        {
-          "title": "FitZone Studio",
-          "description": "Strona dla studia fitness z kalendarzem zajęć i panelem trenerskim.",
-          "image": {
-            "url": "https://placehold.co/800x600/1b4332/e0e0e0?text=FitZone",
-            "alt": "FitZone Studio"
-          },
-          "tech_stack": "React, Node.js, PostgreSQL",
-          "category": "Fitness",
-          "link": "https://fitzone.pl"
-        },
-        {
-          "title": "GastroMax Restaurant",
-          "description": "Strona restauracji z menu online, rezerwacjami i integracją z dostawą.",
-          "image": {
-            "url": "https://placehold.co/800x600/5c1a1a/e0e0e0?text=GastroMax",
-            "alt": "GastroMax"
-          },
-          "tech_stack": "Next.js, Supabase, Tailwind",
-          "category": "Gastronomia",
-          "link": "https://gastromax.pl"
-        },
-        {
-          "title": "EduPlatform Online",
-          "description": "Platforma e-learningowa z kursami video i systemem certyfikatów.",
-          "image": {
-            "url": "https://placehold.co/800x600/1a3c5e/e0e0e0?text=EduPlatform",
-            "alt": "EduPlatform"
-          },
-          "tech_stack": "Next.js, AWS, Prisma",
-          "category": "Edukacja",
-          "link": "https://eduplatform.pl"
         }
       ]
     },
