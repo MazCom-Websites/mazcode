@@ -12,10 +12,22 @@
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Trzy pakiety, jeden efekt.",
+        "breadcrumb_tags": [
+          { "label": "02 / OFFER", "variant": "acid" },
+          { "label": "3 PAKIETY", "variant": "amber" },
+          { "label": "14-DNI LAUNCH", "variant": "blood" }
+        ],
+        "title_stroke": "TRZY PAKIETY.",
+        "title": "JEDEN",
+        "title_acid": "EFEKT.",
         "subtitle": "Każdy projekt zaczynamy od audytu biznesowego. Dobierzemy to, co naprawdę zarobi dla Twojej firmy — nie to, co wygląda 'ładnie w portfolio'. Fixed-price, 14 dni do live launch.",
         "cta_text": "[ bezpłatna wycena ]",
         "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "fixed-price · umowa · deadline",
+        "terminal_title": "~/mazcode/offer",
+        "terminal_footer": "all packages · all inclusive",
         "terminal_lines": [
           { "line": "$ mazcode offer --list" },
           { "line": "> 01 strona-marki      4 900 PLN   14 dni" },
