@@ -10,10 +10,22 @@
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Stack 2026. Edge-first. Zero kompromisów.",
+        "breadcrumb_tags": [
+          { "label": "06 / STACK 2026", "variant": "acid" },
+          { "label": "EDGE-FIRST", "variant": "amber" },
+          { "label": "ZERO PHP", "variant": "blood" }
+        ],
+        "title_stroke": "STACK 2026.",
+        "title": "EDGE-FIRST.",
+        "title_acid": "ZERO KOMPROMISÓW.",
         "subtitle": "Nie używamy WordPressa. Nie używamy PHP. Nie używamy template'ów. Pracujemy tylko z najlepszymi narzędziami w branży — Next.js 16, React 19, TypeScript strict, Edge deploy, AI content pipeline.",
         "cta_text": "[ porozmawiajmy ]",
         "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz realizacje",
+        "cta_secondary_link": { "url": "/portfolio" },
+        "trust_text": "lighthouse 100/100",
+        "terminal_title": "~/mazcode/stack",
+        "terminal_footer": "production-grade · battle-tested",
         "terminal_lines": [
           { "line": "$ mazcode stack --show" },
           { "line": "> framework     next.js 16     (turbopack)" },
