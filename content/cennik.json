@@ -10,17 +10,29 @@
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Fixed-price. Zero niespodzianek.",
+        "breadcrumb_tags": [
+          { "label": "02 / PRICING", "variant": "acid" },
+          { "label": "FIXED-PRICE", "variant": "amber" },
+          { "label": "VAT 23%", "variant": "blood" }
+        ],
+        "title_stroke": "FIXED-PRICE.",
+        "title": "ZERO",
+        "title_acid": "NIESPODZIANEK.",
         "subtitle": "Trzy pakiety, jedna filozofia — stała cena w umowie, deadline na piśmie, pełna transparentność. Żadnych 'dodatkowych kosztów' w trakcie projektu.",
         "cta_text": "[ wybierz pakiet ]",
         "cta_link": { "url": "#pricing" },
+        "cta_secondary_text": "porównaj",
+        "cta_secondary_link": { "url": "/kontakt" },
+        "trust_text": "umowa · faktura · gwarancja",
+        "terminal_title": "~/mazcode/pricing",
+        "terminal_footer": "indicative — real quote after audit",
         "terminal_lines": [
           { "line": "$ mazcode pricing --list" },
           { "line": "> PKG.01 / ESSENTIAL    4 900 PLN   14 dni" },
           { "line": "> PKG.02 / GROWTH      14 900 PLN   21 dni" },
           { "line": "> PKG.03 / BESPOKE    od 34k PLN   6 tyg" },
           { "line": "" },
-          { "line": "> VAT 23% | fixed-price | deadline w umowie" },
+          { "line": "> VAT 23% | fixed-price | umowa" },
           { "line": "> revisions: 2 rundy w cenie" },
           { "line": "$ mazcode book --call free" }
         ]
