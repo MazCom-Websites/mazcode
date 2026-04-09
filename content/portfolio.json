@@ -10,10 +10,22 @@
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Case studies. Numbers. Proof.",
+        "breadcrumb_tags": [
+          { "label": "03 / CASE STUDIES", "variant": "acid" },
+          { "label": "47 SHIPPED", "variant": "amber" },
+          { "label": "+187% AVG LIFT", "variant": "blood" }
+        ],
+        "title_stroke": "CASE STUDIES.",
+        "title": "NUMBERS.",
+        "title_acid": "PROOF.",
         "subtitle": "Nie pokażemy Ci 'ładnych screenshotów'. Pokażemy Ci wzrost leadów, spadek LCP, wzrost konwersji — w procentach, w twardych liczbach, zweryfikowane przez klienta.",
         "cta_text": "[ rozpocznij projekt ]",
         "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "oferta",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "47 projektów · 0 refundów",
+        "terminal_title": "~/mazcode/portfolio",
+        "terminal_footer": "verified impact · q1 2024 — q4 2025",
         "terminal_lines": [
           { "line": "$ mazcode portfolio --list --sort=impact" },
           { "line": "> 01 exura-ortho       leads  +342%" },
