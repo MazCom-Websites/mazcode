@@ -10,10 +10,22 @@
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Ready to ship?",
+        "breadcrumb_tags": [
+          { "label": "05 / CONTACT", "variant": "acid" },
+          { "label": "RESPONSE < 2H", "variant": "amber" },
+          { "label": "FREE AUDIT", "variant": "blood" }
+        ],
+        "title_stroke": "READY TO",
+        "title": "SHIP",
+        "title_acid": "IT?",
         "subtitle": "Umów darmową 20-minutową rozmowę. Pokażemy Ci konkretnie, co tracisz na obecnej stronie, co naprawić w pierwszej kolejności i ile to może znaczyć w przychodach. Bez zobowiązań.",
         "cta_text": "[ wypełnij formularz ]",
         "cta_link": { "url": "#formularz" },
+        "cta_secondary_text": "hi@mazcode.pl",
+        "cta_secondary_link": { "url": "mailto:mazcom.kontakt@gmail.com" },
+        "trust_text": "zwykle odp. w 2h",
+        "terminal_title": "~/mazcode/init",
+        "terminal_footer": "no signup · no spam · no commitment",
         "terminal_lines": [
           { "line": "$ mazcode init --free-audit" },
           { "line": "> Response time        ~ 2h" },
