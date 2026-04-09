@@ -39,155 +39,125 @@
       }
     },
     {
-      "slice_type": "portfolio_grid",
+      "slice_type": "cyberdeck_metrics",
+      "variation": "default",
+      "primary": { "title": "impact summary" },
+      "items": [
+        { "label": "projects shipped", "value": 47, "unit": "", "pattern": "1011110111" },
+        { "label": "avg conv lift", "value": "+187", "unit": "%", "pattern": "0110101111" },
+        { "label": "avg lcp drop", "value": "-68", "unit": "%", "pattern": "1100110111" },
+        { "label": "clients retained", "value": 94, "unit": "%", "pattern": "1111101011" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_portfolio_grid",
       "variation": "default",
       "primary": {
-        "title": "Nasze realizacje",
-        "description": "Projekty, które zbudowaliśmy dla naszych klientów — od stron firmowych po zaawansowane aplikacje webowe.",
-        "badge": "Portfolio"
+        "eyebrow": "// case studies",
+        "title": "6 wybranych",
+        "title_accent": "realizacji",
+        "description": "Sześć projektów z ostatnich 18 miesięcy. Każdy z twardymi liczbami — wzrost leadów, spadek LCP, wzrost konwersji. Kliknij, aby zobaczyć case study."
       },
       "items": [
         {
+          "code": "01",
+          "client": "exura-ortho",
           "title": "Klinika Exura Ortho",
-          "description": "Strona dla kliniki ortopedycznej z systemem rezerwacji wizyt online i blogiem eksperckim.",
-          "image": { "url": "https://placehold.co/800x600/1a1a2e/e0e0e0?text=Exura+Ortho", "alt": "Exura Ortho" },
-          "tech_stack": "Next.js, TypeScript, Tailwind CSS",
+          "description": "Strona kliniki ortopedycznej z systemem rezerwacji online, blogiem eksperckim i katalogiem zabiegów.",
+          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=EXURA", "alt": "Exura Ortho" },
+          "metric_value": "+342%",
+          "metric_label": "wzrost leadów",
+          "metric_2_value": "0.8s",
+          "metric_2_label": "LCP",
+          "tech_stack": "Next.js · TypeScript · Tailwind · Stripe",
           "category": "Healthcare",
-          "link": "https://exura-ortho.pl"
+          "url": "https://exura-ortho.pl"
         },
         {
+          "code": "02",
+          "client": "wloszczynski",
           "title": "Kancelaria Włoszczyński",
-          "description": "Elegancka strona dla kancelarii notarialnej z bazą aktów prawnych i systemem kontaktowym.",
-          "image": { "url": "https://placehold.co/800x600/2d1b69/e0e0e0?text=Notariusz", "alt": "Kancelaria Włoszczyński" },
-          "tech_stack": "Next.js, MDX, Framer Motion",
-          "category": "Prawo",
-          "link": "https://wloszczynski-notariusz.pl"
-        },
-        {
-          "title": "StyleShop E-commerce",
-          "description": "Sklep internetowy z modą — pełna integracja płatności i logistyki.",
-          "image": { "url": "https://placehold.co/800x600/0d3b66/e0e0e0?text=StyleShop", "alt": "StyleShop" },
-          "tech_stack": "Next.js, Stripe, Sanity CMS",
-          "category": "E-commerce",
-          "link": "https://styleshop.pl"
-        },
-        {
-          "title": "FitZone Studio",
-          "description": "Strona dla studia fitness z kalendarzem zajęć i panelem trenerskim.",
-          "image": { "url": "https://placehold.co/800x600/1b4332/e0e0e0?text=FitZone", "alt": "FitZone Studio" },
-          "tech_stack": "React, Node.js, PostgreSQL",
-          "category": "Fitness",
-          "link": "https://fitzone.pl"
-        },
-        {
-          "title": "GastroMax Restaurant",
-          "description": "Strona restauracji z menu online, rezerwacjami i integracją z dostawą.",
-          "image": { "url": "https://placehold.co/800x600/5c1a1a/e0e0e0?text=GastroMax", "alt": "GastroMax" },
-          "tech_stack": "Next.js, Supabase, Tailwind",
-          "category": "Gastronomia",
-          "link": "https://gastromax.pl"
-        },
-        {
-          "title": "EduPlatform Online",
-          "description": "Platforma e-learningowa z kursami video i systemem certyfikatów.",
-          "image": { "url": "https://placehold.co/800x600/1a3c5e/e0e0e0?text=EduPlatform", "alt": "EduPlatform" },
-          "tech_stack": "Next.js, AWS, Prisma",
-          "category": "Edukacja",
-          "link": "https://eduplatform.pl"
-        }
-      ]
-    },
-    {
-      "slice_type": "agency_client_results",
-      "variation": "default",
-      "primary": {
-        "title": "Wyniki naszych klientów",
-        "description": "Mierzalne efekty współpracy z MazCode — dane mówią same za siebie."
-      },
-      "items": [
-        {
-          "client_name": "Exura Ortho",
-          "metric_label": "Wzrost ruchu organicznego",
-          "before_value": "800",
-          "after_value": "3 400",
-          "change_percent": "+325%",
-          "icon": "TrendingUp"
-        },
-        {
-          "client_name": "Kancelaria Włoszczyński",
-          "metric_label": "Współczynnik konwersji",
-          "before_value": "0.8%",
-          "after_value": "3.2%",
-          "change_percent": "+300%",
-          "icon": "Target"
-        },
-        {
-          "client_name": "StyleShop",
-          "metric_label": "Czas ładowania strony",
-          "before_value": "4.2s",
-          "after_value": "0.9s",
-          "change_percent": "-78%",
-          "icon": "Zap"
-        },
-        {
-          "client_name": "FitZone Studio",
-          "metric_label": "Zapytania z formularza",
-          "before_value": "8/mies.",
-          "after_value": "42/mies.",
-          "change_percent": "+425%",
-          "icon": "MessageSquare"
-        }
-      ]
-    },
-    {
-      "slice_type": "agency_case_study_preview",
-      "variation": "default",
-      "primary": {
-        "title": "Case Studies",
-        "description": "Poznaj szczegóły naszych najciekawszych realizacji."
-      },
-      "items": [
-        {
-          "title": "Exura Ortho — Strona kliniki ortopedycznej",
-          "description": "Kompleksowa strona z systemem rezerwacji wizyt, blogiem eksperckim i katalogiem usług medycznych.",
-          "image": { "url": "https://placehold.co/600x400/1a1a2e/e8f0fe?text=Exura+Ortho", "alt": "Exura Ortho case study" },
-          "metric_1_label": "Wzrost rezerwacji online",
-          "metric_1_value": "+280%",
-          "metric_2_label": "Czas ładowania",
-          "metric_2_value": "0.9s",
-          "link": { "url": "/portfolio/exura-ortho", "text": "Zobacz szczegóły" }
-        },
-        {
-          "title": "Kancelaria Włoszczyński — Strona notariusza",
-          "description": "Elegancka strona kancelarii z bazą aktów prawnych, systemem kontaktowym i kalendarzem spotkań.",
-          "image": { "url": "https://placehold.co/600x400/2d1b69/e8f0fe?text=Notariusz", "alt": "Kancelaria Włoszczyński case study" },
-          "metric_1_label": "Zapytania online",
-          "metric_1_value": "+350%",
-          "metric_2_label": "Pozycja w Google",
+          "description": "Elegancka strona notariatu z bazą aktów prawnych i systemem rezerwacji spotkań.",
+          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=W%C5%81OSZCZY%C5%83SKI", "alt": "Kancelaria Włoszczyński" },
+          "metric_value": "+350%",
+          "metric_label": "zapytania online",
           "metric_2_value": "Top 3",
-          "link": { "url": "/portfolio/wloszczynski", "text": "Zobacz szczegóły" }
+          "metric_2_label": "google local",
+          "tech_stack": "Next.js · MDX · Framer",
+          "category": "Prawo",
+          "url": "https://wloszczynski-notariusz.pl"
         },
         {
-          "title": "StyleShop — Redesign e-commerce",
-          "description": "Kompleksowy redesign sklepu internetowego z modą — optymalizacja konwersji i wydajności.",
-          "image": { "url": "https://placehold.co/600x400/0d3b66/e8f0fe?text=StyleShop", "alt": "StyleShop case study" },
-          "metric_1_label": "Wzrost konwersji",
-          "metric_1_value": "+240%",
-          "metric_2_label": "Bounce rate",
+          "code": "03",
+          "client": "styleshop",
+          "title": "StyleShop E-commerce",
+          "description": "Kompleksowy redesign sklepu z modą — optymalizacja konwersji i wydajności.",
+          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=STYLESHOP", "alt": "StyleShop" },
+          "metric_value": "+240%",
+          "metric_label": "konwersja",
           "metric_2_value": "-52%",
-          "link": { "url": "/portfolio/styleshop", "text": "Zobacz szczegóły" }
+          "metric_2_label": "bounce rate",
+          "tech_stack": "Next.js · Stripe · Sanity",
+          "category": "E-commerce",
+          "url": "/kontakt"
+        },
+        {
+          "code": "04",
+          "client": "fitzone",
+          "title": "FitZone Studio",
+          "description": "Strona studia fitness z kalendarzem zajęć, rezerwacjami i panelem trenerskim.",
+          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=FITZONE", "alt": "FitZone Studio" },
+          "metric_value": "+425%",
+          "metric_label": "formularze",
+          "metric_2_value": "3.5×",
+          "metric_2_label": "ruch organic",
+          "tech_stack": "React · Node · Postgres",
+          "category": "Fitness",
+          "url": "/kontakt"
+        },
+        {
+          "code": "05",
+          "client": "gastromax",
+          "title": "GastroMax Restauracja",
+          "description": "System rezerwacji stolików + menu online + integracja z POS dla sieci 3 lokali.",
+          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=GASTROMAX", "alt": "GastroMax" },
+          "metric_value": "+180%",
+          "metric_label": "rezerwacje",
+          "metric_2_value": "1.1s",
+          "metric_2_label": "LCP",
+          "tech_stack": "Next.js · Supabase · Resend",
+          "category": "Gastronomia",
+          "url": "/kontakt"
+        },
+        {
+          "code": "06",
+          "client": "eduplatform",
+          "title": "EduPlatform LMS",
+          "description": "Platforma edukacyjna z kursami online, quizami i systemem płatności subskrypcyjnych.",
+          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=EDUPLATFORM", "alt": "EduPlatform" },
+          "metric_value": "+210%",
+          "metric_label": "signupy",
+          "metric_2_value": "+68%",
+          "metric_2_label": "retention",
+          "tech_stack": "Next.js · Stripe · Prisma",
+          "category": "Edukacja",
+          "url": "/kontakt"
         }
       ]
     },
     {
-      "slice_type": "agency_glow_cta",
+      "slice_type": "cyberdeck_big_cta",
       "variation": "default",
       "primary": {
-        "title": "Twój case study, za 14 dni.",
-        "description": "Dołącz do 47 firm, które mają twarde liczby w swoim portfolio. Pierwszy krok — darmowy 20-minutowy audyt.",
-        "cta_text": "[ init project ]",
+        "title": "TWÓJ PROJEKT",
+        "title_big": "NASTĘPNY",
+        "title_suffix": "?",
+        "description": "Mamy 3 wolne sloty na Q1 2026. Umów darmowy audit, sprawdź, czy pasujemy. Bez presji, bez zobowiązań.",
+        "cta_text": "[ rozmowa 20 min ]",
         "cta_link": { "url": "/kontakt" },
-        "glow_color": "#9eff00"
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "3 sloty Q1 · odpowiadamy w 2h"
       }
     }
   ]

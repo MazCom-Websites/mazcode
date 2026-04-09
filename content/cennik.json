@@ -39,158 +39,200 @@
       }
     },
     {
-      "slice_type": "agency_pricing_cards",
+      "slice_type": "cyberdeck_pricing",
       "variation": "default",
       "primary": {
-        "title": "Pakiety cenowe",
-        "description": "Wybierz plan idealnie dopasowany do Twojego biznesu. Każdy pakiet zawiera pełne wsparcie zespołu MazCode."
+        "eyebrow": "// modules",
+        "title": "Wybierz swój stack",
+        "meta_text": "każdy pakiet = fixed-price w umowie"
       },
       "items": [
         {
-          "name": "Starter",
-          "price": "4 900 zł",
-          "period": "jednorazowo",
-          "popular": false,
+          "code": "01 / launch",
+          "name": "MVP Strona Firmowa",
+          "description": "14-dniowy sprint do pełnej, zoptymalizowanej, indeksowalnej strony. Dla startupów, które muszą ruszyć wczoraj.",
           "features": [
-            "Strona one-page do 5 sekcji",
-            "Responsywny design",
-            "Formularz kontaktowy",
-            "Podstawowe SEO",
-            "Hosting na 12 miesięcy"
+            { "text": "5 podstron + blog" },
+            { "text": "Formularz + CRM hook" },
+            { "text": "100/100 core web vitals" },
+            { "text": "1 miesiąc hostingu gratis" }
           ],
-          "cta_label": "Wybierz Starter",
-          "cta_url": "/kontakt"
+          "price": "4 900",
+          "unit": "PLN",
+          "cta_text": "wybierz",
+          "cta_link": { "url": "/kontakt" }
         },
         {
-          "name": "Business",
-          "price": "12 900 zł",
-          "period": "jednorazowo",
-          "popular": true,
+          "code": "02 / scale",
+          "name": "Growth Website",
+          "description": "Multi-locale, CMS, integracje, A/B testing, analytics stack. Dla firm, które chcą mierzyć każdy klik.",
           "features": [
-            "Do 10 podstron z CMS",
-            "Indywidualny projekt graficzny",
-            "Animacje i interakcje",
-            "Zaawansowane SEO + Analytics",
-            "Blog z panelem admina",
-            "Integracja z social media",
-            "Wsparcie techniczne 6 mies."
+            { "text": "Headless CMS (edycja w minutę)" },
+            { "text": "Integracje: Stripe, HubSpot, Slack" },
+            { "text": "Analytics: GA4 + PostHog + Hotjar" },
+            { "text": "3 miesiące support" }
           ],
-          "cta_label": "Wybierz Business",
-          "cta_url": "/kontakt"
+          "price": "14 900",
+          "unit": "PLN",
+          "cta_text": "wybierz",
+          "cta_link": { "url": "/kontakt" }
         },
         {
-          "name": "Enterprise",
-          "price": "od 24 900 zł",
-          "period": "wycena indywidualna",
-          "popular": false,
+          "code": "03 / custom",
+          "name": "Bespoke Platform",
+          "description": "Dedykowana aplikacja, panel klienta, automatyzacje, AI content pipeline. Dla firm, które potrzebują realnej przewagi.",
           "features": [
-            "Dedykowana aplikacja webowa",
-            "System zarządzania treścią",
-            "Integracje API (CRM, ERP)",
-            "Panel administracyjny",
-            "Testy A/B i personalizacja",
-            "SLA i priorytetowe wsparcie",
-            "Szkolenie zespołu",
-            "Opieka techniczna 12 mies."
+            { "text": "UX audit + research" },
+            { "text": "Custom backend + auth" },
+            { "text": "AI copywriter + SEO agent" },
+            { "text": "SLA + on-call support" }
           ],
-          "cta_label": "Umów konsultację",
-          "cta_url": "/kontakt"
+          "price": "od 34k",
+          "unit": "PLN",
+          "cta_text": "rozmowa",
+          "cta_link": { "url": "/kontakt" }
         }
       ]
     },
     {
-      "slice_type": "agency_included_features",
+      "slice_type": "cyberdeck_feature_list",
       "variation": "default",
       "primary": {
-        "title": "Co jest w cenie każdego projektu",
-        "description": "Bez ukrytych kosztów — to wszystko dostajesz w standardzie.",
-        "features": [
-          { "text": "Responsywny design (mobile, tablet, desktop)" },
-          { "text": "Optymalizacja SEO on-page" },
-          { "text": "Certyfikat SSL / HTTPS" },
-          { "text": "Integracja z Google Analytics" },
-          { "text": "Formularz kontaktowy z powiadomieniami" },
-          { "text": "Panel CMS do edycji treści" },
-          { "text": "Optymalizacja Core Web Vitals" },
-          { "text": "Sitemap XML i robots.txt" },
-          { "text": "Dane strukturalne schema.org" },
-          { "text": "Hosting na Vercel (pierwszy rok gratis)" },
-          { "text": "Szkolenie z obsługi CMS" },
-          { "text": "3 miesiące wsparcia technicznego" }
-        ]
-      }
-    },
-    {
-      "slice_type": "agency_comparison_vs_competition",
-      "variation": "default",
-      "primary": {
-        "title": "MazCode vs typowa agencja",
-        "description": "Porównaj naszą ofertę z tym, co standardowo oferują inne agencje webowe.",
-        "mazcode_label": "MazCode",
-        "competitor_label": "Typowa agencja",
-        "features": [
-          { "feature": "Stack technologiczny", "mazcode": "Next.js 16, React 19, SSG", "competitor": "WordPress + Page Builder" },
-          { "feature": "Czas ładowania", "mazcode": "< 1s", "competitor": "3-5s" },
-          { "feature": "Lighthouse Score", "mazcode": "95-100", "competitor": "40-70" },
-          { "feature": "CMS", "mazcode": "Dedykowany, headless", "competitor": "WordPress Admin" },
-          { "feature": "Hosting", "mazcode": "Vercel Edge / GitHub Pages", "competitor": "Shared hosting" },
-          { "feature": "Bezpieczeństwo", "mazcode": "CSP, HSTS, Rate Limiting", "competitor": "Podstawowe SSL" },
-          { "feature": "SEO", "mazcode": "Automatyczne schema.org, sitemap", "competitor": "Wtyczka Yoast" },
-          { "feature": "Wsparcie po wdrożeniu", "mazcode": "3 miesiące gratis", "competitor": "Płatne od dnia 1" }
-        ]
-      }
-    },
-    {
-      "slice_type": "agency_pricing_faq",
-      "variation": "default",
-      "primary": {
-        "title": "Pytania o cennik",
-        "description": "Odpowiedzi na najczęściej zadawane pytania dotyczące kosztów i warunków współpracy."
+        "eyebrow": "// included",
+        "title": "Co wchodzi w",
+        "title_accent": "każdy pakiet",
+        "description": "Dziewięć rzeczy, które w 9/10 agencjach są 'extra'. U nas — zawsze w cenie.",
+        "columns": "3"
       },
       "items": [
         {
-          "question": "Czy cena zawiera hosting i domenę?",
-          "answer": "Tak, każdy pakiet zawiera hosting na 12 miesięcy. Domena jest wliczona w cenę pakietu Business i Enterprise. W pakiecie Starter koszt domeny to ok. 50–100 zł/rok."
+          "code": "01",
+          "icon": "Gauge",
+          "title": "100/100 Core Web Vitals",
+          "description": "Lighthouse 100 w Performance, SEO i Accessibility — gwarancja w umowie.",
+          "stat": "100",
+          "stat_label": "lighthouse"
         },
         {
-          "question": "Jakie są warunki płatności?",
-          "answer": "Standardowo dzielimy płatność na 3 raty: 40% przy podpisaniu umowy, 30% po akceptacji projektu graficznego, 30% przy oddaniu gotowej strony. Dla większych projektów możemy ustalić indywidualny harmonogram."
+          "code": "02",
+          "icon": "Shield",
+          "title": "SSL + WAF + Headers",
+          "description": "HSTS, CSP, X-Frame-Options, rate limiting — pełny stack bezpieczeństwa.",
+          "stat": "A+",
+          "stat_label": "ssl labs"
         },
         {
-          "question": "Czy mogę rozszerzyć pakiet w przyszłości?",
-          "answer": "Oczywiście. Każdy projekt budujemy w sposób modularny, więc dodanie nowych funkcji, podstron czy integracji jest możliwe w dowolnym momencie. Wyceniamy rozszerzenie indywidualnie."
+          "code": "03",
+          "icon": "Search",
+          "title": "SEO Technical + Schema",
+          "description": "Sitemap, robots, hreflang, schema.org, OpenGraph, indexing plan.",
+          "stat": "100%",
+          "stat_label": "indexable"
         },
         {
-          "question": "Co wchodzi w skład wsparcia technicznego?",
-          "answer": "Wsparcie techniczne obejmuje naprawianie błędów, aktualizacje bezpieczeństwa, drobne zmiany treści (do 2h/mies.) oraz monitoring dostępności strony. Poważniejsze modyfikacje wyceniamy oddzielnie."
+          "code": "04",
+          "icon": "BarChart3",
+          "title": "Analytics Stack",
+          "description": "GA4 + PostHog + Hotjar skonfigurowane pod konwersje.",
+          "stat": "3",
+          "stat_label": "narzędzia"
         },
         {
-          "question": "Ile trwa realizacja projektu?",
-          "answer": "Czas realizacji zależy od zakresu: strona wizytówka 2-3 tygodnie, strona firmowa 4-6 tygodni, sklep online 6-10 tygodni, aplikacja webowa 8-16 tygodni. Dokładny harmonogram ustalamy po briefingu."
+          "code": "05",
+          "icon": "Mail",
+          "title": "Formularze + Email",
+          "description": "React Hook Form + Zod walidacja + Resend transactional email.",
+          "stat": "2h",
+          "stat_label": "avg reply"
         },
         {
-          "question": "Czy oferujecie fakturę VAT?",
-          "answer": "Tak, wystawiamy faktury VAT. Podane ceny są cenami netto. Dla klientów indywidualnych ceny brutto są wyższe o 23% VAT."
+          "code": "06",
+          "icon": "Database",
+          "title": "Headless CMS",
+          "description": "Edytuj content w 60 sekund. Nie musisz dzwonić do nas z każdą literówką.",
+          "stat": "60s",
+          "stat_label": "do edycji"
+        },
+        {
+          "code": "07",
+          "icon": "Accessibility",
+          "title": "WCAG 2.1 AA",
+          "description": "Dostępność w wysokim standardzie — screen readers, keyboard nav, contrast.",
+          "stat": "AA",
+          "stat_label": "wcag 2.1"
+        },
+        {
+          "code": "08",
+          "icon": "Zap",
+          "title": "Edge Deploy",
+          "description": "Vercel edge network — Twoja strona ładowana z serwera 30ms od usera.",
+          "stat": "30ms",
+          "stat_label": "ttfb edge"
+        },
+        {
+          "code": "09",
+          "icon": "FileText",
+          "title": "Kod + Dokumentacja",
+          "description": "Cały kod + docs do przekazania. Nie jesteś uzależniony od nas.",
+          "stat": "100%",
+          "stat_label": "yours"
         }
       ]
     },
     {
-      "slice_type": "agency_consultation_cta",
+      "slice_type": "cyberdeck_faq",
       "variation": "default",
       "primary": {
-        "title": "Darmowy 20-min audit.",
-        "description": "Zanim wydaśz 4 900 zł, zobacz co naprawdę potrzebujesz. Pokażemy Ci, który pakiet pasuje do Twojego biznesu i dlaczego.",
-        "cta_text": "[ wybierz termin ]",
+        "eyebrow": "// faq",
+        "title": "Zanim zadasz",
+        "title_accent": "pytanie",
+        "meta_text": "07 questions"
+      },
+      "items": [
+        {
+          "question": "Czy cena jest naprawdę fixed?",
+          "answer": "Tak. Cena w umowie = cena finalna. Jeśli projekt wymaga więcej pracy, my za to płacimy — nie Ty. To nas motywuje do trzymania się scope'u i terminów."
+        },
+        {
+          "question": "Co jeśli potrzebuję dodatkowych funkcji w trakcie?",
+          "answer": "Rozdzielamy change requesty od scope'u. Nowe funkcje = nowy small contract (z własną ceną i deadlinem). Ty decydujesz, czy robimy."
+        },
+        {
+          "question": "Dlaczego nie MVP za 2 000 PLN?",
+          "answer": "Bo to niemożliwe. Strona, która sprzedaje, wymaga UX researchu, designu, developmentu, testów i SEO. 14 dni pełnego skupienia dwóch ludzi = minimum 4 900 PLN. Taniej = template na WordPressie."
+        },
+        {
+          "question": "Czy macie hosting w cenie?",
+          "answer": "Vercel Hobby (darmowy) jest w cenie wszystkich pakietów. Pro ($20/m) opcjonalnie. Domena — osobno, bo Twoja własność."
+        },
+        {
+          "question": "Jak długo trwa projekt?",
+          "answer": "Launch: 14 dni. Scale: 21 dni. Custom: 4–6 tygodni. Deadline w umowie, kary za przekroczenie."
+        },
+        {
+          "question": "Co jeśli nie podoba mi się projekt?",
+          "answer": "Dwie rundy rewizji w każdym pakiecie. Trzecia — płatna. Ale w 6 lat ani razu nie dotarliśmy do trzeciej."
+        },
+        {
+          "question": "Wystawiacie faktury?",
+          "answer": "Tak, VAT 23% (B2B). Termin płatności 14 dni. 50% przedpłaty przed startem, 50% przy deploy."
+        }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "MASZ",
+        "title_big": "PYTANIA",
+        "title_suffix": "?",
+        "description": "Umów darmowy 20-minutowy call. Omówimy Twój projekt, dobierzemy pakiet, pokażemy roadmapę. Bez zobowiązań.",
+        "cta_text": "[ rozmowa 20 min ]",
         "cta_link": { "url": "/kontakt" },
-        "duration": "20 min",
-        "format": "Online (Google Meet)",
-        "price": "0 PLN"
-      },
-      "items": [
-        { "step": "01", "label": "Pick slot", "description": "Wybierz wygodny termin z naszego kalendarza" },
-        { "step": "02", "label": "Diagnose", "description": "Opowiesz o swoim biznesie. My — o co zapytać" },
-        { "step": "03", "label": "Ship proposal", "description": "Dostajesz pakiet + fixed-price na piśmie" }
-      ]
+        "cta_secondary_text": "napisz email",
+        "cta_secondary_link": { "url": "mailto:mazcom.kontakt@gmail.com" },
+        "trust_text": "odpowiadamy w 2h · 47 zadowolonych klientów"
+      }
     }
   ]
 }

@@ -39,114 +39,76 @@
       }
     },
     {
-      "slice_type": "agency_contact_form",
+      "slice_type": "cyberdeck_contact_block",
       "variation": "default",
       "primary": {
-        "title": "Porozmawiajmy o Twoim projekcie",
-        "description": "Wypełnij formularz, a nasz zespół skontaktuje się z Tobą w ciągu 24 godzin z indywidualną propozycją.",
-        "name_label": "Imię i nazwisko",
-        "email_label": "Adres e-mail",
-        "phone_label": "Numer telefonu",
-        "project_type_label": "Rodzaj projektu",
-        "budget_label": "Orientacyjny budżet",
-        "message_label": "Opis projektu",
-        "submit_label": "Wyślij zapytanie",
-        "success_message": "Dziękujemy! Odezwiemy się w ciągu 24 godzin."
-      },
-      "items": [
-        { "value": "website", "label": "Strona internetowa" },
-        { "value": "ecommerce", "label": "Sklep online" },
-        { "value": "webapp", "label": "Aplikacja webowa" },
-        { "value": "redesign", "label": "Redesign istniejącej strony" },
-        { "value": "seo", "label": "SEO i marketing" },
-        { "value": "other", "label": "Inne" }
-      ]
-    },
-    {
-      "slice_type": "agency_office_info",
-      "variation": "default",
-      "primary": {
-        "title": "Dane kontaktowe",
-        "description": "Możesz się z nami skontaktować również telefonicznie lub mailowo.",
-        "address": "Katowice",
-        "city": "Polska",
-        "map_embed_url": "https://maps.google.com/maps?q=Katowice+Polska",
+        "eyebrow": "// contact",
+        "title": "Opisz projekt.",
+        "title_accent": "Odpowiemy w 2h.",
+        "description": "Napisz, czego potrzebujesz. Odpowiemy konkretem — co, ile i kiedy. Bez 'prześlemy ofertę mailem'. Zero fluffu.",
+        "submit_text": "send transmission",
         "phone": "+48 503 401 451",
-        "email": "mazcom.kontakt@gmail.com"
+        "email": "mazcom.kontakt@gmail.com",
+        "address": "Kraków · PL",
+        "hours": "Pn–Pt 9:00 — 17:00"
       },
       "items": [
-        { "day": "Poniedziałek – Piątek", "hours": "9:00 – 17:00" },
-        { "day": "Sobota", "hours": "Po wcześniejszym umówieniu" },
-        { "day": "Niedziela", "hours": "Nieczynne" }
+        { "platform": "github", "label": "github", "url": "https://github.com/mazcode" },
+        { "platform": "linkedin", "label": "linkedin", "url": "https://linkedin.com/company/mazcode" },
+        { "platform": "twitter", "label": "twitter / x", "url": "https://x.com/mazcode" },
+        { "platform": "instagram", "label": "instagram", "url": "https://instagram.com/mazcode" }
       ]
     },
     {
-      "slice_type": "agency_social_links",
+      "slice_type": "cyberdeck_faq",
       "variation": "default",
       "primary": {
-        "title": "Znajdź nas w sieci",
-        "description": "Obserwuj nas w social mediach — dzielimy się wiedzą, inspiracjami i kulisami projektów."
+        "eyebrow": "// faq",
+        "title": "Zanim napiszesz —",
+        "title_accent": "szybkie odpowiedzi",
+        "meta_text": "06 questions"
       },
       "items": [
         {
-          "platform": "GitHub",
-          "icon": "Github",
-          "url": "https://github.com/MazCom-Websites",
-          "handle": "@MazCom-Websites",
-          "color": "#333333"
+          "question": "Jak szybko dostanę odpowiedź?",
+          "answer": "Zwykle w 2 godziny w godzinach pracy (Pn–Pt 9–17). Poza godzinami — maksymalnie następnego dnia roboczego. Bez ghostingu."
         },
         {
-          "platform": "LinkedIn",
-          "icon": "Linkedin",
-          "url": "https://linkedin.com/company/mazcode",
-          "handle": "@mazcode",
-          "color": "#0A66C2"
+          "question": "Co dostanę w darmowym audicie?",
+          "answer": "20-minutowy call + lista 5–15 konkretnych rzeczy do naprawy (performance, SEO, konwersja, UX). Bez 'prześlemy ofertę mailem'. Konkret."
         },
         {
-          "platform": "X / Twitter",
-          "icon": "Twitter",
-          "url": "https://x.com/mazcode",
-          "handle": "@mazcode",
-          "color": "#1DA1F2"
+          "question": "Czy audit zobowiązuje do współpracy?",
+          "answer": "Nie. Audit jest darmowy i bez zobowiązań. Jeśli chcesz, byśmy naprawili rzeczy z listy — wtedy dopiero rozmawiamy o wycenie."
         },
         {
-          "platform": "Instagram",
-          "icon": "Instagram",
-          "url": "https://instagram.com/mazcode",
-          "handle": "@mazcode",
-          "color": "#E4405F"
+          "question": "Mogę po prostu napisać maila?",
+          "answer": "Tak — mazcom.kontakt@gmail.com. Formularz obok jest tylko dla wygody. Oba kanały monitorujemy z tą samą priorytetyzacją."
+        },
+        {
+          "question": "Pracujecie zdalnie?",
+          "answer": "Tak, 100% zdalnie. Jeśli jesteś w Krakowie — możemy się spotkać fizycznie (kawa, lunch, biuro klienta)."
+        },
+        {
+          "question": "Czy przyjmujecie klientów zagranicznych?",
+          "answer": "Tak. Pracujemy z firmami z PL, DE, UK, NL, US. Faktury w PLN / EUR / USD. Komunikacja PL/EN."
         }
       ]
     },
     {
-      "slice_type": "agency_faq",
+      "slice_type": "cyberdeck_big_cta",
       "variation": "default",
       "primary": {
-        "title": "Najczęściej zadawane pytania",
-        "description": "Odpowiedzi na pytania, które słyszymy najczęściej od naszych klientów."
-      },
-      "items": [
-        {
-          "question": "Ile kosztuje strona internetowa?",
-          "answer": "Ceny zaczynają się od 4 900 zł za stronę one-page. Ostateczna cena zależy od zakresu projektu, liczby podstron i dodatkowych funkcjonalności. Przygotowujemy indywidualną wycenę po zapoznaniu się z briefem."
-        },
-        {
-          "question": "Jak długo trwa realizacja projektu?",
-          "answer": "Standardowa strona firmowa to 4–6 tygodni od zatwierdzenia projektu graficznego. Bardziej rozbudowane projekty z aplikacją webową mogą trwać 8–12 tygodni."
-        },
-        {
-          "question": "Czy mogę zobaczyć projekt przed realizacją?",
-          "answer": "Tak! Przygotowujemy interaktywny prototyp w Figma, który możesz przeglądać i komentować przed rozpoczęciem programowania."
-        },
-        {
-          "question": "Co obejmuje opieka techniczna?",
-          "answer": "Monitoring dostępności, aktualizacje bezpieczeństwa, backup danych, drobne poprawki treści (do 2h/mies.) oraz priorytetowe wsparcie techniczne."
-        },
-        {
-          "question": "Czy pomagacie w treściach na stronę?",
-          "answer": "Tak, oferujemy copywriting z wykorzystaniem AI i doświadczeniem naszego zespołu. Tworzymy treści zoptymalizowane pod SEO w języku polskim i angielskim."
-        }
-      ]
+        "title": "NIE LUBISZ",
+        "title_big": "FORMULARZY",
+        "title_suffix": "?",
+        "description": "Zadzwoń albo napisz bezpośrednio. Odbieramy osobiście, bez sekretariatów i tickets.",
+        "cta_text": "[ +48 503 401 451 ]",
+        "cta_link": { "url": "tel:+48503401451" },
+        "cta_secondary_text": "email bezpośredni",
+        "cta_secondary_link": { "url": "mailto:mazcom.kontakt@gmail.com" },
+        "trust_text": "Kraków · PL · Pn–Pt 9:00–17:00"
+      }
     }
   ]
 }

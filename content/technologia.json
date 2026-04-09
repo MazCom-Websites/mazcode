@@ -40,107 +40,157 @@
       }
     },
     {
-      "slice_type": "agency_tech_stack_grid",
+      "slice_type": "cyberdeck_ticker",
       "variation": "default",
-      "primary": {
-        "title": "Nasz stack technologiczny",
-        "description": "Używamy najnowocześniejszych technologii, żeby Twoja strona była szybka, bezpieczna i łatwa w zarządzaniu.",
-        "items": [
-          { "name": "Next.js 16", "icon": "Globe", "category": "Frontend", "description": "Framework React z SSG, SSR i Server Components" },
-          { "name": "React 19", "icon": "Code2", "category": "Frontend", "description": "Biblioteka UI z Server Components i Actions" },
-          { "name": "TypeScript", "icon": "FileCode", "category": "Frontend", "description": "Typowany JavaScript — zero błędów w runtime" },
-          { "name": "Tailwind CSS 4", "icon": "Palette", "category": "Frontend", "description": "Utility-first CSS framework z design tokens" },
-          { "name": "Vercel", "icon": "Cloud", "category": "Hosting", "description": "Edge hosting z globalnym CDN i automatycznym deploy" },
-          { "name": "GitHub", "icon": "GitBranch", "category": "CI/CD", "description": "Version control, CI/CD pipeline i code review" },
-          { "name": "Cloudinary", "icon": "Image", "category": "Media", "description": "CDN i automatyczna optymalizacja obrazów" },
-          { "name": "Framer Motion", "icon": "Sparkles", "category": "Frontend", "description": "Płynne animacje i przejścia z reduced motion" },
-          { "name": "Zod", "icon": "ShieldCheck", "category": "Backend", "description": "Schema-first walidacja danych w runtime" }
-        ]
-      }
+      "primary": { "speed": 36 },
+      "items": [
+        { "text": "next.js 16" },
+        { "text": "react 19" },
+        { "text": "typescript 5 strict" },
+        { "text": "tailwind 4" },
+        { "text": "vercel edge" },
+        { "text": "github headless" },
+        { "text": "claude sonnet ai" },
+        { "text": "playwright e2e" },
+        { "text": "vitest unit" },
+        { "text": "lighthouse 100" },
+        { "text": "wcag 2.1 aa" },
+        { "text": "schema.org" }
+      ]
     },
     {
-      "slice_type": "agency_tech_comparison",
+      "slice_type": "cyberdeck_feature_list",
       "variation": "default",
       "primary": {
-        "title": "Dlaczego Next.js, a nie WordPress?",
-        "description": "Porównanie kluczowych metryk — szybkość, bezpieczeństwo, SEO i koszty utrzymania.",
-        "our_label": "MazCode (Next.js)",
-        "their_label": "Typowy WordPress",
-        "metrics": [
-          { "name": "Czas ładowania", "our_value": "0.8s", "their_value": "3.2s", "icon": "Zap", "our_score": 95, "their_score": 40 },
-          { "name": "Lighthouse Score", "our_value": "98-100", "their_value": "55-75", "icon": "Gauge", "our_score": 98, "their_score": 65 },
-          { "name": "Bezpieczeństwo", "our_value": "Statyczne pliki", "their_value": "PHP + baza danych", "icon": "Shield", "our_score": 99, "their_score": 50 },
-          { "name": "SEO", "our_value": "SSG + Schema + OG", "their_value": "Plugin-dependent", "icon": "Search", "our_score": 95, "their_score": 60 },
-          { "name": "Koszt hostingu", "our_value": "0 zł/msc", "their_value": "50-200 zł/msc", "icon": "Wallet", "our_score": 100, "their_score": 40 },
-          { "name": "Aktualizacje", "our_value": "Automatyczne", "their_value": "Ręczne + ryzyko", "icon": "RefreshCw", "our_score": 90, "their_score": 35 }
-        ]
-      }
+        "eyebrow": "// the stack",
+        "title": "12 narzędzi",
+        "title_accent": "produkcji",
+        "description": "Każde wybrane świadomie, każde uzasadnione, każde battle-tested na produkcji. Zero trendów dla trendów.",
+        "columns": "3"
+      },
+      "items": [
+        {
+          "code": "01",
+          "icon": "Code2",
+          "title": "Next.js 16 + Turbopack",
+          "description": "App Router, Server Components, RSC streaming, Partial Prerendering. Najnowszy stable.",
+          "stat": "16.1",
+          "stat_label": "current"
+        },
+        {
+          "code": "02",
+          "icon": "Atom",
+          "title": "React 19",
+          "description": "Server Components, Actions, useFormStatus, use() hook, automatic memoization.",
+          "stat": "19.0",
+          "stat_label": "stable"
+        },
+        {
+          "code": "03",
+          "icon": "FileCode",
+          "title": "TypeScript 5 Strict",
+          "description": "Zero 'any', pełna inferencja, strict null checks. Kod, który nie pęknie w produkcji.",
+          "stat": "0",
+          "stat_label": "any types"
+        },
+        {
+          "code": "04",
+          "icon": "Palette",
+          "title": "Tailwind CSS 4",
+          "description": "Engine Lightning CSS, CSS vars, @theme, native container queries.",
+          "stat": "4.0",
+          "stat_label": "cutting edge"
+        },
+        {
+          "code": "05",
+          "icon": "Globe",
+          "title": "Vercel Edge",
+          "description": "Global edge network. 30ms TTFB z dowolnego miejsca na świecie.",
+          "stat": "30ms",
+          "stat_label": "edge ttfb"
+        },
+        {
+          "code": "06",
+          "icon": "Database",
+          "title": "Headless JSON CMS",
+          "description": "Content w GitHub, edycja w panelu admin, deploy instant. Zero baz danych do uploaded files.",
+          "stat": "0 db",
+          "stat_label": "dla content"
+        },
+        {
+          "code": "07",
+          "icon": "Bot",
+          "title": "Claude AI Pipeline",
+          "description": "Automatyczne generowanie copy, SEO, tłumaczeń i alt-textów przez Claude Sonnet.",
+          "stat": "70%",
+          "stat_label": "czas savings"
+        },
+        {
+          "code": "08",
+          "icon": "TestTube",
+          "title": "Vitest + Playwright",
+          "description": "Unit tests + E2E + visual regression. 246 plików testowych, ~1500 testów.",
+          "stat": "90%+",
+          "stat_label": "coverage"
+        },
+        {
+          "code": "09",
+          "icon": "Lock",
+          "title": "Auth0 + RBAC",
+          "description": "Enterprise-grade auth z 4 rolami (owner/admin/editor/redaktor) i 9 uprawnieniami.",
+          "stat": "4",
+          "stat_label": "role"
+        },
+        {
+          "code": "10",
+          "icon": "Image",
+          "title": "Cloudinary Media",
+          "description": "CDN, auto-format (WebP/AVIF), on-the-fly transformacje, lazy loading.",
+          "stat": "avif",
+          "stat_label": "auto"
+        },
+        {
+          "code": "11",
+          "icon": "Mail",
+          "title": "Resend Transactional",
+          "description": "Niezawodny email transakcyjny — formularze, notyfikacje, reset hasła.",
+          "stat": "99.9%",
+          "stat_label": "delivery"
+        },
+        {
+          "code": "12",
+          "icon": "BarChart3",
+          "title": "GA4 + PostHog",
+          "description": "Analytics stack — zachowania, session replay, funnele, retention, A/B testing.",
+          "stat": "2",
+          "stat_label": "platformy"
+        }
+      ]
     },
     {
-      "slice_type": "agency_architecture",
+      "slice_type": "cyberdeck_metrics",
       "variation": "default",
-      "primary": {
-        "title": "Architektura naszych rozwiązań",
-        "description": "Od kodu źródłowego po globalny CDN — każdy element jest zoptymalizowany pod kątem wydajności.",
-        "layers": [
-          { "name": "Użytkownik", "icon": "User", "description": "Przeglądarka / urządzenie mobilne", "position": 1 },
-          { "name": "CDN Edge", "icon": "Globe", "description": "Vercel Edge Network — 70+ lokalizacji na świecie", "position": 2 },
-          { "name": "SSG / ISR", "icon": "FileCode", "description": "Statycznie generowane strony z inkrementalną regeneracją", "position": 3 },
-          { "name": "CMS Admin", "icon": "Layout", "description": "Panel administracyjny z edytorem wizualnym", "position": 4 },
-          { "name": "API Layer", "icon": "Server", "description": "Server Actions + API Routes z walidacją Zod", "position": 5 },
-          { "name": "Content Store", "icon": "Database", "description": "JSON flat-file CMS + GitHub version control", "position": 6 }
-        ],
-        "flow_label": "Przepływ danych"
-      }
+      "primary": { "title": "performance benchmarks" },
+      "items": [
+        { "label": "lighthouse perf", "value": 100, "unit": "/100", "pattern": "1111111111" },
+        { "label": "edge ttfb", "value": 30, "unit": "ms", "pattern": "1110110111" },
+        { "label": "bundle size", "value": 87, "unit": "kb", "pattern": "1011101111" },
+        { "label": "time to interactive", "value": "1.2", "unit": "s", "pattern": "1110111011" }
+      ]
     },
     {
-      "slice_type": "agency_security_features",
+      "slice_type": "cyberdeck_big_cta",
       "variation": "default",
       "primary": {
-        "title": "Bezpieczeństwo na każdym poziomie",
-        "description": "Twoja strona jest chroniona wielowarstwowymi zabezpieczeniami — od infrastruktury po aplikację.",
-        "items": [
-          { "title": "SSL / HTTPS", "description": "Szyfrowane połączenie dla każdej strony — certyfikat SSL automatycznie.", "icon": "Lock", "severity": "critical" },
-          { "title": "Content Security Policy", "description": "Strict CSP headers blokujące XSS i injection — zero nieautoryzowanych skryptów.", "icon": "Shield", "severity": "critical" },
-          { "title": "Uwierzytelnianie Auth0", "description": "Enterprise-grade auth z MFA, rolami i uprawnieniami per użytkownik.", "icon": "UserCheck", "severity": "high" },
-          { "title": "Rate Limiting", "description": "Ochrona przed brute-force: 5 req/min login, 10 req/min formularze.", "icon": "Timer", "severity": "high" },
-          { "title": "Ochrona CSRF", "description": "Walidacja tokenów CSRF w każdym formularzu i mutacji.", "icon": "ShieldCheck", "severity": "high" },
-          { "title": "Statyczne pliki", "description": "SSG eliminuje wektor ataku na serwer — brak bazy danych, brak PHP.", "icon": "FileCode", "severity": "medium" },
-          { "title": "HSTS Headers", "description": "HTTP Strict Transport Security wymusza HTTPS na wszystkich requestach.", "icon": "ShieldAlert", "severity": "medium" },
-          { "title": "RBAC", "description": "4 role (owner/admin/editor/redaktor) z 9 granularnymi uprawnieniami.", "icon": "Users", "severity": "medium" }
-        ]
-      }
-    },
-    {
-      "slice_type": "agency_speed_test",
-      "variation": "default",
-      "primary": {
-        "title": "Szybkość, którą czuć",
-        "description": "Porównanie czasu ładowania naszych stron z przeciętną stroną internetową.",
-        "our_label": "Strona MazCode",
-        "avg_label": "Przeciętna strona",
-        "our_time": 0.8,
-        "avg_time": 3.5,
-        "metrics": [
-          { "name": "First Contentful Paint", "our_value": "0.4s", "avg_value": "1.8s", "icon": "Zap" },
-          { "name": "Largest Contentful Paint", "our_value": "0.8s", "avg_value": "2.5s", "icon": "Image" },
-          { "name": "Total Blocking Time", "our_value": "0ms", "avg_value": "350ms", "icon": "Timer" },
-          { "name": "Cumulative Layout Shift", "our_value": "0.001", "avg_value": "0.25", "icon": "Move" }
-        ],
-        "lighthouse_score": 98,
-        "badge": "Core Web Vitals",
-        "footnote": "Dane na podstawie audytu Lighthouse i raportów CrUX — styczeń 2026."
-      }
-    },
-    {
-      "slice_type": "agency_glow_cta",
-      "variation": "default",
-      "primary": {
-        "title": "Chcesz ten stack u siebie?",
-        "description": "Next.js 16, edge deploy, AI content — to nie są buzzwordy. To realne narzędzia, które dają Twoim klientom 2-3× szybsze ładowanie i lepsze pozycje w Google.",
-        "cta_text": "[ rozpocznij projekt ]",
+        "title": "CHCESZ",
+        "title_big": "ULTRA-SHIP",
+        "title_suffix": "?",
+        "description": "Twoja strona na najnowszym stacku, z Lighthouse 100, edge deploy i AI content pipeline. Bez kompromisów, bez WordPressa, bez zbędnych warstw.",
+        "cta_text": "[ zamów stack 2026 ]",
         "cta_link": { "url": "/kontakt" },
-        "glow_color": "#9eff00"
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "battle-tested na 47 projektach"
       }
     }
   ]
