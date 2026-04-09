@@ -3,26 +3,29 @@
   "status": "published",
   "path": "/technologia",
   "publishedAt": "2026-04-07T00:00:00Z",
-  "metaTitle": "Technologia — MazCode Web Agency",
-  "metaDescription": "Next.js, React, TypeScript, Tailwind CSS — poznaj nasz stack technologiczny.",
+  "metaTitle": "Stack 2026 — MazCode | Next.js 16, Edge-first",
+  "metaDescription": "Nasz stack: Next.js 16, React 19, TypeScript, Edge deploy, AI content pipeline. Zero PHP, zero WordPressa, zero kompromisów.",
   "slices": [
     {
-      "slice_type": "agency_marquee_hero",
+      "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "subtitle": "Nowoczesny stack technologiczny",
-        "cta_text": "Porozmawiajmy o technologii",
+        "title": "Stack 2026. Edge-first. Zero kompromisów.",
+        "subtitle": "Nie używamy WordPressa. Nie używamy PHP. Nie używamy template'ów. Pracujemy tylko z najlepszymi narzędziami w branży — Next.js 16, React 19, TypeScript strict, Edge deploy, AI content pipeline.",
+        "cta_text": "[ porozmawiajmy ]",
         "cta_link": { "url": "/kontakt" },
-        "speed": 25
-      },
-      "items": [
-        { "text": "NEXT.JS 16" },
-        { "text": "REACT 19" },
-        { "text": "TYPESCRIPT" },
-        { "text": "TAILWIND CSS" },
-        { "text": "VERCEL" },
-        { "text": "FRAMER MOTION" }
-      ]
+        "terminal_lines": [
+          { "line": "$ mazcode stack --show" },
+          { "line": "> framework     next.js 16     (turbopack)" },
+          { "line": "> language      typescript 5   (strict)" },
+          { "line": "> runtime       edge + node    (hybrid)" },
+          { "line": "> styling       tailwind 4     (css vars)" },
+          { "line": "> cms           headless json  (github)" },
+          { "line": "> deploy        vercel edge    (global)" },
+          { "line": "> ai            claude sonnet  (content)" },
+          { "line": "$ lighthouse    100/100 ✓ all metrics" }
+        ]
+      }
     },
     {
       "slice_type": "agency_tech_stack_grid",
@@ -121,11 +124,11 @@
       "slice_type": "agency_glow_cta",
       "variation": "default",
       "primary": {
-        "title": "Gotowy na stronę zbudowaną na nowoczesnym stacku?",
-        "description": "Next.js, React, TypeScript — technologia, która daje przewagę. Porozmawiajmy o Twoim projekcie.",
-        "cta_text": "Rozpocznij projekt",
+        "title": "Chcesz ten stack u siebie?",
+        "description": "Next.js 16, edge deploy, AI content — to nie są buzzwordy. To realne narzędzia, które dają Twoim klientom 2-3× szybsze ładowanie i lepsze pozycje w Google.",
+        "cta_text": "[ rozpocznij projekt ]",
         "cta_link": { "url": "/kontakt" },
-        "glow_color": "#6366f1"
+        "glow_color": "#9eff00"
       }
     }
   ]

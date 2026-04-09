@@ -5,19 +5,27 @@
   "publishedAt": "2026-04-07T00:00:00Z",
   "contextType": "services",
   "contextKey": "service",
-  "metaTitle": "Usługi — MazCode Web Agency",
-  "metaDescription": "Web design, development, SEO, utrzymanie — pełen zakres usług webowych.",
+  "metaTitle": "Usługi — MazCode | Trzy pakiety, jeden efekt",
+  "metaDescription": "Essential (4 900 PLN) · Growth (14 900 PLN) · Bespoke (od 34k PLN). Fixed-price, 14 dni do live, zero templatów.",
   "slices": [
     {
-      "slice_type": "agency_gradient_hero",
+      "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Nasze usługi",
-        "subtitle": "Od projektu graficznego po wdrożenie i utrzymanie — dostarczamy kompletne rozwiązania webowe, które napędzają Twój biznes.",
-        "cta_text": "Bezpłatna wycena",
+        "title": "Trzy pakiety, jeden efekt.",
+        "subtitle": "Każdy projekt zaczynamy od audytu biznesowego. Dobierzemy to, co naprawdę zarobi dla Twojej firmy — nie to, co wygląda 'ładnie w portfolio'. Fixed-price, 14 dni do live launch.",
+        "cta_text": "[ bezpłatna wycena ]",
         "cta_link": { "url": "/kontakt" },
-        "secondary_cta_text": "Zobacz realizacje",
-        "secondary_cta_link": { "url": "/portfolio" }
+        "terminal_lines": [
+          { "line": "$ mazcode offer --list" },
+          { "line": "> 01 strona-marki      4 900 PLN   14 dni" },
+          { "line": "> 02 platforma-growth 14 900 PLN   21 dni" },
+          { "line": "> 03 aplikacja-bespoke od 34k     6 tyg" },
+          { "line": "" },
+          { "line": "> extras: SEO monthly, support 24/7, AI" },
+          { "line": "> process: audit → design → ship → iter" },
+          { "line": "$ mazcode quote --free" }
+        ]
       }
     },
     {
@@ -161,9 +169,9 @@
       "slice_type": "agency_contact_cta",
       "variation": "default",
       "primary": {
-        "title": "Porozmawiajmy o Twoim projekcie",
-        "description": "Opowiedz nam o swoich potrzebach, a my zaproponujemy najlepsze rozwiązanie. Bezpłatna konsultacja wstępna.",
-        "cta_text": "Umów bezpłatną konsultację",
+        "title": "Który pakiet dla Ciebie?",
+        "description": "Nie zgadujmy. Umów darmowy 20-min audit — pokażemy Ci konkretnie, który pakiet pasuje do Twojego biznesu i dlaczego. Zero push sellingu.",
+        "cta_text": "[ umów 20-min audit ]",
         "cta_link": { "url": "/kontakt" },
         "phone": "+48 503 401 451",
         "email": "mazcom.kontakt@gmail.com"

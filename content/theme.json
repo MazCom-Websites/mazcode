@@ -1,78 +1,14 @@
 {
-  "preset": "organic",
-  "colors": {
-    "primary": {
-      "50": "#f0fdfa",
-      "100": "#ccfbf1",
-      "200": "#99f6e4",
-      "300": "#5eead4",
-      "400": "#2dd4bf",
-      "500": "#2dd4bf",
-      "600": "#14b8a6",
-      "700": "#0d9488",
-      "800": "#0f766e",
-      "900": "#115e59"
-    },
-    "secondary": {
-      "50": "#f7fee7",
-      "100": "#ecfccb",
-      "200": "#d9f99d",
-      "300": "#bef264",
-      "400": "#a3e635",
-      "500": "#84cc16",
-      "600": "#65a30d",
-      "700": "#4d7c0f",
-      "800": "#3f6212",
-      "900": "#365314"
-    },
-    "accent": {
-      "50": "#fffbeb",
-      "100": "#fef3c7",
-      "200": "#fde68a",
-      "300": "#fcd34d",
-      "400": "#fbbf24",
-      "500": "#f59e0b",
-      "600": "#d97706",
-      "700": "#b45309",
-      "800": "#92400e",
-      "900": "#78350f"
-    },
-    "neutral": "stone"
-  },
+  "title": "Theme",
+  "status": "published",
+  "preset": "cyberdeck",
   "typography": {
-    "headingFont": "Plus Jakarta Sans",
-    "bodyFont": "DM Sans",
-    "headingWeight": 700,
-    "bodyWeight": 400,
-    "baseSize": 16,
-    "headingTracking": -0.02,
-    "lineHeight": 1.75
+    "headingFont": "JetBrains Mono",
+    "bodyFont": "JetBrains Mono"
   },
   "spacing": {
-    "sectionPadding": 96,
-    "containerMaxWidth": 1200,
-    "cardGap": 24
-  },
-  "borders": {
-    "radius": 24,
-    "radiusCard": 24,
-    "radiusButton": 24,
-    "radiusPill": 100
-  },
-  "shadows": {
-    "elevation": "medium",
-    "cardHover": true
-  },
-  "navbar": {
-    "style": "light",
-    "sticky": true
-  },
-  "hero": {
-    "variant": "centered",
-    "darkMode": false
-  },
-  "cta": {
-    "style": "pill",
-    "variant": "filled"
+    "sectionPadding": "80px",
+    "containerMaxWidth": "1152px",
+    "cardGap": "24px"
   }
 }

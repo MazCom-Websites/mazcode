@@ -3,24 +3,28 @@
   "status": "published",
   "path": "/cennik",
   "publishedAt": "2026-04-07T00:00:00Z",
-  "metaTitle": "Cennik — MazCode Web Agency",
-  "metaDescription": "Przejrzyste ceny stron internetowych. Od 4900 zł za stronę one-page.",
+  "metaTitle": "Cennik — MazCode | Fixed-price, zero niespodzianek",
+  "metaDescription": "Przejrzyste ceny pakietów: od 4 900 PLN (Starter) → 14 900 PLN (Growth) → od 34 000 PLN (Bespoke). Stała cena w umowie, bez ukrytych kosztów.",
   "slices": [
     {
-      "slice_type": "agency_split_hero",
+      "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "badge": "Cennik",
-        "title": "Przejrzyste ceny, bez ukrytych kosztów",
-        "subtitle": "Wybierz pakiet dopasowany do potrzeb Twojego biznesu. Każdy projekt wyceniamy indywidualnie — podane ceny to punkt wyjścia.",
-        "cta_text": "Zamów bezpłatną wycenę",
-        "cta_link": { "url": "/kontakt" }
-      },
-      "items": [
-        { "image": { "url": "https://placehold.co/600x400/1a1a2e/e8f0fe?text=Starter", "alt": "Pakiet Starter" } },
-        { "image": { "url": "https://placehold.co/600x400/2d1b69/e8f0fe?text=Business", "alt": "Pakiet Business" } },
-        { "image": { "url": "https://placehold.co/600x400/0d3b66/e8f0fe?text=Enterprise", "alt": "Pakiet Enterprise" } }
-      ]
+        "title": "Fixed-price. Zero niespodzianek.",
+        "subtitle": "Trzy pakiety, jedna filozofia — stała cena w umowie, deadline na piśmie, pełna transparentność. Żadnych 'dodatkowych kosztów' w trakcie projektu.",
+        "cta_text": "[ wybierz pakiet ]",
+        "cta_link": { "url": "#pricing" },
+        "terminal_lines": [
+          { "line": "$ mazcode pricing --list" },
+          { "line": "> PKG.01 / ESSENTIAL    4 900 PLN   14 dni" },
+          { "line": "> PKG.02 / GROWTH      14 900 PLN   21 dni" },
+          { "line": "> PKG.03 / BESPOKE    od 34k PLN   6 tyg" },
+          { "line": "" },
+          { "line": "> VAT 23% | fixed-price | deadline w umowie" },
+          { "line": "> revisions: 2 rundy w cenie" },
+          { "line": "$ mazcode book --call free" }
+        ]
+      }
     },
     {
       "slice_type": "agency_pricing_cards",
@@ -162,18 +166,18 @@
       "slice_type": "agency_consultation_cta",
       "variation": "default",
       "primary": {
-        "title": "Umów się na bezpłatną konsultację",
-        "description": "Porozmawiamy o Twoim projekcie, celach biznesowych i zaproponujemy dopasowane rozwiązanie.",
-        "cta_text": "Wybierz termin",
+        "title": "Darmowy 20-min audit.",
+        "description": "Zanim wydaśz 4 900 zł, zobacz co naprawdę potrzebujesz. Pokażemy Ci, który pakiet pasuje do Twojego biznesu i dlaczego.",
+        "cta_text": "[ wybierz termin ]",
         "cta_link": { "url": "/kontakt" },
-        "duration": "30 min",
-        "format": "Online lub telefonicznie",
-        "price": "Bezpłatnie"
+        "duration": "20 min",
+        "format": "Online (Google Meet)",
+        "price": "0 PLN"
       },
       "items": [
-        { "step": "1", "label": "Wybierz termin", "description": "Znajdź wygodny termin w naszym kalendarzu" },
-        { "step": "2", "label": "Opowiedz o projekcie", "description": "Krótko opisz swoje potrzeby i cele" },
-        { "step": "3", "label": "Otrzymaj propozycję", "description": "Przygotujemy spersonalizowaną ofertę" }
+        { "step": "01", "label": "Pick slot", "description": "Wybierz wygodny termin z naszego kalendarza" },
+        { "step": "02", "label": "Diagnose", "description": "Opowiesz o swoim biznesie. My — o co zapytać" },
+        { "step": "03", "label": "Ship proposal", "description": "Dostajesz pakiet + fixed-price na piśmie" }
       ]
     }
   ]

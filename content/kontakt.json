@@ -3,24 +3,28 @@
   "status": "published",
   "path": "/kontakt",
   "publishedAt": "2026-04-07T00:00:00Z",
-  "metaTitle": "Kontakt — MazCode Web Agency",
-  "metaDescription": "Skontaktuj się z nami. Bezpłatna konsultacja i wycena projektu.",
+  "metaTitle": "Kontakt — MazCode | Darmowy 20-min audyt",
+  "metaDescription": "Umów darmowy 20-minutowy audyt swojej strony. Zwykle odpowiadamy w 2 godziny. Kraków · PL.",
   "slices": [
     {
-      "slice_type": "agency_stats_hero",
+      "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Skontaktuj się z nami",
-        "subtitle": "Masz pytanie, pomysł na projekt lub chcesz uzyskać bezpłatną wycenę? Napisz do nas — odpowiadamy w ciągu 24 godzin.",
-        "cta_text": "Wypełnij formularz",
-        "cta_link": { "url": "#formularz" }
-      },
-      "items": [
-        { "stat_value": "24", "stat_suffix": "h", "stat_label": "Czas odpowiedzi" },
-        { "stat_value": "0", "stat_suffix": " zł", "stat_label": "Koszt konsultacji" },
-        { "stat_value": "150", "stat_suffix": "+", "stat_label": "Zadowolonych klientów" },
-        { "stat_value": "98", "stat_suffix": "%", "stat_label": "Pozytywnych opinii" }
-      ]
+        "title": "Ready to ship?",
+        "subtitle": "Umów darmową 20-minutową rozmowę. Pokażemy Ci konkretnie, co tracisz na obecnej stronie, co naprawić w pierwszej kolejności i ile to może znaczyć w przychodach. Bez zobowiązań.",
+        "cta_text": "[ wypełnij formularz ]",
+        "cta_link": { "url": "#formularz" },
+        "terminal_lines": [
+          { "line": "$ mazcode init --free-audit" },
+          { "line": "> Response time        ~ 2h" },
+          { "line": "> Audit duration       20 min" },
+          { "line": "> Cost                 0 PLN" },
+          { "line": "> Output               5-15 fix items" },
+          { "line": "> Signup required      no" },
+          { "line": "> Slots available Q1   3/12" },
+          { "line": "$ send --form below_" }
+        ]
+      }
     },
     {
       "slice_type": "agency_contact_form",

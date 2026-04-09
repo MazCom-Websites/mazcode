@@ -3,22 +3,26 @@
   "status": "published",
   "path": "/o-nas",
   "publishedAt": "2026-04-07T00:00:00Z",
-  "metaTitle": "O nas — MazCode Web Agency",
-  "metaDescription": "Poznaj zespół MazCode. 8 lat doświadczenia w tworzeniu stron internetowych.",
+  "metaTitle": "O nas — MazCode | 6 lat. 47 projektów. Zero kompromisów.",
+  "metaDescription": "Jesteśmy małym zespołem, który pracuje tylko z firmami traktującymi design jak broń. Bez templatów, bez 'prześlemy ofertę mailem'. Kraków · PL.",
   "slices": [
     {
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Tworzymy strony, które robią różnicę",
-        "subtitle": "8 lat doświadczenia, 150+ zrealizowanych projektów i jedno podejście — technologia w służbie biznesu. Poznaj zespół, który stoi za MazCode.",
-        "cta_text": "Porozmawiajmy",
+        "title": "Sześć lat. 47 projektów. Zero kompromisów.",
+        "subtitle": "Jesteśmy małym zespołem pracującym tylko z firmami, które traktują design jak broń. Nie bierzemy więcej niż 12 projektów rocznie. Nie używamy template'ów. Nie dostarczamy 'OK'. Dostarczamy przewagę.",
+        "cta_text": "[ porozmawiajmy ]",
         "cta_link": { "url": "/kontakt" },
         "terminal_lines": [
-          "$ git log --oneline | wc -l",
-          "> 12,847 commits",
-          "$ lighthouse https://mazcode.pl",
-          "> Performance: 98 | SEO: 100 | Best Practices: 100"
+          { "line": "$ mazcode whoami" },
+          { "line": "> team         3 engineers + 1 designer" },
+          { "line": "> located      kraków, pl" },
+          { "line": "> since        2020 (6 years)" },
+          { "line": "> projects     47 shipped" },
+          { "line": "> rating       4.97 / 5 ★" },
+          { "line": "> max-load     12 projects / year" },
+          { "line": "$ mazcode philosophy --show" }
         ]
       }
     },
@@ -160,9 +164,9 @@
       "slice_type": "agency_contact_cta",
       "variation": "default",
       "primary": {
-        "title": "Porozmawiajmy o Twoim projekcie",
-        "description": "Opowiedz nam o swoich potrzebach, a my zaproponujemy najlepsze rozwiązanie. Bezpłatna konsultacja wstępna.",
-        "cta_text": "Umów bezpłatną konsultację",
+        "title": "Chcesz z nami pracować?",
+        "description": "Bierzemy max 12 projektów rocznie. Jeśli pasujesz do naszego stylu pracy — umów się na darmowy 20-min audit. Sprawdzimy czy pasujemy do siebie.",
+        "cta_text": "[ umów 20-min audit ]",
         "cta_link": { "url": "/kontakt" },
         "phone": "+48 503 401 451",
         "email": "mazcom.kontakt@gmail.com"

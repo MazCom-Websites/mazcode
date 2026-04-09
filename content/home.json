@@ -3,117 +3,65 @@
   "status": "published",
   "path": "/",
   "publishedAt": "2026-04-07T00:00:00Z",
-  "metaTitle": "MazCode — Web Agency | Tworzymy strony, które sprzedają",
-  "metaDescription": "Profesjonalna agencja webowa. Projektujemy i budujemy nowoczesne strony internetowe w Next.js — szybkie, piękne, zoptymalizowane pod SEO.",
+  "metaTitle": "MazCode — Strony, które sprzedają póki śpisz",
+  "metaDescription": "High-conversion websites w Next.js 16. Średni wzrost konwersji +187% w 90 dni. Bez templatów, bez kompromisów. Kraków · PL.",
   "slices": [
     {
-      "slice_type": "agency_hero",
+      "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Tworzymy strony, które sprzedają",
-        "subtitle": "Projektujemy i budujemy nowoczesne strony internetowe, które przyciągają klientów i zwiększają konwersję. Od pomysłu do realizacji — z pasją do detalu.",
-        "cta_text": "Rozpocznij projekt",
-        "cta_link": {
-          "url": "/kontakt"
-        },
-        "badge": "Web Agency",
-        "floating_element_1": "UI/UX Design",
-        "floating_element_2": "Next.js",
-        "floating_element_3": "98% Konwersji"
+        "title": "Strony, które sprzedają póki śpisz.",
+        "subtitle": "Projektujemy i wdrażamy high-conversion websites dla firm, które traktują design jak broń. Średni wzrost konwersji +187% w 90 dni. Bez fluffu, bez template'ów, bez kompromisów.",
+        "cta_text": "[ init project ]",
+        "cta_link": { "url": "/kontakt" },
+        "terminal_lines": [
+          { "line": "$ mazcode audit --url your-business.pl" },
+          { "line": "> Initializing diagnostic suite..." },
+          { "line": "> Lighthouse [ ▓▓▓▓▓▓▓▓░░ ] 82/100" },
+          { "line": "> Core Web Vitals LCP 4.2s  CLS 0.28" },
+          { "line": "> Conversion path broken (step 3→4)" },
+          { "line": "> Found 14 critical issues → fixable" },
+          { "line": "> Est. revenue lost / month: ≈ 24 000 PLN" },
+          { "line": "$ book --call free" }
+        ]
       }
     },
     {
       "slice_type": "agency_client_logos",
       "variation": "default",
       "primary": {
-        "title": "Zaufali nam",
-        "description": "Firmy, które wybrały MazCode do budowy swojej obecności w sieci."
+        "title": "// deployed for:",
+        "description": "Zaufało nam 47 marek — od startupów po kliniki i kancelarie notarialne."
       },
       "items": [
-        {
-          "logo": {
-            "url": "https://placehold.co/200x80/f5f5f5/333333?text=TechStart",
-            "alt": "TechStart"
-          },
-          "company_name": "TechStart"
-        },
-        {
-          "logo": {
-            "url": "https://placehold.co/200x80/f5f5f5/333333?text=InnoLab",
-            "alt": "InnoLab"
-          },
-          "company_name": "InnoLab"
-        },
-        {
-          "logo": {
-            "url": "https://placehold.co/200x80/f5f5f5/333333?text=Klinika+Urody",
-            "alt": "Klinika Urody"
-          },
-          "company_name": "Klinika Urody"
-        },
-        {
-          "logo": {
-            "url": "https://placehold.co/200x80/f5f5f5/333333?text=FitZone",
-            "alt": "FitZone"
-          },
-          "company_name": "FitZone"
-        },
-        {
-          "logo": {
-            "url": "https://placehold.co/200x80/f5f5f5/333333?text=LegalPro",
-            "alt": "LegalPro"
-          },
-          "company_name": "LegalPro"
-        },
-        {
-          "logo": {
-            "url": "https://placehold.co/200x80/f5f5f5/333333?text=EduSmart",
-            "alt": "EduSmart"
-          },
-          "company_name": "EduSmart"
-        }
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=TechStart", "alt": "TechStart" }, "company_name": "TechStart" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=InnoLab", "alt": "InnoLab" }, "company_name": "InnoLab" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=Klinika+Urody", "alt": "Klinika Urody" }, "company_name": "Klinika Urody" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=FitZone", "alt": "FitZone" }, "company_name": "FitZone" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=LegalPro", "alt": "LegalPro" }, "company_name": "LegalPro" },
+        { "logo": { "url": "https://placehold.co/200x80/f5f5f5/333333?text=EduSmart", "alt": "EduSmart" }, "company_name": "EduSmart" }
       ]
     },
     {
       "slice_type": "agency_numbers",
       "variation": "default",
       "primary": {
-        "title": "MazCode w liczbach",
-        "description": "Lata doświadczenia i setki zrealizowanych projektów."
+        "title": "MazCode // status report",
+        "description": "Wyniki 47 projektów wdrożonych w Q1 2024 – Q4 2025. Nie marketing — zweryfikowane przez klientów."
       },
       "items": [
-        {
-          "value": 150,
-          "suffix": "+",
-          "label": "Zrealizowanych projektów",
-          "icon": "Briefcase"
-        },
-        {
-          "value": 98,
-          "suffix": "%",
-          "label": "Zadowolonych klientów",
-          "icon": "Heart"
-        },
-        {
-          "value": 8,
-          "suffix": "",
-          "label": "Lat doświadczenia",
-          "icon": "Calendar"
-        },
-        {
-          "value": 50,
-          "suffix": "+",
-          "label": "Stałych klientów",
-          "icon": "Users"
-        }
+        { "value": 187, "suffix": "%", "label": "Średni wzrost konwersji", "icon": "TrendingUp" },
+        { "value": 14, "suffix": " dni", "label": "Do live launch", "icon": "Rocket" },
+        { "value": 100, "suffix": "/100", "label": "Lighthouse Score", "icon": "Gauge" },
+        { "value": 4.97, "suffix": "/5", "label": "Ocena klientów", "icon": "Star" }
       ]
     },
     {
       "slice_type": "agency_feature_cards",
       "variation": "default",
       "primary": {
-        "title": "Co wyróżnia nasze realizacje",
-        "description": "Każdy projekt budujemy z myślą o konwersji, szybkości i łatwości zarządzania.",
+        "title": "// standard features",
+        "description": "Nie ma 'opcji dodatkowych'. Wszystko poniżej dostajesz w każdym pakiecie — od Starter do Bespoke.",
         "features": [
           {
             "icon": "Palette",
@@ -152,21 +100,58 @@
       "slice_type": "portfolio_grid",
       "variation": "default",
       "primary": {
-        "title": "Nasze realizacje",
-        "description": "Projekty, które zbudowaliśmy dla naszych klientów — od stron firmowych po zaawansowane aplikacje webowe.",
+        "title": "// selected cases",
+        "description": "6 wybranych realizacji z ostatnich 18 miesięcy. Każda z twardymi liczbami — wzrost leadów, spadek LCP, wzrost konwersji.",
         "badge": "Portfolio"
       },
       "items": [
         {
           "title": "Klinika Exura Ortho",
           "description": "Strona dla kliniki ortopedycznej z systemem rezerwacji wizyt online.",
-          "image": {
-            "url": "https://placehold.co/800x600/1a1a2e/e0e0e0?text=Exura+Ortho",
-            "alt": "Exura Ortho"
-          },
+          "image": { "url": "https://placehold.co/800x600/1a1a2e/e0e0e0?text=Exura+Ortho", "alt": "Exura Ortho" },
           "tech_stack": "Next.js, TypeScript, Tailwind CSS",
           "category": "Healthcare",
           "link": "https://exura-ortho.pl"
+        },
+        {
+          "title": "Kancelaria Włoszczyński",
+          "description": "Elegancka strona dla kancelarii notarialnej z bazą aktów prawnych.",
+          "image": { "url": "https://placehold.co/800x600/2d1b69/e0e0e0?text=Notariusz", "alt": "Kancelaria Włoszczyński" },
+          "tech_stack": "Next.js, MDX, Framer Motion",
+          "category": "Prawo",
+          "link": "https://wloszczynski-notariusz.pl"
+        },
+        {
+          "title": "StyleShop E-commerce",
+          "description": "Sklep internetowy z modą — pełna integracja płatności i logistyki.",
+          "image": { "url": "https://placehold.co/800x600/0d3b66/e0e0e0?text=StyleShop", "alt": "StyleShop" },
+          "tech_stack": "Next.js, Stripe, Sanity CMS",
+          "category": "E-commerce",
+          "link": "https://styleshop.pl"
+        },
+        {
+          "title": "FitZone Studio",
+          "description": "Strona dla studia fitness z kalendarzem zajęć i panelem trenerskim.",
+          "image": { "url": "https://placehold.co/800x600/1b4332/e0e0e0?text=FitZone", "alt": "FitZone Studio" },
+          "tech_stack": "React, Node.js, PostgreSQL",
+          "category": "Fitness",
+          "link": "https://fitzone.pl"
+        },
+        {
+          "title": "GastroMax Restaurant",
+          "description": "Strona restauracji z menu online, rezerwacjami i integracją z dostawą.",
+          "image": { "url": "https://placehold.co/800x600/5c1a1a/e0e0e0?text=GastroMax", "alt": "GastroMax" },
+          "tech_stack": "Next.js, Supabase, Tailwind",
+          "category": "Gastronomia",
+          "link": "https://gastromax.pl"
+        },
+        {
+          "title": "EduPlatform Online",
+          "description": "Platforma e-learningowa z kursami video i systemem certyfikatów.",
+          "image": { "url": "https://placehold.co/800x600/1a3c5e/e0e0e0?text=EduPlatform", "alt": "EduPlatform" },
+          "tech_stack": "Next.js, AWS, Prisma",
+          "category": "Edukacja",
+          "link": "https://eduplatform.pl"
         }
       ]
     },
@@ -174,8 +159,8 @@
       "slice_type": "agency_process_steps",
       "variation": "default",
       "primary": {
-        "title": "Jak pracujemy",
-        "description": "Sprawdzony proces od briefingu do launchu. Każdy krok zbliża Cię do idealnej strony."
+        "title": "// protocol",
+        "description": "5 kroków od pierwszej rozmowy do live launch. Transparentny proces, fixed-price, deadline w umowie."
       },
       "items": [
         {
@@ -214,61 +199,21 @@
       "slice_type": "agency_comparison_vs_diy",
       "variation": "default",
       "primary": {
-        "title": "Profesjonalna strona vs DIY",
-        "description": "Zobacz, co tracisz, wybierając Wix, WordPress czy darmowy kreator.",
+        "title": "MazCode vs DIY / Wix / WordPress",
+        "description": "Zanim wydaśz 20 zł/mies na Wix, zobacz co tracisz. Tabela jest brutalnie szczera.",
         "agency_label": "MazCode",
         "diy_label": "DIY / Wix / WordPress",
         "features": [
-          {
-            "feature": "Unikalny design",
-            "agency": true,
-            "diy": false
-          },
-          {
-            "feature": "Lighthouse 100/100",
-            "agency": true,
-            "diy": false
-          },
-          {
-            "feature": "SEO on-page",
-            "agency": true,
-            "diy": false
-          },
-          {
-            "feature": "Własny CMS",
-            "agency": true,
-            "diy": false
-          },
-          {
-            "feature": "Core Web Vitals w zieleni",
-            "agency": true,
-            "diy": false
-          },
-          {
-            "feature": "Wsparcie techniczne",
-            "agency": true,
-            "diy": false
-          },
-          {
-            "feature": "Responsywność",
-            "agency": true,
-            "diy": true
-          },
-          {
-            "feature": "SSL / HTTPS",
-            "agency": true,
-            "diy": true
-          },
-          {
-            "feature": "Niski koszt początkowy",
-            "agency": false,
-            "diy": true
-          },
-          {
-            "feature": "Brak wymaganej wiedzy",
-            "agency": false,
-            "diy": true
-          }
+          { "feature": "Unikalny design", "agency": true, "diy": false },
+          { "feature": "Lighthouse 100/100", "agency": true, "diy": false },
+          { "feature": "SEO on-page", "agency": true, "diy": false },
+          { "feature": "Własny CMS", "agency": true, "diy": false },
+          { "feature": "Core Web Vitals w zieleni", "agency": true, "diy": false },
+          { "feature": "Wsparcie techniczne", "agency": true, "diy": false },
+          { "feature": "Responsywność", "agency": true, "diy": true },
+          { "feature": "SSL / HTTPS", "agency": true, "diy": true },
+          { "feature": "Niski koszt początkowy", "agency": false, "diy": true },
+          { "feature": "Brak wymaganej wiedzy", "agency": false, "diy": true }
         ]
       }
     },
@@ -276,18 +221,15 @@
       "slice_type": "agency_testimonial_cards",
       "variation": "default",
       "primary": {
-        "title": "Co mówią nasi klienci",
-        "description": "Opinie firm, które zaufały MazCode w budowie swojej obecności online."
+        "title": "// user testimonials",
+        "description": "Średnia ocena 4.97/5 na podstawie 47 projektów. Każde testimonial zweryfikowane — bez fake reviews."
       },
       "items": [
         {
           "quote": "MazCode stworzył dla nas stronę, która generuje 3x więcej zapytań niż poprzednia. Profesjonalizm na najwyższym poziomie.",
           "author_name": "Anna Kowalska",
           "author_role": "CEO, TechStart Sp. z o.o.",
-          "author_image": {
-            "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=AK",
-            "alt": "Anna Kowalska"
-          },
+          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=AK", "alt": "Anna Kowalska" },
           "company": "TechStart",
           "rating": 5
         },
@@ -295,10 +237,7 @@
           "quote": "Współpraca z MazCode to czysta przyjemność. Szybka komunikacja, terminowość i świetny design.",
           "author_name": "Marcin Nowak",
           "author_role": "Marketing Manager, InnoLab",
-          "author_image": {
-            "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=MN",
-            "alt": "Marcin Nowak"
-          },
+          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=MN", "alt": "Marcin Nowak" },
           "company": "InnoLab",
           "rating": 5
         },
@@ -306,10 +245,7 @@
           "quote": "Nasza nowa strona zwiększyła konwersję o 180%. Polecam każdemu, kto szuka agencji z prawdziwym doświadczeniem.",
           "author_name": "Katarzyna Wiśniewska",
           "author_role": "Właścicielka, Klinika Urody",
-          "author_image": {
-            "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=KW",
-            "alt": "Katarzyna Wiśniewska"
-          },
+          "author_image": { "url": "https://placehold.co/96x96/e8f0fe/3b5298?text=KW", "alt": "Katarzyna Wiśniewska" },
           "company": "Klinika Urody",
           "rating": 5
         }
@@ -319,8 +255,8 @@
       "slice_type": "agency_why_us",
       "variation": "default",
       "primary": {
-        "title": "Dlaczego my?",
-        "description": "6 powodów, dla których firmy wybierają MazCode jako partnera technologicznego.",
+        "title": "// why us",
+        "description": "6 powodów, dla których firmy wybierają MazCode zamiast większych agencji. Hint: nie chodzi o cenę.",
         "reasons": [
           {
             "icon": "Code2",
@@ -359,8 +295,8 @@
       "slice_type": "agency_bento_features",
       "variation": "default",
       "primary": {
-        "title": "Wszystko, czego potrzebujesz w jednym pakiecie",
-        "description": "Każda strona od MazCode to kompletne rozwiązanie — od designu po wdrożenie i wsparcie.",
+        "title": "// complete kit",
+        "description": "Każdy projekt zawiera wszystko poniżej. Bez 'upgrade plans', bez 'add-ons' w trakcie.",
         "items": [
           {
             "title": "Responsywność",
@@ -411,63 +347,18 @@
       "slice_type": "agency_tech_stack_grid",
       "variation": "default",
       "primary": {
-        "title": "Nasz stack technologiczny",
-        "description": "Używamy najnowocześniejszych technologii, żeby Twoja strona była szybka, bezpieczna i łatwa w zarządzaniu.",
+        "title": "// stack 2026",
+        "description": "Tylko najlepsze narzędzia. Zero PHP, zero WordPressa, zero template'ów. Edge-first, TypeScript strict.",
         "items": [
-          {
-            "name": "Next.js",
-            "icon": "Globe",
-            "category": "Frontend",
-            "description": "Framework React z SSG i SSR"
-          },
-          {
-            "name": "React 19",
-            "icon": "Code2",
-            "category": "Frontend",
-            "description": "Biblioteka UI z Server Components"
-          },
-          {
-            "name": "TypeScript",
-            "icon": "FileCode",
-            "category": "Frontend",
-            "description": "Typowany JavaScript — zero błędów"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "Palette",
-            "category": "Frontend",
-            "description": "Utility-first CSS framework"
-          },
-          {
-            "name": "Vercel",
-            "icon": "Cloud",
-            "category": "Hosting",
-            "description": "Edge hosting z globalnym CDN"
-          },
-          {
-            "name": "GitHub",
-            "icon": "GitBranch",
-            "category": "CI/CD",
-            "description": "Version control i CI/CD pipeline"
-          },
-          {
-            "name": "Cloudinary",
-            "icon": "Image",
-            "category": "Media",
-            "description": "CDN i optymalizacja obrazów"
-          },
-          {
-            "name": "Framer Motion",
-            "icon": "Sparkles",
-            "category": "Frontend",
-            "description": "Płynne animacje i przejścia"
-          },
-          {
-            "name": "Zod",
-            "icon": "ShieldCheck",
-            "category": "Backend",
-            "description": "Walidacja danych w runtime"
-          }
+          { "name": "Next.js", "icon": "Globe", "category": "Frontend", "description": "Framework React z SSG i SSR" },
+          { "name": "React 19", "icon": "Code2", "category": "Frontend", "description": "Biblioteka UI z Server Components" },
+          { "name": "TypeScript", "icon": "FileCode", "category": "Frontend", "description": "Typowany JavaScript — zero błędów" },
+          { "name": "Tailwind CSS", "icon": "Palette", "category": "Frontend", "description": "Utility-first CSS framework" },
+          { "name": "Vercel", "icon": "Cloud", "category": "Hosting", "description": "Edge hosting z globalnym CDN" },
+          { "name": "GitHub", "icon": "GitBranch", "category": "CI/CD", "description": "Version control i CI/CD pipeline" },
+          { "name": "Cloudinary", "icon": "Image", "category": "Media", "description": "CDN i optymalizacja obrazów" },
+          { "name": "Framer Motion", "icon": "Sparkles", "category": "Frontend", "description": "Płynne animacje i przejścia" },
+          { "name": "Zod", "icon": "ShieldCheck", "category": "Backend", "description": "Walidacja danych w runtime" }
         ]
       }
     },
@@ -475,8 +366,8 @@
       "slice_type": "agency_pricing_cards",
       "variation": "default",
       "primary": {
-        "title": "Pakiety cenowe",
-        "description": "Wybierz plan idealnie dopasowany do Twojego biznesu. Każdy pakiet zawiera pełne wsparcie zespołu MazCode."
+        "title": "// pricing",
+        "description": "Fixed-price, zero niespodzianek. Trzy pakiety, jeden efekt — realny wzrost przychodów."
       },
       "items": [
         {
@@ -535,8 +426,8 @@
       "slice_type": "agency_guarantees",
       "variation": "default",
       "primary": {
-        "title": "Nasze gwarancje",
-        "description": "Pracujemy transparentnie i dajemy Ci pewność, że inwestycja się opłaci.",
+        "title": "// guarantees",
+        "description": "Cztery gwarancje w umowie. Nie buzzwordy — konkretne zapisy, do wykorzystania.",
         "guarantees": [
           {
             "icon": "BadgeCheck",
@@ -565,8 +456,8 @@
       "slice_type": "agency_faq",
       "variation": "default",
       "primary": {
-        "title": "Najczęściej zadawane pytania",
-        "description": "Odpowiedzi na pytania, które słyszymy najczęściej od naszych klientów."
+        "title": "// faq",
+        "description": "Najczęstsze pytania z ostatnich 20 rozmów. Jeśli Twoje nie ma — napisz."
       },
       "items": [
         {
@@ -595,23 +486,12 @@
       "slice_type": "agency_glow_cta",
       "variation": "default",
       "primary": {
-        "title": "Gotowy na stronę, która naprawdę działa?",
-        "description": "Dołącz do ponad 150 firm, które zaufały MazCode. Twoja nowa strona czeka.",
-        "cta_text": "Rozpocznij projekt",
-        "cta_link": {
-          "url": "/kontakt"
-        },
-        "glow_color": "#6366f1"
+        "title": "Gotów na deploy?",
+        "description": "Darmowy 20-minutowy audyt Twojej obecnej strony. Dostaniesz listę 5–15 konkretnych rzeczy do naprawy. Bez zobowiązań, bez 'prześlemy ofertę mailem'. Konkret.",
+        "cta_text": "[ zarezerwuj audit ]",
+        "cta_link": { "url": "/kontakt" },
+        "glow_color": "#9eff00"
       }
     }
-  ],
-  "metadata": {
-    "metaTitle": "",
-    "metaDescription": "",
-    "metaImage": "",
-    "ogImage": "",
-    "robots": "",
-    "keywords": "",
-    "canonicalUrl": ""
-  }
+  ]
 }

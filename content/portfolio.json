@@ -3,18 +3,27 @@
   "status": "published",
   "path": "/portfolio",
   "publishedAt": "2026-04-07T00:00:00Z",
-  "metaTitle": "Portfolio — MazCode Web Agency",
-  "metaDescription": "Zobacz nasze realizacje — strony internetowe, sklepy online, aplikacje webowe.",
+  "metaTitle": "Portfolio — MazCode | Case studies + proof",
+  "metaDescription": "47 zrealizowanych projektów. Średni wzrost konwersji +187%. Zobacz case studies z twardymi danymi — nie marketing, tylko liczby.",
   "slices": [
     {
-      "slice_type": "agency_minimal_hero",
+      "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "label": "Portfolio",
-        "title": "Nasze realizacje",
-        "subtitle": "Projekty, które zbudowaliśmy dla naszych klientów — od stron firmowych po zaawansowane aplikacje webowe. Każdy projekt to unikalne rozwiązanie dopasowane do potrzeb biznesu.",
-        "cta_text": "Rozpocznij swój projekt",
-        "cta_link": { "url": "/kontakt" }
+        "title": "Case studies. Numbers. Proof.",
+        "subtitle": "Nie pokażemy Ci 'ładnych screenshotów'. Pokażemy Ci wzrost leadów, spadek LCP, wzrost konwersji — w procentach, w twardych liczbach, zweryfikowane przez klienta.",
+        "cta_text": "[ rozpocznij projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "terminal_lines": [
+          { "line": "$ mazcode portfolio --list --sort=impact" },
+          { "line": "> 01 exura-ortho       leads  +342%" },
+          { "line": "> 02 wloszczynski       zap.   +350%" },
+          { "line": "> 03 styleshop         conv.  +240%" },
+          { "line": "> 04 fitzone-studio    form   +425%" },
+          { "line": "> 05 gastromax         rsvp   +180%" },
+          { "line": "> 06 eduplatform       signup +210%" },
+          { "line": "$ mazcode show --case next_" }
+        ]
       }
     },
     {
@@ -162,11 +171,11 @@
       "slice_type": "agency_glow_cta",
       "variation": "default",
       "primary": {
-        "title": "Masz pomysł na projekt? Porozmawiajmy!",
-        "description": "Dołącz do grona naszych zadowolonych klientów. Twoja nowa strona czeka na realizację.",
-        "cta_text": "Rozpocznij projekt",
+        "title": "Twój case study, za 14 dni.",
+        "description": "Dołącz do 47 firm, które mają twarde liczby w swoim portfolio. Pierwszy krok — darmowy 20-minutowy audyt.",
+        "cta_text": "[ init project ]",
         "cta_link": { "url": "/kontakt" },
-        "glow_color": "#6366f1"
+        "glow_color": "#9eff00"
       }
     }
   ]
