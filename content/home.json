@@ -11,59 +11,132 @@
       "variation": "default",
       "primary": {
         "breadcrumb_tags": [
-          { "label": "STATUS: READY", "variant": "acid" },
-          { "label": "SLOTS: 3/12 OPEN", "variant": "amber" },
-          { "label": "Q1 2026", "variant": "blood" }
+          {
+            "label": "STATUS: READY",
+            "variant": "acid"
+          },
+          {
+            "label": "SLOTS: 3/12 OPEN",
+            "variant": "amber"
+          },
+          {
+            "label": "Q1 2026",
+            "variant": "blood"
+          }
         ],
         "title_stroke": "STRONY, KTÓRE",
-        "title": "SPRZEDAJĄ PÓKI",
+        "title": "SPRZEDAJĄ GDY",
         "title_acid": "ŚPISZ",
         "subtitle": "Projektujemy i wdrażamy high-conversion websites dla firm, które traktują design jak broń. Średni wzrost konwersji +187% w 90 dni. Bez fluffu, bez template'ów, bez kompromisów.",
         "cta_text": "[ rozpocznij projekt ]",
-        "cta_link": { "url": "/kontakt" },
+        "cta_link": {
+          "url": "/kontakt"
+        },
         "cta_secondary_text": "zobacz case studies",
-        "cta_secondary_link": { "url": "/portfolio" },
+        "cta_secondary_link": {
+          "url": "/portfolio"
+        },
         "trust_text": "★★★★★ 4.97 / 47 opinii",
         "terminal_title": "~/mazcode/audit",
         "terminal_footer": "free 20-min diagnostic",
         "terminal_lines": [
-          { "line": "$ mazcode audit --url your-business.pl" },
-          { "line": "> Initializing diagnostic suite..." },
-          { "line": "> Lighthouse [ ▓▓▓▓▓▓▓▓░░ ] 82/100" },
-          { "line": "> Core Web Vitals LCP 4.2s  CLS 0.28" },
-          { "line": "> Conversion path broken (step 3→4)" },
-          { "line": "> Found 14 critical issues → fixable" },
-          { "line": "> Est. revenue lost / month: ≈ 24 000 PLN" },
-          { "line": "$ book --call free" }
+          {
+            "line": "$ mazcode audit --url your-business.pl"
+          },
+          {
+            "line": "> Initializing diagnostic suite..."
+          },
+          {
+            "line": "> Lighthouse [ ▓▓▓▓▓▓▓▓░░ ] 82/100"
+          },
+          {
+            "line": "> Core Web Vitals LCP 4.2s  CLS 0.28"
+          },
+          {
+            "line": "> Conversion path broken (step 3→4)"
+          },
+          {
+            "line": "> Found 14 critical issues → fixable"
+          },
+          {
+            "line": "> Est. revenue lost / month: ≈ 24 000 PLN"
+          },
+          {
+            "line": "$ book --call free"
+          }
         ]
       }
     },
     {
       "slice_type": "cyberdeck_ticker",
       "variation": "default",
-      "primary": { "speed": 38 },
+      "primary": {
+        "speed": 38
+      },
       "items": [
-        { "text": "next.js 16" },
-        { "text": "core web vitals" },
-        { "text": "+187% conversion avg" },
-        { "text": "ab-tested hero" },
-        { "text": "schema.org" },
-        { "text": "ga4 + posthog" },
-        { "text": "edge deploy" },
-        { "text": "a11y aa" },
-        { "text": "multi-language" },
-        { "text": "cms headless" }
+        {
+          "text": "next.js 16"
+        },
+        {
+          "text": "core web vitals"
+        },
+        {
+          "text": "+187% conversion avg"
+        },
+        {
+          "text": "ab-tested hero"
+        },
+        {
+          "text": "schema.org"
+        },
+        {
+          "text": "ga4 + posthog"
+        },
+        {
+          "text": "edge deploy"
+        },
+        {
+          "text": "a11y aa"
+        },
+        {
+          "text": "multi-language"
+        },
+        {
+          "text": "cms headless"
+        }
       ]
     },
     {
       "slice_type": "cyberdeck_metrics",
       "variation": "default",
-      "primary": { "title": "status report" },
+      "primary": {
+        "title": "status report"
+      },
       "items": [
-        { "label": "avg conv lift", "value": "+187", "unit": "%", "pattern": "0110101111" },
-        { "label": "delivery time", "value": 14, "unit": "dni", "pattern": "1100100111" },
-        { "label": "lighthouse", "value": 100, "unit": "/100", "pattern": "1110111111" },
-        { "label": "nps score", "value": "4.97", "unit": "/5", "pattern": "1011110111" }
+        {
+          "label": "avg conv lift",
+          "value": "+187",
+          "unit": "%",
+          "pattern": "0110101111"
+        },
+        {
+          "label": "delivery time",
+          "value": 14,
+          "unit": "dni",
+          "pattern": "1100100111"
+        },
+        {
+          "label": "lighthouse",
+          "value": 100,
+          "unit": "/100",
+          "pattern": "1110111111"
+        },
+        {
+          "label": "nps score",
+          "value": "4.97",
+          "unit": "/5",
+          "pattern": "1011110111"
+        }
       ]
     },
     {
@@ -80,45 +153,75 @@
           "name": "MVP Strona Firmowa",
           "description": "14-dniowy sprint do pełnej, zoptymalizowanej, indeksowalnej strony. Dla startupów, które muszą ruszyć wczoraj.",
           "features": [
-            { "text": "5 podstron + blog" },
-            { "text": "Formularz + CRM hook" },
-            { "text": "100/100 core web vitals" },
-            { "text": "1 miesiąc hostingu gratis" }
+            {
+              "text": "5 podstron + blog"
+            },
+            {
+              "text": "Formularz + CRM hook"
+            },
+            {
+              "text": "100/100 core web vitals"
+            },
+            {
+              "text": "1 miesiąc hostingu gratis"
+            }
           ],
           "price": "4 900",
           "unit": "PLN",
           "cta_text": "wybierz",
-          "cta_link": { "url": "/kontakt" }
+          "cta_link": {
+            "url": "/kontakt"
+          }
         },
         {
           "code": "02 / scale",
           "name": "Growth Website",
           "description": "Multi-locale, CMS, integracje, A/B testing, analytics stack. Dla firm, które chcą mierzyć każdy klik.",
           "features": [
-            { "text": "Headless CMS (edycja w minutę)" },
-            { "text": "Integracje: Stripe, HubSpot, Slack" },
-            { "text": "Analytics: GA4 + PostHog + Hotjar" },
-            { "text": "3 miesiące support" }
+            {
+              "text": "Headless CMS (edycja w minutę)"
+            },
+            {
+              "text": "Integracje: Stripe, HubSpot, Slack"
+            },
+            {
+              "text": "Analytics: GA4 + PostHog + Hotjar"
+            },
+            {
+              "text": "3 miesiące support"
+            }
           ],
           "price": "14 900",
           "unit": "PLN",
           "cta_text": "wybierz",
-          "cta_link": { "url": "/kontakt" }
+          "cta_link": {
+            "url": "/kontakt"
+          }
         },
         {
           "code": "03 / custom",
           "name": "Bespoke Platform",
           "description": "Dedykowana aplikacja, panel klienta, automatyzacje, AI content pipeline. Dla firm, które potrzebują realnej przewagi.",
           "features": [
-            { "text": "UX audit + research" },
-            { "text": "Custom backend + auth" },
-            { "text": "AI copywriter + SEO agent" },
-            { "text": "SLA + on-call support" }
+            {
+              "text": "UX audit + research"
+            },
+            {
+              "text": "Custom backend + auth"
+            },
+            {
+              "text": "AI copywriter + SEO agent"
+            },
+            {
+              "text": "SLA + on-call support"
+            }
           ],
           "price": "od 34k",
           "unit": "PLN",
           "cta_text": "rozmowa",
-          "cta_link": { "url": "/kontakt" }
+          "cta_link": {
+            "url": "/kontakt"
+          }
         }
       ]
     },
@@ -168,11 +271,24 @@
         "title_suffix": "?",
         "description": "Darmowy 20-minutowy audit Twojej obecnej strony. Dostaniesz listę 5–15 konkretnych rzeczy do naprawy. Bez zobowiązań, bez 'prześlemy ofertę mailem'. Konkret.",
         "cta_text": "[ zarezerwuj audit ]",
-        "cta_link": { "url": "/kontakt" },
+        "cta_link": {
+          "url": "/kontakt"
+        },
         "cta_secondary_text": "napisz: hi@mazcode.pl",
-        "cta_secondary_link": { "url": "mailto:mazcom.kontakt@gmail.com" },
+        "cta_secondary_link": {
+          "url": "mailto:mazcom.kontakt@gmail.com"
+        },
         "trust_text": "zwykle odpowiadamy w 2h"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
 }
