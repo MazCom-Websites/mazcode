@@ -10,10 +10,22 @@
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Strony, które sprzedają póki śpisz.",
+        "breadcrumb_tags": [
+          { "label": "STATUS: READY", "variant": "acid" },
+          { "label": "SLOTS: 3/12 OPEN", "variant": "amber" },
+          { "label": "Q1 2026", "variant": "blood" }
+        ],
+        "title_stroke": "STRONY, KTÓRE",
+        "title": "SPRZEDAJĄ PÓKI",
+        "title_acid": "ŚPISZ",
         "subtitle": "Projektujemy i wdrażamy high-conversion websites dla firm, które traktują design jak broń. Średni wzrost konwersji +187% w 90 dni. Bez fluffu, bez template'ów, bez kompromisów.",
-        "cta_text": "[ init project ]",
+        "cta_text": "[ rozpocznij projekt ]",
         "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz case studies",
+        "cta_secondary_link": { "url": "/portfolio" },
+        "trust_text": "★★★★★ 4.97 / 47 opinii",
+        "terminal_title": "~/mazcode/audit",
+        "terminal_footer": "free 20-min diagnostic",
         "terminal_lines": [
           { "line": "$ mazcode audit --url your-business.pl" },
           { "line": "> Initializing diagnostic suite..." },
