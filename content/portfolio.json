@@ -11,42 +11,93 @@
       "variation": "default",
       "primary": {
         "breadcrumb_tags": [
-          { "label": "03 / CASE STUDIES", "variant": "acid" },
-          { "label": "47 SHIPPED", "variant": "amber" },
-          { "label": "+187% AVG LIFT", "variant": "blood" }
+          {
+            "label": "03 / CASE STUDIES",
+            "variant": "acid"
+          },
+          {
+            "label": "47 SHIPPED",
+            "variant": "amber"
+          },
+          {
+            "label": "+187% AVG LIFT",
+            "variant": "blood"
+          }
         ],
         "title_stroke": "CASE STUDIES.",
         "title": "NUMBERS.",
         "title_acid": "PROOF.",
         "subtitle": "Nie pokażemy Ci 'ładnych screenshotów'. Pokażemy Ci wzrost leadów, spadek LCP, wzrost konwersji — w procentach, w twardych liczbach, zweryfikowane przez klienta.",
         "cta_text": "[ rozpocznij projekt ]",
-        "cta_link": { "url": "/kontakt" },
+        "cta_link": {
+          "url": "/kontakt"
+        },
         "cta_secondary_text": "oferta",
-        "cta_secondary_link": { "url": "/uslugi" },
+        "cta_secondary_link": {
+          "url": "/uslugi"
+        },
         "trust_text": "47 projektów · 0 refundów",
         "terminal_title": "~/mazcode/portfolio",
         "terminal_footer": "verified impact · q1 2024 — q4 2025",
         "terminal_lines": [
-          { "line": "$ mazcode portfolio --list --sort=impact" },
-          { "line": "> 01 exura-ortho       leads  +342%" },
-          { "line": "> 02 wloszczynski       zap.   +350%" },
-          { "line": "> 03 styleshop         conv.  +240%" },
-          { "line": "> 04 fitzone-studio    form   +425%" },
-          { "line": "> 05 gastromax         rsvp   +180%" },
-          { "line": "> 06 eduplatform       signup +210%" },
-          { "line": "$ mazcode show --case next_" }
+          {
+            "line": "$ mazcode portfolio --list --sort=impact"
+          },
+          {
+            "line": "> 01 exura-ortho       leads  +342%"
+          },
+          {
+            "line": "> 02 wloszczynski       zap.   +350%"
+          },
+          {
+            "line": "> 03 styleshop         conv.  +240%"
+          },
+          {
+            "line": "> 04 fitzone-studio    form   +425%"
+          },
+          {
+            "line": "> 05 gastromax         rsvp   +180%"
+          },
+          {
+            "line": "> 06 eduplatform       signup +210%"
+          },
+          {
+            "line": "$ mazcode show --case next_"
+          }
         ]
       }
     },
     {
       "slice_type": "cyberdeck_metrics",
       "variation": "default",
-      "primary": { "title": "impact summary" },
+      "primary": {
+        "title": "impact summary"
+      },
       "items": [
-        { "label": "projects shipped", "value": 47, "unit": "", "pattern": "1011110111" },
-        { "label": "avg conv lift", "value": "+187", "unit": "%", "pattern": "0110101111" },
-        { "label": "avg lcp drop", "value": "-68", "unit": "%", "pattern": "1100110111" },
-        { "label": "clients retained", "value": 94, "unit": "%", "pattern": "1111101011" }
+        {
+          "label": "projects shipped",
+          "value": 47,
+          "unit": "",
+          "pattern": "1011110111"
+        },
+        {
+          "label": "avg conv lift",
+          "value": "+187",
+          "unit": "%",
+          "pattern": "0110101111"
+        },
+        {
+          "label": "avg lcp drop",
+          "value": "-68",
+          "unit": "%",
+          "pattern": "1100110111"
+        },
+        {
+          "label": "clients retained",
+          "value": 94,
+          "unit": "%",
+          "pattern": "1111101011"
+        }
       ]
     },
     {
@@ -64,7 +115,10 @@
           "client": "exura-ortho",
           "title": "Klinika Exura Ortho",
           "description": "Strona kliniki ortopedycznej z systemem rezerwacji online, blogiem eksperckim i katalogiem zabiegów.",
-          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=EXURA", "alt": "Exura Ortho" },
+          "image": {
+            "url": "https://placehold.co/800x500/060807/9eff00?text=EXURA",
+            "alt": "Exura Ortho"
+          },
           "metric_value": "+342%",
           "metric_label": "wzrost leadów",
           "metric_2_value": "0.8s",
@@ -72,76 +126,6 @@
           "tech_stack": "Next.js · TypeScript · Tailwind · Stripe",
           "category": "Healthcare",
           "url": "https://exura-ortho.pl"
-        },
-        {
-          "code": "02",
-          "client": "wloszczynski",
-          "title": "Kancelaria Włoszczyński",
-          "description": "Elegancka strona notariatu z bazą aktów prawnych i systemem rezerwacji spotkań.",
-          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=W%C5%81OSZCZY%C5%83SKI", "alt": "Kancelaria Włoszczyński" },
-          "metric_value": "+350%",
-          "metric_label": "zapytania online",
-          "metric_2_value": "Top 3",
-          "metric_2_label": "google local",
-          "tech_stack": "Next.js · MDX · Framer",
-          "category": "Prawo",
-          "url": "https://wloszczynski-notariusz.pl"
-        },
-        {
-          "code": "03",
-          "client": "styleshop",
-          "title": "StyleShop E-commerce",
-          "description": "Kompleksowy redesign sklepu z modą — optymalizacja konwersji i wydajności.",
-          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=STYLESHOP", "alt": "StyleShop" },
-          "metric_value": "+240%",
-          "metric_label": "konwersja",
-          "metric_2_value": "-52%",
-          "metric_2_label": "bounce rate",
-          "tech_stack": "Next.js · Stripe · Sanity",
-          "category": "E-commerce",
-          "url": "/kontakt"
-        },
-        {
-          "code": "04",
-          "client": "fitzone",
-          "title": "FitZone Studio",
-          "description": "Strona studia fitness z kalendarzem zajęć, rezerwacjami i panelem trenerskim.",
-          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=FITZONE", "alt": "FitZone Studio" },
-          "metric_value": "+425%",
-          "metric_label": "formularze",
-          "metric_2_value": "3.5×",
-          "metric_2_label": "ruch organic",
-          "tech_stack": "React · Node · Postgres",
-          "category": "Fitness",
-          "url": "/kontakt"
-        },
-        {
-          "code": "05",
-          "client": "gastromax",
-          "title": "GastroMax Restauracja",
-          "description": "System rezerwacji stolików + menu online + integracja z POS dla sieci 3 lokali.",
-          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=GASTROMAX", "alt": "GastroMax" },
-          "metric_value": "+180%",
-          "metric_label": "rezerwacje",
-          "metric_2_value": "1.1s",
-          "metric_2_label": "LCP",
-          "tech_stack": "Next.js · Supabase · Resend",
-          "category": "Gastronomia",
-          "url": "/kontakt"
-        },
-        {
-          "code": "06",
-          "client": "eduplatform",
-          "title": "EduPlatform LMS",
-          "description": "Platforma edukacyjna z kursami online, quizami i systemem płatności subskrypcyjnych.",
-          "image": { "url": "https://placehold.co/800x500/060807/9eff00?text=EDUPLATFORM", "alt": "EduPlatform" },
-          "metric_value": "+210%",
-          "metric_label": "signupy",
-          "metric_2_value": "+68%",
-          "metric_2_label": "retention",
-          "tech_stack": "Next.js · Stripe · Prisma",
-          "category": "Edukacja",
-          "url": "/kontakt"
         }
       ]
     },
@@ -154,11 +138,24 @@
         "title_suffix": "?",
         "description": "Mamy 3 wolne sloty na Q1 2026. Umów darmowy audit, sprawdź, czy pasujemy. Bez presji, bez zobowiązań.",
         "cta_text": "[ rozmowa 20 min ]",
-        "cta_link": { "url": "/kontakt" },
+        "cta_link": {
+          "url": "/kontakt"
+        },
         "cta_secondary_text": "zobacz cennik",
-        "cta_secondary_link": { "url": "/cennik" },
+        "cta_secondary_link": {
+          "url": "/cennik"
+        },
         "trust_text": "3 sloty Q1 · odpowiadamy w 2h"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
 }
