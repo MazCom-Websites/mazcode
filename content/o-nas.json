@@ -10,10 +10,22 @@
       "slice_type": "agency_dark_hero",
       "variation": "default",
       "primary": {
-        "title": "Sześć lat. 47 projektów. Zero kompromisów.",
+        "breadcrumb_tags": [
+          { "label": "04 / STUDIO", "variant": "acid" },
+          { "label": "6 YEARS", "variant": "amber" },
+          { "label": "47 PROJECTS", "variant": "blood" }
+        ],
+        "title_stroke": "SZEŚĆ LAT.",
+        "title": "47 PROJEKTÓW.",
+        "title_acid": "ZERO KOMPROMISÓW.",
         "subtitle": "Jesteśmy małym zespołem pracującym tylko z firmami, które traktują design jak broń. Nie bierzemy więcej niż 12 projektów rocznie. Nie używamy template'ów. Nie dostarczamy 'OK'. Dostarczamy przewagę.",
         "cta_text": "[ porozmawiajmy ]",
         "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "portfolio",
+        "cta_secondary_link": { "url": "/portfolio" },
+        "trust_text": "★★★★★ 4.97 / 47 opinii",
+        "terminal_title": "~/mazcode/whoami",
+        "terminal_footer": "kraków · pl · since 2020",
         "terminal_lines": [
           { "line": "$ mazcode whoami" },
           { "line": "> team         3 engineers + 1 designer" },
