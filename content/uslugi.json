@@ -41,152 +41,162 @@
       }
     },
     {
-      "slice_type": "agency_services_list",
+      "slice_type": "cyberdeck_pricing",
       "variation": "default",
       "primary": {
-        "title": "Co możemy dla Ciebie zrobić",
-        "description": "Pełen zakres usług web development — od projektu po wdrożenie i utrzymanie."
+        "eyebrow": "// modules",
+        "title": "Trzy pakiety",
+        "meta_text": "fixed-price · umowa · deadline"
       },
       "items": [
         {
-          "icon": "Globe",
-          "title": "Strony internetowe",
-          "description": "Responsywne, szybkie strony firmowe i landing page w Next.js z CMS.",
-          "price_from": "od 4 900 zł",
-          "features": ["SSG/SSR", "CMS", "SEO", "Formularze"]
+          "code": "01 / launch",
+          "name": "MVP Strona Firmowa",
+          "description": "14-dniowy sprint do pełnej, zoptymalizowanej, indeksowalnej strony. Dla startupów, które muszą ruszyć wczoraj.",
+          "features": [
+            { "text": "5 podstron + blog" },
+            { "text": "Formularz + CRM hook" },
+            { "text": "100/100 core web vitals" },
+            { "text": "1 miesiąc hostingu gratis" }
+          ],
+          "price": "4 900",
+          "unit": "PLN",
+          "cta_text": "wybierz",
+          "cta_link": { "url": "/kontakt" }
         },
         {
-          "icon": "ShoppingCart",
-          "title": "Sklepy internetowe",
-          "description": "E-commerce z integracją płatności, koszykiem i panelem zarządzania.",
-          "price_from": "od 12 000 zł",
-          "features": ["Koszyk", "Płatności", "Magazyn", "Zamówienia"]
+          "code": "02 / scale",
+          "name": "Growth Website",
+          "description": "Multi-locale, CMS, integracje, A/B testing, analytics stack. Dla firm, które chcą mierzyć każdy klik.",
+          "features": [
+            { "text": "Headless CMS (edycja w minutę)" },
+            { "text": "Integracje: Stripe, HubSpot, Slack" },
+            { "text": "Analytics: GA4 + PostHog + Hotjar" },
+            { "text": "3 miesiące support" }
+          ],
+          "price": "14 900",
+          "unit": "PLN",
+          "cta_text": "wybierz",
+          "cta_link": { "url": "/kontakt" }
         },
         {
-          "icon": "Layers",
-          "title": "Aplikacje webowe",
-          "description": "Dedykowane aplikacje SaaS, dashboardy, panele klienta i systemy CRM.",
-          "price_from": "od 24 900 zł",
-          "features": ["Auth", "API", "Real-time", "Integracje"]
+          "code": "03 / custom",
+          "name": "Bespoke Platform",
+          "description": "Dedykowana aplikacja, panel klienta, automatyzacje, AI content pipeline. Dla firm, które potrzebują realnej przewagi.",
+          "features": [
+            { "text": "UX audit + research" },
+            { "text": "Custom backend + auth" },
+            { "text": "AI copywriter + SEO agent" },
+            { "text": "SLA + on-call support" }
+          ],
+          "price": "od 34k",
+          "unit": "PLN",
+          "cta_text": "rozmowa",
+          "cta_link": { "url": "/kontakt" }
+        }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// services",
+        "title": "Co",
+        "title_accent": "zrobimy",
+        "description": "Osiem rzeczy, które dostajesz z każdym pakietem — niezależnie od budżetu.",
+        "columns": "4"
+      },
+      "items": [
+        {
+          "code": "01",
+          "icon": "Palette",
+          "title": "Design UI/UX",
+          "description": "Custom design dopasowany do brandingu. Bez template'ów, bez stockowych elementów.",
+          "stat": "100%",
+          "stat_label": "custom"
         },
         {
+          "code": "02",
+          "icon": "Code2",
+          "title": "Development",
+          "description": "Next.js 16 + TypeScript + Tailwind 4. Strict type safety, zero 'any'.",
+          "stat": "TS",
+          "stat_label": "strict"
+        },
+        {
+          "code": "03",
           "icon": "Search",
-          "title": "SEO & Optymalizacja",
-          "description": "Audyt SEO, optymalizacja szybkości, Core Web Vitals i content strategy.",
-          "price_from": "od 1 500 zł/msc",
-          "features": ["Audyt", "Optymalizacja", "Raportowanie", "Content"]
+          "title": "SEO Technical",
+          "description": "Sitemap, robots, schema.org, OpenGraph, hreflang, Core Web Vitals 100/100.",
+          "stat": "100",
+          "stat_label": "lighthouse"
         },
         {
-          "icon": "Wrench",
-          "title": "Utrzymanie & Support",
-          "description": "Regularne aktualizacje, monitoring, backupy i wsparcie techniczne 24/7.",
-          "price_from": "od 500 zł/msc",
-          "features": ["Aktualizacje", "Monitoring", "Backup", "SLA"]
-        }
-      ]
-    },
-    {
-      "slice_type": "agency_tech_advantages",
-      "variation": "default",
-      "primary": {
-        "title": "Przewagi technologiczne MazCode",
-        "description": "Dlaczego nasze podejście technologiczne przekłada się na realne korzyści biznesowe."
-      },
-      "items": [
-        {
-          "icon": "Zap",
-          "title": "Błyskawiczna szybkość",
-          "description": "Static Site Generation oznacza czas ładowania poniżej 1 sekundy. Google to nagradza wyższymi pozycjami.",
-          "stat": "< 1s",
-          "stat_label": "Czas ładowania"
+          "code": "04",
+          "icon": "Rocket",
+          "title": "Deploy + Hosting",
+          "description": "Vercel Edge, CI/CD, automatic previews, rollback w 1 kliknięcie.",
+          "stat": "edge",
+          "stat_label": "global"
         },
         {
+          "code": "05",
+          "icon": "Bot",
+          "title": "AI Content",
+          "description": "Automatyczne generowanie copy, SEO, tłumaczeń przez Claude Sonnet.",
+          "stat": "claude",
+          "stat_label": "sonnet"
+        },
+        {
+          "code": "06",
           "icon": "Shield",
-          "title": "Maksymalne bezpieczeństwo",
-          "description": "Brak bazy danych, PHP ani CMS-a na serwerze. Statyczne pliki eliminują wektory ataku.",
-          "stat": "0",
-          "stat_label": "Podatności"
+          "title": "Security",
+          "description": "SSL, HSTS, CSP, rate limiting, Auth0, OWASP Top 10 compliance.",
+          "stat": "A+",
+          "stat_label": "ssl labs"
         },
         {
-          "icon": "TrendingUp",
-          "title": "SEO na sterydach",
-          "description": "SSG + Schema.org + Core Web Vitals = wyższe pozycje w Google bez dodatkowych kosztów.",
-          "stat": "98+",
-          "stat_label": "Lighthouse Score"
+          "code": "07",
+          "icon": "BarChart3",
+          "title": "Analytics",
+          "description": "GA4, PostHog, Hotjar — funnele, heatmapy, session replay, A/B testing.",
+          "stat": "3",
+          "stat_label": "narzędzia"
         },
         {
-          "icon": "DollarSign",
-          "title": "Zero kosztów hostingu",
-          "description": "Hosting na Vercel lub GitHub Pages — 0 zł miesięcznie, nawet przy dużym ruchu.",
-          "stat": "0 zł",
-          "stat_label": "Hosting / miesiąc"
+          "code": "08",
+          "icon": "Headphones",
+          "title": "Support",
+          "description": "1–12 miesięcy support w cenie, w zależności od pakietu. Bez ticketów.",
+          "stat": "2h",
+          "stat_label": "avg reply"
         }
       ]
     },
     {
-      "slice_type": "agency_performance_metrics",
+      "slice_type": "cyberdeck_metrics",
       "variation": "default",
-      "primary": {
-        "title": "Wydajność, która robi różnicę",
-        "description": "Nasze strony osiągają najwyższe wyniki w testach Google Lighthouse i Core Web Vitals.",
-        "badge": "Performance"
-      },
+      "primary": { "title": "delivery guarantees" },
       "items": [
-        {
-          "metric": "Performance",
-          "score": 98,
-          "description": "Szybkość ładowania i responsywność",
-          "icon": "Zap",
-          "color": "green"
-        },
-        {
-          "metric": "Accessibility",
-          "score": 100,
-          "description": "Dostępność dla wszystkich użytkowników",
-          "icon": "Accessibility",
-          "color": "green"
-        },
-        {
-          "metric": "Best Practices",
-          "score": 100,
-          "description": "Zgodność z najlepszymi praktykami",
-          "icon": "Shield",
-          "color": "green"
-        },
-        {
-          "metric": "SEO",
-          "score": 100,
-          "description": "Optymalizacja pod wyszukiwarki",
-          "icon": "Search",
-          "color": "green"
-        },
-        {
-          "metric": "LCP",
-          "score": 1.2,
-          "unit": "s",
-          "description": "Largest Contentful Paint",
-          "icon": "Clock",
-          "threshold": "< 2.5s"
-        },
-        {
-          "metric": "CLS",
-          "score": 0.01,
-          "description": "Cumulative Layout Shift",
-          "icon": "Layers",
-          "threshold": "< 0.1"
-        }
+        { "label": "delivery time", "value": 14, "unit": "dni", "pattern": "1100100111" },
+        { "label": "on-time rate", "value": 100, "unit": "%", "pattern": "1111111111" },
+        { "label": "revisions", "value": 2, "unit": "rundy", "pattern": "1110100111" },
+        { "label": "support after", "value": 3, "unit": "mies", "pattern": "1011100111" }
       ]
     },
     {
-      "slice_type": "agency_contact_cta",
+      "slice_type": "cyberdeck_big_cta",
       "variation": "default",
       "primary": {
-        "title": "Który pakiet dla Ciebie?",
-        "description": "Nie zgadujmy. Umów darmowy 20-min audit — pokażemy Ci konkretnie, który pakiet pasuje do Twojego biznesu i dlaczego. Zero push sellingu.",
-        "cta_text": "[ umów 20-min audit ]",
+        "title": "GOTÓW",
+        "title_big": "ZAMÓWIĆ",
+        "title_suffix": "?",
+        "description": "Umów darmowy 20-minutowy audit. Dobierzemy pakiet, pokażemy roadmapę i wycenę. Bez zobowiązań, bez pressure sales.",
+        "cta_text": "[ darmowy audit ]",
         "cta_link": { "url": "/kontakt" },
-        "phone": "+48 503 401 451",
-        "email": "mazcom.kontakt@gmail.com"
+        "cta_secondary_text": "porównaj pakiety",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "3 sloty Q1 · odp. w 2h"
       }
     }
   ]
