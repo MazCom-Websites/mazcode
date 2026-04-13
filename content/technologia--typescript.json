@@ -19,7 +19,7 @@
         "title_stroke": "TYPESCRIPT 5.",
         "title": "STRICT MODE.",
         "title_acid": "ZERO ANY.",
-        "subtitle": "Każda linia kodu jest typowana. Zero 'any', pełna inferencja, strict null checks. Zod waliduje dane w runtime — TypeScript w compile time. Podwójne bezpieczeństwo.",
+        "subtitle": "487 plików TypeScript przechodzi przez `tsc --strict` z zerem błędów i zerem `any`. Strict mode to nie kwestia preferencji — to 9 flag kompilatora, które razem eliminują całą klasę błędów runtime zanim kod dotrze do przeglądarki. Zod 4 domyka pętlę: runtime validation z automatyczną inferencją typów z jednej definicji schematu.",
         "cta_text": "[ porozmawiajmy ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "wróć do stacku",
@@ -44,7 +44,7 @@
         "eyebrow": "// overview",
         "title": "Type safety bez",
         "title_accent": "kompromisów",
-        "body": "W MazCode każda linia kodu jest objęta TypeScript strict mode. To nie jest 'włączony TypeScript z milionem as any' — to pełna inferencja typów, strict null checks, noImplicitAny, exactOptionalPropertyTypes.\n\nZod 4 uzupełnia TypeScript o runtime validation. Schematy walidują dane z formularzy, API, CMS — a TypeScript automatycznie inferuje typy z Zod schematów. Jedna definicja, dwa poziomy bezpieczeństwa.\n\nRezultat? Bug'i łapiemy w IDE, zanim kod trafi do przeglądarki. Refactoring jest bezpieczny — zmiana interfejsu natychmiast podświetla wszystkie miejsca do aktualizacji.",
+        "body": "TypeScript bez strict mode to JavaScript z opcjonalnymi adnotacjami. Większość projektów włącza `typescript` w tsconfig ale zostawia `strict: false` — albo gorzej, tworzy wyjątki przez `// @ts-ignore` i `as any` wszędzie gdzie typy stają się trudne. Efekt: fałszywe poczucie bezpieczeństwa i błędy runtime, które TypeScript miał eliminować.\n\n`strict: true` to nie jedna flaga, to dziewięć. `noImplicitAny` blokuje niejawne `any`. `strictNullChecks` wymusza obsługę `null` i `undefined` w każdym miejscu gdzie mogą wystąpić. `exactOptionalPropertyTypes` rozróżnia `{ field?: string }` od `{ field: string | undefined }` — to różnica między polem nieistniejącym a polem istniejącym z wartością undefined. `noUncheckedIndexedAccess` sprawia że każdy dostęp przez indeks zwraca `T | undefined` zamiast `T`. W MazCode wszystkie dziewięć flag włączone, 487 plików, zero tolerancji.\n\nZod 4 zamyka lukę między compile time a runtime. TypeScript sprawdza typy podczas kompilacji, ale w runtime dane z formularzy, API i CMS są `unknown`. Zod schema to pojedyncza definicja z której TypeScript inferencją wyciąga typ: `const schema = z.object({ name: z.string(), age: z.number() })` i `type Data = z.infer<typeof schema>` — jeden source of truth dla struktury danych. Dane niewalidowane nie przechodzą przez granicę do logiki aplikacji.\n\nDiscriminated unions to wzorzec, który eliminuje całą kategorię błędów obsługi stanu. Zamiast `{ status: string, data?: User, error?: string }` — `{ status: 'ok', data: User } | { status: 'error', error: string }`. TypeScript narrowing w gałęzi `if (result.status === 'ok')` automatycznie zawęża typ do pierwszej odmiany — kompilator wie, że `result.data` istnieje i ma typ `User`. Bez rzutowań, bez optional chaining, bez defensywnych sprawdzeń.\n\nTemplate literal types i const assertions dają TypeScript możliwości bliskie dependent types. `type Route = '/admin/' + string` w formie template literal to typ string z walidowanym prefiksem — kompilator odrzuca dowolny string niespełniający wzorca. `const ROLES = ['owner', 'admin', 'editor'] as const` daje `typeof ROLES[number]` jako union type zamiast luźnego `string` — i każde miejsce w kodzie które akceptuje rolę jest zwalidowane przez kompilator. W MazCode system RBAC z 4 rolami i 9 uprawnieniami jest w całości typowany przez const assertions — dodanie nowej roli bez aktualizacji wszystkich miejsc sprawdzania jest niemożliwe na etapie kompilacji.\n\nPraktyczny efekt dla developerów: IDE autocomplete działa w 100% przypadków, go-to-definition przechodzi przez granice plików i modułów, refactoring przez rename symbol aktualizuje wszystkie referencje. Koszt onboardingu nowego developera spada drastycznie — codebase jest samodokumentujący się przez typy. Koszt błędów produkcyjnych z błędnych założeń o kształcie danych: zero, bo kompilator nie pozwoli na deployment.\n\nDla klienta to oznacza: mniej bugów w produkcji, szybsze wdrożenie zmian, niższy koszt utrzymania na przestrzeni lat. Projekt z TypeScript strict mode po 2 latach ma tę samą przewidywalność co w tygodniu po launchu.",
         "sidebar_title": "quick facts",
         "sidebar_items": [
           { "label": "version", "value": "5.x" },
@@ -64,10 +64,10 @@
         "columns": "2"
       },
       "items": [
-        { "code": "01", "icon": "ShieldCheck", "title": "Zero Any", "description": "Ani jednego 'any' w codebase. Każdy typ jest jawny lub inferowany — zero backdoorów.", "stat": "0", "stat_label": "any types" },
-        { "code": "02", "icon": "Scan", "title": "Pełna Inferencja", "description": "TypeScript sam wnioskuje typy z kontekstu. Mniej boilerplate'u, więcej czytelności.", "stat": "auto", "stat_label": "inference" },
-        { "code": "03", "icon": "Lock", "title": "Zod Runtime Validation", "description": "Schematy Zod walidują dane w runtime i generują typy TS automatycznie. DRY.", "stat": "2x", "stat_label": "safety layers" },
-        { "code": "04", "icon": "Lightbulb", "title": "IDE Intelligence", "description": "Pełny autocomplete, go-to-definition, refactoring tools. IDE wie wszystko o typach.", "stat": "100%", "stat_label": "autocomplete" }
+        { "code": "01", "icon": "ShieldCheck", "title": "Zero Any", "description": "Strict mode z `noImplicitAny`, `strictNullChecks` i `exactOptionalPropertyTypes` — 487 plików TypeScript bez jednego `any`, bez `@ts-ignore`, bez rzutowań obejściowych. Każda ścieżka kodu jest typowana przez kompilator.", "stat": "0", "stat_label": "any types" },
+        { "code": "02", "icon": "Scan", "title": "Pełna Inferencja", "description": "TypeScript narrowing, discriminated unions, const assertions i template literal types zastępują ręczne adnotacje. Kompilator wnioskuje typy z kontekstu — mniej kodu, więcej gwarancji, pełny autocomplete w IDE.", "stat": "auto", "stat_label": "inference" },
+        { "code": "03", "icon": "Lock", "title": "Zod Runtime Validation", "description": "Schematy Zod 4 walidują dane z API, formularzy i CMS w runtime, a `z.infer<typeof schema>` generuje typy TypeScript automatycznie — jedna definicja jako source of truth dla compile time i runtime.", "stat": "2x", "stat_label": "safety layers" },
+        { "code": "04", "icon": "Lightbulb", "title": "IDE Intelligence", "description": "Pełny autocomplete, go-to-definition przez granice modułów, type-safe refactoring przez rename symbol. Codebase jest samodokumentujący się — onboarding nowego developera trwa godziny, nie tygodnie.", "stat": "100%", "stat_label": "autocomplete" }
       ]
     },
     {
@@ -77,7 +77,7 @@
         "title": "CHCESZ KOD BEZ",
         "title_big": "BUG'ÓW",
         "title_suffix": "?",
-        "description": "TypeScript strict mode + Zod runtime validation = kod, który nie pęknie w produkcji. Zero 'any', pełna inferencja, compile-time guarantees.",
+        "description": "487 plików TypeScript, strict mode, zero `any` — i każda zmiana w interfejsie natychmiast podświetla wszystkie miejsca wymagające aktualizacji. Bugów runtime z błędnych założeń o kształcie danych w produkcji: zero, bo kompilator nie pozwoli na deployment ze złymi typami.",
         "cta_text": "[ zamów projekt ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "zobacz cennik",

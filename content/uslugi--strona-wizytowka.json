@@ -22,7 +22,7 @@
         "title_stroke": "WIZYTÓWKA",
         "title": "ONLINE.",
         "title_acid": "PROFESJONALNA.",
-        "subtitle": "Gabinet lekarski, kancelaria, freelancer — potrzebujesz strony, która wygląda jak milion, ale kosztuje 2 500. Custom design, formularz kontaktowy, mapa, wizytówka Google.",
+        "subtitle": "Pacjent szuka dentysty. Google pokazuje Ci stronę z 1998 roku, bez numeru telefonu, bez mapy, bez informacji o godzinach. Szukająca osoba — Twoja przychód — trafia do konkurencji. Potrzebujesz profesjonalnej wizytówki online, która pracuje 24/7, bez że Ty coś robisz. Wygląda profesjonalnie, ale kosztuje 2 500 PLN, nie 25 000.",
         "cta_text": "[ zamów wizytówkę ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "wróć do oferty",
@@ -49,7 +49,7 @@
         "eyebrow": "// overview",
         "title": "Twoja firma",
         "title_accent": "w sieci",
-        "body": "Strona wizytówkowa to fundament obecności online. Nie musisz mieć sklepu ani bloga — ale musisz mieć miejsce, gdzie klient sprawdzi kim jesteś, co robisz i jak się z Tobą skontaktować.\n\n3-5 podstron: strona główna, o nas, usługi, kontakt z formularzem i mapą Google. Design dopasowany do Twojej branży — minimalistyczny dla kancelarii, ciepły dla gabinetu, odważny dla kreatywnych.\n\nOpcjonalnie: integracja z Google Business Profile, basic SEO, konfiguracja domeny. Wszystko w 7 dni roboczych, fixed-price, bez ukrytych kosztów.",
+        "body": "Pacjent/klient trafia na Google ze słowami 'dentysta warszawa' lub 'kancelaria podatkowa łódź'. Pokazuje Ci — lub konkurencji. Jeśli tam jest Twoja wizytówka, konwertuje się sám. Jeśli tam nic nie ma, straciłeś zanim nawet nie wiesz.\n\nWizytówka online to 3-5 podstron: home (hero z zdjęciem/branding), usługi (co robisz, dla kogo), o mnie/nas (dlaczego Ciebie wybierać), galeria (jeśli branża to wymaga — wnętrza, prace), kontakt (formularz + mapa Google + telefon). Design dopasowany do emocji Twojej branży — minimalistyczny dla notariusza, medyczny dla dentysty, kreatywny dla fotografa. Pixel-perfect na telefonie, bo tam szukają Cię klienci.\n\nIntegracja z Google Business Profile — pojawiasz się w Knowledge Panel, w mapach, w reviews. Basic SEO: meta tagi, schema.org LocalBusiness (nazwa, adres, telefon, godziny), OpenGraph. Bez kosztów utrzymania. Wszystko w 7 dni roboczych, fixed-price w umowie.",
         "sidebar_title": "quick facts",
         "sidebar_items": [
           { "label": "cena", "value": "od 2 500 PLN" },
@@ -70,11 +70,11 @@
         "columns": "2"
       },
       "items": [
-        { "code": "01", "icon": "Palette", "title": "Custom design", "description": "Projekt dopasowany do Twojej branży i brandingu. Zero gotowych templatów.", "stat": "100%", "stat_label": "custom" },
-        { "code": "02", "icon": "Mail", "title": "Formularz kontaktowy", "description": "Z walidacją, auto-reply emailem i powiadomieniem na Twoją skrzynkę.", "stat": "auto", "stat_label": "reply" },
-        { "code": "03", "icon": "MapPin", "title": "Google Maps", "description": "Interaktywna mapa z lokalizacją firmy. Pin z adresem i dojazdem.", "stat": "pin", "stat_label": "location" },
-        { "code": "04", "icon": "Smartphone", "title": "Mobile-first", "description": "Responsywny design zoptymalizowany pod telefony — bo tam są Twoi klienci.", "stat": "100%", "stat_label": "responsive" },
-        { "code": "05", "icon": "Search", "title": "Basic SEO", "description": "Meta tagi, schema.org, OpenGraph, sitemap — gotowe do indeksowania.", "stat": "SEO", "stat_label": "ready" }
+        { "code": "01", "icon": "Palette", "title": "Custom design", "description": "Projekt zoptymalizowany do emocji Twojej branży (medyczny, notarialny, kreatywny). Nie będę Ci wpychać numer 47 z templatkowego tema.", "stat": "100%", "stat_label": "custom" },
+        { "code": "02", "icon": "Mail", "title": "Formularz + maila", "description": "Walidacja real-time, auto-reply do klienta, powiadomienie na Twoją skrzynkę. Integruje się z zapier, zippier, czy jakim masz CRM.", "stat": "auto", "stat_label": "reply" },
+        { "code": "03", "icon": "MapPin", "title": "Google Maps embed", "description": "Mapa z Twoją lokalizacją, pin z adresem/telefonem, możliwość prowadzenia do nawigacji. Integruje się z Google Business Profile.", "stat": "pin", "stat_label": "location" },
+        { "code": "04", "icon": "Smartphone", "title": "Mobile-first", "description": "Responsywny na każdym telefonie — przegląda Cię pacjent w czekalni na Aparat. Czytelny tekst, duże buttony, szybkie ładowanie.", "stat": "100%", "stat_label": "responsive" },
+        { "code": "05", "icon": "Search", "title": "Local SEO (schema)", "description": "Schema.org LocalBusiness (nazwa, adres, telefon, godziny otwarcia), sitemap, meta tagi. Pojawiasz się w Knowledge Panel w Google.", "stat": "local", "stat_label": "seo" }
       ]
     },
     {
@@ -101,7 +101,7 @@
         "title": "POTRZEBUJESZ",
         "title_big": "WIZYTÓWKI",
         "title_suffix": "?",
-        "description": "Od 2 500 PLN, gotowa w 7 dni. Napisz — wrócimy z wyceną w 2 godziny.",
+        "description": "Od 2 500 PLN, gotowa w 7 dni roboczych. Bez CMS (edytujemy dla Ciebie), bez abonamentu. Domen, hostingu, SSL — wszystko w umowie. Napisz — wyceną w 2 godziny.",
         "cta_text": "[ zamów wizytówkę ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "porównaj moduły",

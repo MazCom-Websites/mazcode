@@ -22,7 +22,7 @@
         "title_stroke": "ENTERPRISE",
         "title": "SUITE.",
         "title_acid": "COMPLIANCE. SLA.",
-        "subtitle": "Multi-tenant architecture, RBAC z 8+ rolami, pełny audit trail, compliance RODO i SOC2. SLA 99.9% z monitoring i alerting. Enterprise-grade platforma dla organizacji, które nie mogą sobie pozwolić na downtime.",
+        "subtitle": "Dla organizacji 200+ osób, gdzie compliance officer pyta o SOC2, CISO wymaga pentestingu, CFO chce audit trail do każdej transakcji > 10k PLN. Multi-tenant z hard data isolation (Postgres schemas), RBAC 8+ ról, penetration testing, SLA 99.9% z on-call rotation, RODO + SOC2 ready.",
         "cta_text": "[ zamów enterprise ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "wróć do oferty",
@@ -50,7 +50,7 @@
         "eyebrow": "// overview",
         "title": "Enterprise",
         "title_accent": "bez kompromisów",
-        "body": "Enterprise Suite to platforma dla organizacji, gdzie bezpieczeństwo, compliance i uptime nie są nice-to-have — są wymogiem prawnym i biznesowym.\n\nMulti-tenant architecture z pełną izolacją danych między tenantami. RBAC z 8+ rolami i granularnymi uprawnieniami. Audit trail loguje każdą akcję — kto, co, kiedy, skąd.\n\nCompliance RODO (prawo do zapomnienia, eksport danych, consent management) i przygotowanie pod SOC2. SLA 99.9% z monitoring (Datadog/Sentry), alerting i on-call rotation.",
+        "body": "Twoja dotychczasowa infrastruktura to WordPress z 14 pluginami security. Compliance officer zapytał o RODO — nie wiesz po co zaczęło. Tester penetracyjny znalazł 23 vulnerability. CFO chce widoku na każdą transakcję > 10 tys zł — Excel z ręcznym loggingiem to nie compliance.\n\nEnterprise Suite to architektura zaprojektowana od podstaw pod wymagania regulacyjne. Multi-tenant — każdy tenant to odseparowana Postgres schema (nie logical partitioning z ryzykiem data leaks), own database encryption keys, own IP whitelisting rules, complete data isolation at the database level. Klient A nigdy nie widzi danych klienta B, nawet w logach.\n\nRBAC z 8+ rolami (Owner, Admin, Manager, Analyst, Approver, Viewer, Finance Officer, Compliance Officer) i granularnymi uprawnieniami na poziomie feature (canEditContent, canPublish, canDeletePages, canViewFinancials, canExport). Każda akcja — login, data change, export — tworzy wpis w immutable audit trail (user, role, action, timestamp, IP, geolocation, device fingerprint). Historyczne dane są read-only.\n\nCompliance RODO: Data subject access request (DSAR) — system automatycznie generuje export wszystkich danych o danej osobie. Right to erasure — GDPR-compliant deletion (soft-delete z flag'iem, hard-delete po 90 dniach, retention policies per data type). Consent management — każdy klient ma dashboard do zarządzania consentem. RODO audit trail w osobnym immutable log.\n\nSOC2 Type II readiness: penetration testing (quarterly), vulnerability scanning (weekly), incident response playbook, change management process, business continuity plan (backup/disaster recovery), employee training (security awareness). Datadog + Sentry monitoring 24/7 (error tracking, performance, security events). On-call rotation — średni response time 15 minut dla P1 incidents.\n\nSLA 99.9% (max 43 min/miesiąc downtime) z redundancy na multi-region deployment. Database replication (PostgreSQL streaming), load balancing (autoscaling), CDN dla assets (Cloudinary). Failover testing co miesiąc. Incident timeline — każdy outage to post-mortem raport z root cause analysis.\n\nTo dla healthcare (HIPAA-adjacent), fintech (PSD2, RODO), edtech (data student protection) — organizacji gdzie compliance to taki sam wymóg jak CPU/memory. Dla kogoś z audytami PwC/Deloitte co rok.",
         "sidebar_title": "quick facts",
         "sidebar_items": [
           { "label": "cena", "value": "od 89 000 PLN" },
@@ -71,11 +71,11 @@
         "columns": "2"
       },
       "items": [
-        { "code": "01", "icon": "Building2", "title": "Multi-tenant architecture", "description": "Izolacja danych, osobne konfiguracje, wspólny codebase.", "stat": "isolated", "stat_label": "tenants" },
-        { "code": "02", "icon": "Lock", "title": "RBAC z 8+ rolami", "description": "Granularne uprawnienia, MFA, session management, IP whitelist.", "stat": "8+", "stat_label": "ról" },
-        { "code": "03", "icon": "ScrollText", "title": "Audit trail + logging", "description": "Każda akcja logowana — kto, co, kiedy, IP, user agent.", "stat": "100%", "stat_label": "tracked" },
-        { "code": "04", "icon": "ShieldCheck", "title": "Compliance RODO + SOC2", "description": "Prawo do zapomnienia, eksport danych, consent management, polityki.", "stat": "RODO", "stat_label": "compliant" },
-        { "code": "05", "icon": "Activity", "title": "SLA 99.9% + monitoring", "description": "Uptime monitoring, Datadog/Sentry, alerting, on-call rotation.", "stat": "99.9%", "stat_label": "uptime" }
+        { "code": "01", "icon": "Building2", "title": "Multi-tenant architecture", "description": "Hard data isolation via Postgres schemas (not logical partitioning), per-tenant encryption keys, separate database permissions, complete query-level isolation, tenant-aware middleware.", "stat": "isolated", "stat_label": "tenants" },
+        { "code": "02", "icon": "Lock", "title": "RBAC z 8+ rolami", "description": "8 roles + granular permissions (canEditContent, canPublish, canDeletePages, canExport), MFA required, session timeout (15 min idle), IP whitelisting, device trust policy, passwordless login option.", "stat": "8+", "stat_label": "ról" },
+        { "code": "03", "icon": "ScrollText", "title": "Audit trail + logging", "description": "Immutable audit log (user, role, action, timestamp, IP, geolocation, device fingerprint), retention policies per data type, searchable by date/actor/action, export to SIEM systems (Splunk/ELK), forensics-ready.", "stat": "100%", "stat_label": "tracked" },
+        { "code": "04", "icon": "ShieldCheck", "title": "Compliance RODO + SOC2", "description": "DSAR automation (data subject access requests), right to erasure (soft/hard delete policies), consent management dashboard, SOC2 Type II audit-ready, penetration testing reports, incident response playbook, employee training.", "stat": "RODO", "stat_label": "compliant" },
+        { "code": "05", "icon": "Activity", "title": "SLA 99.9% + monitoring", "description": "Multi-region redundancy, database replication, auto-scaling load balancing, Datadog/Sentry monitoring, 24/7 on-call (avg response 15 min P1), monthly failover testing, post-mortem after each incident.", "stat": "99.9%", "stat_label": "uptime" }
       ]
     },
     {
@@ -104,7 +104,7 @@
         "title": "POTRZEBUJESZ",
         "title_big": "ENTERPRISE",
         "title_suffix": "?",
-        "description": "Od 89 000 PLN, gotowa w 8 tygodni. Multi-tenant, RBAC, compliance, SLA 99.9%. Napisz — umówimy discovery call z naszym architektem.",
+        "description": "Rozmowa z naszym architektem + Twoim CISO/compliance officer. Mapujemy regulatory requirements (RODO, SOC2, PSD2, branżowe), security architecture, penetration testing scope, timeline. Wszystko dokumentujemy w compliance roadmap.",
         "cta_text": "[ zamów enterprise ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "porównaj moduły",

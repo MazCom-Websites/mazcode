@@ -22,7 +22,7 @@
         "title_stroke": "SKLEP STARTER.",
         "title": "BEZ SHOPIFY.",
         "title_acid": "CUSTOM.",
-        "subtitle": "Prosty e-commerce z custom designem. Katalog produktów, koszyk, Stripe checkout — bez miesięcznych opłat platformowych. Do 50 produktów, gotowy w 21 dni.",
+        "subtitle": "Marka DTC, sprzedajesz przez Instagram, ale nie masz sklepu. Shopify bierze 2% od każdej transakcji — roczna sprzedaż 100k oznacza 2k PLN do Shopify zamiast Ciebie. Chcesz własny sklep bez prowizji platformowej, bez wybitego budżetu. Do 50 produktów, custom design, szybki jak landing page, niezawodny jak bank. Gotowy w 21 dni, fixed-price, bez rozmów.",
         "cta_text": "[ zamów sklep ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "wróć do oferty",
@@ -50,7 +50,7 @@
         "eyebrow": "// overview",
         "title": "E-commerce",
         "title_accent": "bez platform",
-        "body": "Shopify bierze prowizję od każdej transakcji. WooCommerce wymaga hostingu i ciągłych aktualizacji. Nasz Sklep Starter to custom e-commerce bez miesięcznych opłat platformowych.\n\nKatalog do 50 produktów z filtrami i wyszukiwarką. Koszyk z session storage, checkout przez Stripe — bezpieczny, szybki, zgodny z PSD2. Order management z powiadomieniami email.\n\nDesign dopasowany do Twojej marki. Szybki jak landing page, funkcjonalny jak sklep. Mobile-first, bo 65%+ zakupów online to mobile.",
+        "body": "Model ekonomiczny: Shopify 2% + Stripe ~1.5% = 3.5% od każdej sprzedaży. Sprzedajesz 1000 PLN dziennie — 35 PLN idzie Shopify zamiast Ciebie. Rocznie 12 800 PLN. WooCommerce rozwiązuje to innym kosztem: hosting (kilkaset/rok), pluginy (setki/rok), aktualizacje (ryzyka bezpieczeństwa). Czemu nie mieć sklepu bez zyskownika pośrodku?\n\nSklep Starter to custom e-commerce dla marca DTC. Katalog 50 produktów z wariantami (rozmiary, kolory), filtry (kategoria, cena, tag), wyszukiwarka. Każdy produkt: zdjęcia, opis, stock management. Koszyk z session storage (nawet jak zamknęło browser, koszyk wróci). Checkout przez Stripe — karty (wszystkie), BLIK, przelewy, 3D Secure (PSD2 compliant). Email transakcyjny: potwierdzenie zamówienia, zmiana statusu, shipping tracking. Order management panel: lista zamówień, statusy, eksport CSV, powiadomienia email.\n\nDesign fully custom — dopasowany do Twojej marki, nie do numer 47 z templatkowego tema. Mobile-first (65%+ zakupów to mobile), szybki (lighthouse 95+), zoptymalizowany pod konwersję. Zero kosztów per month, zero prowizji platformowych — płacisz raz (9 900 PLN), potem tylko Stripe fee (~1.5%) jak u każdego.\n\nSupport: 14 dni po launch — free fixes. Potem: buy-it-forward. Hosting na Vercel Edge, CDN global, HTTPS, backups — brak utrzymania z Twojej strony.\n\nDostarczone w 21 dni: audit (2 dni, ile produktów, jakie procesy), design UX (5 dni, katalog + koszyk + checkout), dev + Stripe (10 dni, produkcja kodu), testy i deploy (4 dni). Fixed-price w umowie.",
         "sidebar_title": "quick facts",
         "sidebar_items": [
           { "label": "cena", "value": "od 9 900 PLN" },
@@ -71,11 +71,11 @@
         "columns": "2"
       },
       "items": [
-        { "code": "01", "icon": "Package", "title": "Katalog produktów", "description": "Do 50 produktów z wariantami, filtrami i wyszukiwarką.", "stat": "50", "stat_label": "produktów" },
-        { "code": "02", "icon": "ShoppingCart", "title": "Koszyk + checkout", "description": "Session-based koszyk, Stripe Checkout z 3D Secure i PSD2.", "stat": "PSD2", "stat_label": "compliant" },
-        { "code": "03", "icon": "CreditCard", "title": "Stripe payments", "description": "Karty, BLIK, przelewy. Bezpieczne, szybkie, bez prowizji platformowej.", "stat": "0%", "stat_label": "nasza prowizja" },
-        { "code": "04", "icon": "ClipboardList", "title": "Order management", "description": "Panel zamówień z statusami, filtrami i eksportem CSV.", "stat": "admin", "stat_label": "panel" },
-        { "code": "05", "icon": "Mail", "title": "Email transakcyjny", "description": "Potwierdzenie zamówienia, zmiana statusu, powiadomienia dla admina.", "stat": "auto", "stat_label": "email" }
+        { "code": "01", "icon": "Package", "title": "Katalog produktów", "description": "50 produktów z wariantami (rozmiary, kolory, SKU), zdjęciami, opisami, cennikami per variant. Stock management — auto-disable kiedy brak towaru.", "stat": "50", "stat_label": "produktów" },
+        { "code": "02", "icon": "ShoppingCart", "title": "Koszyk + checkout", "description": "Session-based koszyk persystuje nawet po zamknięciu przeglądarki. Stripe Checkout z 3D Secure (PSD2), bez przechowywania danych karty.", "stat": "PSD2", "stat_label": "compliant" },
+        { "code": "03", "icon": "CreditCard", "title": "Stripe payments", "description": "Karty (wszystkie), BLIK, przelewy — bezpieczne i szybkie. 0% prowizja platformowa (tylko Stripe fee ~1.5%). Roczna ekonomia: 12k PLN vs Shopify.", "stat": "0%", "stat_label": "nasza prowizja" },
+        { "code": "04", "icon": "ClipboardList", "title": "Order management", "description": "Admin panel z listą zamówień, filtrami, zmianą statusu, eksportem CSV. Powiadomienia email dla Ciebie przy każdym nowym zamówieniu.", "stat": "admin", "stat_label": "panel" },
+        { "code": "05", "icon": "Mail", "title": "Email transakcyjny", "description": "Auto-response do klienta: potwierdzenie zamówienia, zmiana statusu, shipping tracking. Integracja z Zapier/webhook — do CRM czy Twoim systemowi." }
       ]
     },
     {
@@ -102,7 +102,7 @@
         "title": "POTRZEBUJESZ",
         "title_big": "SKLEPU",
         "title_suffix": "?",
-        "description": "Od 9 900 PLN, gotowy w 21 dni. Bez prowizji platformowej, bez miesięcznych opłat. Napisz — wrócimy z wyceną w 2 godziny.",
+        "description": "Od 9 900 PLN, gotowy w 21 dni. Bez Shopify, bez prowizji platformowej, bez abonamentu. Roczna ekonomia 12k+ PLN vs Shopify. Napisz — pokażemy kalkulację.",
         "cta_text": "[ zamów sklep ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "porównaj moduły",

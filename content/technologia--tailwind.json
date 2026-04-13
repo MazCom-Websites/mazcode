@@ -19,7 +19,7 @@
         "title_stroke": "TAILWIND 4.",
         "title": "LIGHTNING CSS.",
         "title_acid": "DESIGN TOKENS.",
-        "subtitle": "Engine Lightning CSS, natywne CSS variables, container queries, @theme inline. 7 presetów tematycznych, utility-first, mobile-first. Stylizacja, która skaluje się bez bólu.",
+        "subtitle": "Lightning CSS (Rust) zamiast PostCSS eliminuje 95% overhead'u parsowania — build CSS spada do 340ms niezależnie od rozmiaru projektu. Natywne CSS custom properties w `@theme inline` zamiast Sass variables, container queries bez polyfillów, 7 presetów tematycznych przełączanych jednym plikiem JSON. Design token z `theme.json` propaguje się do każdego komponentu automatycznie.",
         "cta_text": "[ porozmawiajmy ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "wróć do stacku",
@@ -44,7 +44,7 @@
         "eyebrow": "// overview",
         "title": "Utility-first z",
         "title_accent": "design tokens",
-        "body": "Tailwind CSS 4 z engine Lightning CSS to najszybszy system stylizacji na rynku. Zamiast pisać custom CSS, komponujemy style z atomic utilities — każda klasa robi jedną rzecz, kompozycja daje pełną kontrolę.\n\nSystem design tokens w MazCode opiera się na CSS custom properties. Kolory, typografia, spacing, cienie — wszystko zdefiniowane raz w theme.json i propagowane do każdego komponentu. Zmiana koloru primary aktualizuje całą stronę w jednym pliku.\n\n7 presetów tematycznych (clinical, bold, editorial, organic, brutalist, notarial, minimal) daje natychmiastową zmianę wyglądu strony. Każdy preset to kompletny zestaw tokenów — wystarczy zmienić jeden config.",
+        "body": "CSS-in-JS (styled-components, Emotion) rozwiązał problem globalnego namespace CSS, ale stworzył nowy: każdy styl to runtime overhead. Biblioteka stylów pobierana do bundle'a klienta, CSS generowany w JavaScript podczas renderowania, serialized styles jako strings. Na każdym paint. Dla aplikacji z setkami stylizowanych komponentów to 40–80ms dodatkowego JS execution time przy każdym renderze — i bundle 15–25 kb tylko na silnik stylów.\n\nTailwind CSS utility-first to inny model: klasy generowane w build time, zero runtime, zero JavaScript. JIT compiler skanuje codebase podczas buildu, generuje tylko te klasy które faktycznie istnieją w kodzie. Wyjściowy CSS dla całej strony MazCode: 12.4 kb minified + gzip. Porównaj z typowym projektem CSS-in-JS: 45–80 kb samego CSS i 20 kb runtime.\n\nTailwind CSS 4 wymienia silnik parsowania CSS. Zamiast PostCSS (JavaScript) — Lightning CSS napisany w Rust. Rust ma natywny paraleizm i brak GC overhead'u, co przekłada się na benchmarki: PostCSS przetwarza duże projekty w 2–8 sekund, Lightning CSS — 50–340ms. W MazCode pełny build CSS: 340ms. Przy każdym HMR: poniżej 20ms. To różnica odczuwalna w codziennej pracy — developer nie czeka na build, IDE preview jest natychmiastowy.\n\nTailwind CSS 4 porzuca `tailwind.config.js` na rzecz `@theme inline` w CSS. Design tokens definiowane jako CSS custom properties: `--color-primary-500: oklch(0.62 0.17 250)`. Nie jako JavaScript objects — jako natywne zmienne CSS dostępne w całym drzewie DOM bez żadnego preprocessingu. To oznacza że dynamiczne motywy działają bez przebudowy — wystarczy podmienić wartość CSS variable przez JavaScript lub media query. Dark mode, theming per user preference, A/B testy kolorów — wszystko w runtime, zero buildu.\n\nSystem design tokens w MazCode to pipeline: `theme.json` (źródło prawdy per site) → generowanie CSS custom properties → `@theme inline` w Tailwind → utility classes dla wszystkich komponentów. Zmiana `primaryColor` w `theme.json` dla klienta ortopedycznego aktualizuje każdy button, każdy nagłówek, każdy akcent w całej aplikacji. 7 presetów tematycznych (clinical, bold, editorial, organic, brutalist, notarial, minimal) to 7 kompletnych zestawów tokenów z różną typografią, paletą, spacingiem i cieniami — przełączalne bez dotykania komponentów.\n\nContainer queries natywnie w Tailwind 4 rozwiązują problem, który media queries nigdy nie rozwiązały poprawnie: responsywność na poziomie komponentu zamiast viewportu. `@container` sprawia że komponent Card reaguje na szerokość swojego kontenera — i ten sam komponent renderuje się jako pionowa karta w sidebarze i pozioma w głównym layoucie bez żadnych prop-based breakpointów.\n\nJeden trade-off wart uwagi: utility-first wymaga dyscypliny w większych zespołach. Bez `cn()` utility do mergowania klas i bez dobrze zaprojektowanych shared components, utility classes mogą prowadzić do duplikacji. W MazCode rozwiązujemy to przez komponent-driven design: SectionContainer, SectionHeader, ResponsiveGrid, IconBox mają predefiniowane zestawy klas — developerzy nie piszą `flex items-center justify-between` przy każdym layoucie.",
         "sidebar_title": "quick facts",
         "sidebar_items": [
           { "label": "version", "value": "4.x" },
@@ -64,10 +64,10 @@
         "columns": "2"
       },
       "items": [
-        { "code": "01", "icon": "Palette", "title": "CSS Variables Theming", "description": "Kolory, fonty, spacing — wszystko w CSS custom properties. Dynamiczne motywy bez rebuild.", "stat": "7", "stat_label": "presetów" },
-        { "code": "02", "icon": "Maximize2", "title": "Container Queries", "description": "Komponenty reagują na rozmiar kontenera, nie viewportu. Prawdziwa komponentowa responsywność.", "stat": "native", "stat_label": "css" },
-        { "code": "03", "icon": "Zap", "title": "Lightning CSS Build", "description": "Natywny parser CSS w Rust. Build w milisekundach, zero overhead, pełna kompatybilność.", "stat": "340ms", "stat_label": "build" },
-        { "code": "04", "icon": "Layers", "title": "Design Tokens System", "description": "Spójne tokeny od theme.json do CSS. Automatyczne generowanie zmiennych per site.", "stat": "1", "stat_label": "source of truth" }
+        { "code": "01", "icon": "Palette", "title": "CSS Variables Theming", "description": "Design tokeny jako natywne CSS custom properties w `@theme inline` — kolory, fonty, spacing, cienie. Podmiana motywu w runtime bez przebudowy aplikacji, dark mode i user preferences przez CSS cascade bez JavaScript.", "stat": "7", "stat_label": "presetów" },
+        { "code": "02", "icon": "Maximize2", "title": "Container Queries", "description": "Natywny `@container` w Tailwind 4 — komponenty reagują na szerokość własnego kontenera, nie viewportu. Ten sam komponent Card renderuje się jako pionowa karta w sidebarze i pozioma w głównym layoucie bez prop drilling.", "stat": "native", "stat_label": "css" },
+        { "code": "03", "icon": "Zap", "title": "Lightning CSS Build", "description": "Rust-based CSS parser zamiast PostCSS — pełny build CSS w 340ms zamiast 2–8 sekund, HMR poniżej 20ms. Zero runtime overhead w przeglądarce: cały CSS generowany statycznie podczas buildu, nie w JavaScript.", "stat": "340ms", "stat_label": "build" },
+        { "code": "04", "icon": "Layers", "title": "Design Tokens System", "description": "Pipeline `theme.json` → CSS custom properties → Tailwind utilities: jeden plik jako source of truth per site. Zmiana `primaryColor` w konfiguracji propaguje się do każdego komponentu bez dotykania kodu.", "stat": "1", "stat_label": "source of truth" }
       ]
     },
     {
@@ -77,7 +77,7 @@
         "title": "CHCESZ STRONĘ Z",
         "title_big": "DESIGN SYSTEM",
         "title_suffix": "?",
-        "description": "Tailwind 4 + design tokens + 7 presetów tematycznych. Każda strona z pełnym systemem wizualnym, gotowym na zmiany.",
+        "description": "12.4 kb CSS na produkcji — tyle waży kompletny design system strony po JIT purge i minifikacji Lightning CSS. Pełna responsywność, container queries, 7 presetów tematycznych i dynamiczne motywy bez ani jednej linii CSS-in-JS runtime.",
         "cta_text": "[ zamów projekt ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "zobacz cennik",

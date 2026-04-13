@@ -19,7 +19,7 @@
         "title_stroke": "REACT 19.",
         "title": "SERVER FIRST.",
         "title_acid": "ZERO WASTE.",
-        "subtitle": "Server Components, Actions, automatic memoization. React 19 to nie ewolucja — to rewolucja w sposobie budowania interfejsów. Mniej kodu klienta, szybsze strony, lepszy DX.",
+        "subtitle": "React 19 przesuwa granicę między serwerem a klientem na poziom komponentu: to co nie wymaga interakcji nie wysyła JavaScriptu do przeglądarki w ogóle. Server Actions eliminują API routes dla mutacji, automatyczna memoizacja eliminuje useCallback — 163 slice'ów w MazCode, zero ręcznej optymalizacji re-renderów.",
         "cta_text": "[ porozmawiajmy ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "wróć do stacku",
@@ -44,7 +44,7 @@
         "eyebrow": "// overview",
         "title": "Komponentowa architektura",
         "title_accent": "bez granic",
-        "body": "React 19 fundamentalnie zmienia podział między serwerem a klientem. Server Components renderują się na serwerze i wysyłają gotowy HTML — bez JavaScript. Klient dostaje tylko to, co naprawdę potrzebuje interakcji.\n\nServer Actions eliminują potrzebę tworzenia API routes dla operacji formularzy. Walidacja, zapis, redirect — wszystko w jednej funkcji, z pełnym type safety dzięki TypeScript.\n\nAutomatic memoization w React 19 oznacza koniec ręcznego useMemo() i useCallback(). Compiler sam optymalizuje re-rendery, a my skupiamy się na logice biznesowej.",
+        "body": "Przez 10 lat React był biblioteką kliencką. Komponent = JavaScript pobierany do przeglądarki, uruchamiany w przeglądarce, renderujący HTML w przeglądarce. Każdy komponent — nawet statyczna stopka z adresem — lądował w bundle'u i wymagał hydratacji. Przy aplikacji z setkami komponentów to 300–500 kb JS do zparsowania zanim cokolwiek stało się interaktywne.\n\nServer Components odwracają ten model na poziomie ziarnistości komponentu. `async function Hero()` może bezpośrednio wywołać `db.query()` albo `fs.readFile()` — serwer zwraca gotowy HTML, do przeglądarki nie trafia żaden kod tego komponentu. `'use client'` to opt-in, nie default. W naszym codebase 163 slice'ów, spośród których statyczne sekcje treści, nagłówki, stopki, siatki usług — wszystkie to czyste RSC. Client bundle dla typowej strony informacyjnej to 67–89 kb zamiast 280–340 kb z poprzednią architekturą.\n\nServer Actions eliminują jedną z największych bolączek DX w architekturze web: API routes jako boilerplate dla każdej mutacji. Formularz kontaktowy wcześniej: komponent client-side, event handler, fetch do `/api/contact`, walidacja w dwóch miejscach, obsługa błędów w dwóch miejscach. Z Server Actions: jeden plik, jedna funkcja `async` z dyrektywą `'use server'`, pełne type safety, automatyczne progressive enhancement. Zapis formularza działa nawet bez JS w przeglądarce.\n\nSuspense boundaries to mechanizm granularnej kontroli loading state na poziomie drzewa komponentów. Zamiast jednego globalnego spinnera dla całej strony, każdy fragment danych ma własny fallback. Strona klienta z dynamiczną sekcją opinii i statycznym contentem: shell strony ładuje się błyskawicznie z SSG, sekcja opinii streamuje się asynchronicznie z własnym loading state — bez blokowania renderowania reszty.\n\nuseTransition i useDeferredValue z concurrent features Reacta dają precyzyjną kontrolę nad priorytetem aktualizacji stanu. Ciężkie operacje — filtrowanie dużej listy, aktualizacja złożonego widoku — można oznaczyć jako non-urgent, żeby React nie blokował pilniejszych aktualizacji UI. Efekt: 60fps nawet przy operacjach, które wcześniej powodowały lag na słabszych urządzeniach.\n\nReact Compiler (stabilny w React 19) automatycznie dodaje memoizację tam gdzie wcześniej developer musiał ją dodawać ręcznie. useCallback, useMemo, React.memo — dla większości przypadków zbędne. Compiler analizuje drzewo komponentów i wnioskuje gdzie re-render jest nieunikniony, a gdzie można go bezpiecznie pominąć. W praktyce: mniej kodu, mniej miejsc gdzie można zepsuć optymalizację przez błędne dependency array.\n\nDla klienta biznesowego to przekłada się bezpośrednio: mniejszy bundle to szybszy FCP, szybszy FCP to niższy bounce rate, niższy bounce rate to wyższy współczynnik konwersji. Google PageSpeed Insights uwzględnia wszystkie trzy metryki jako sygnał rankingowy. Strona zbudowana na RSC architecture z poprawnie ustawionymi Suspense boundaries osiąga Lighthouse 100/100 bez żadnych hacków.",
         "sidebar_title": "quick facts",
         "sidebar_items": [
           { "label": "version", "value": "19.0" },
@@ -64,10 +64,10 @@
         "columns": "2"
       },
       "items": [
-        { "code": "01", "icon": "Server", "title": "Server Components", "description": "Komponenty renderowane na serwerze. Zero JS na kliencie, szybszy LCP, mniejszy bundle.", "stat": "0 kb", "stat_label": "client bundle" },
-        { "code": "02", "icon": "Zap", "title": "Server Actions", "description": "Mutacje bezpośrednio z komponentów. Form → serwer → redirect. Bez API boilerplate.", "stat": "0", "stat_label": "api routes" },
-        { "code": "03", "icon": "Pause", "title": "Suspense Boundaries", "description": "Granularna kontrola nad loading states. Każda sekcja strony ładuje się niezależnie.", "stat": "async", "stat_label": "streaming" },
-        { "code": "04", "icon": "Cpu", "title": "Concurrent Features", "description": "useTransition, useDeferredValue — płynny UI nawet przy ciężkich operacjach.", "stat": "60fps", "stat_label": "always" }
+        { "code": "01", "icon": "Server", "title": "Server Components", "description": "Komponenty z bezpośrednim dostępem do bazy danych i systemu plików — HTML generowany na serwerze, żaden kod komponentu nie trafia do bundle'a klienta. W MazCode 83% drzewa komponentów to RSC, bundle spada z 340 kb do 89 kb.", "stat": "0 kb", "stat_label": "client bundle" },
+        { "code": "02", "icon": "Zap", "title": "Server Actions", "description": "Funkcje `async` z dyrektywą `'use server'` wywoływane bezpośrednio z formularzy — walidacja Zod, zapis do bazy, rewalidacja cache w jednym miejscu. Progressive enhancement działa nawet bez JS w przeglądarce.", "stat": "0", "stat_label": "api routes" },
+        { "code": "03", "icon": "Pause", "title": "Suspense Boundaries", "description": "Każdy fragment drzewa komponentów ma własny fallback i własny cykl życia asynchronicznego. Shell strony ładuje się z SSG, dynamiczne sekcje streamują się niezależnie — LCP nie czeka na najwolniejszy fetch.", "stat": "async", "stat_label": "streaming" },
+        { "code": "04", "icon": "Cpu", "title": "Concurrent Features", "description": "useTransition oznacza aktualizacje stanu jako non-urgent — React nie blokuje renderowania krytycznych elementów UI podczas ciężkich operacji. useDeferredValue throttluje drogie obliczenia bez utraty responsywności interfejsu.", "stat": "60fps", "stat_label": "always" }
       ]
     },
     {
@@ -77,7 +77,7 @@
         "title": "CHCESZ STRONĘ NA",
         "title_big": "REACT 19",
         "title_suffix": "?",
-        "description": "Budujemy aplikacje z React 19 — Server Components, Actions, Suspense. Każda strona to architektura komponentowa od pierwszego piksela.",
+        "description": "163 gotowe slice'y z RSC architecture: bundle poniżej 90 kb, LCP poniżej 1.2s, zero boilerplate dla formularzy i mutacji. Komponent renderuje się na serwerze albo na kliencie — zależnie od tego gdzie ma sens, nie gdzie jest wygodniej.",
         "cta_text": "[ zamów projekt ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "zobacz cennik",

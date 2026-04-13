@@ -22,7 +22,7 @@
         "title_stroke": "GROWTH",
         "title": "WEBSITE.",
         "title_acid": "MIERZ. TESTUJ. SKALUJ.",
-        "subtitle": "Multi-locale, headless CMS, analytics stack (GA4 + PostHog + Hotjar), A/B testing. Strona zaprojektowana pod skalowanie — mierz każdy klik, testuj warianty, optymalizuj konwersje.",
+        "subtitle": "SaaS, które skaluje się międzynarodowo. Masz anglojęzycznych klientów, chcesz polski i niemiecki market. Strona musi pracować na dane — każdy wariant nagłówka testowany, każdy klik zmapowany. Bez danych, bez wzrostu. Growth Website to strona, która mierzy wszystko, testuje wszystko, optymalizuje wszystko. Fixed-price 14 900 PLN, 21 dni, pełny analytics stack wbudowany.",
         "cta_text": "[ zamów growth ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "wróć do oferty",
@@ -50,7 +50,7 @@
         "eyebrow": "// overview",
         "title": "Skaluj na",
         "title_accent": "danych",
-        "body": "Growth Website to strona zaprojektowana pod jedno: mierzalny wzrost. Każdy element podlega testom A/B. Każdy klik jest trackowany. Każda decyzja oparta na danych, nie przeczuciach.\n\nMulti-locale (2+ języki) z automatycznym hreflang i routing per locale. Headless CMS z live preview — edytuj treści i widzisz zmiany zanim opublikujesz.\n\nAnalytics stack: GA4 (funnele, konwersje), PostHog (session replay, feature flags), Hotjar (heatmapy, nagrania). Integracje z CRM (HubSpot, Stripe) out of the box.",
+        "body": "Scenariusz: SaaS skaluje się z 50k do 500k MRR. Strona główna to now 10% nowych customerów z organic/paid. Problem: nie wiesz dlaczego. Variant A nagłówka konwertuje 5%, variant B — 3%. Którego wybrać? Przeczucie? Testuj A/B, mierz 1000 sieciowań, wybierz dane.\n\nGrowth Website to strona budowana 100% pod metryki: CAC, LTV, conversion rate, session duration, churn. Architektura: multi-locale (2+ języki z automatycznym hreflang, locale routing, tłumaczeniami), headless CMS (edytuj bez programisty, live preview), A/B testing built-in (warianty nagłówków, CTA, layoutów — splittujemy ruch, mierzymy statystykę).\n\nAnalytics stack (triple power): GA4 (funnele konwersji, źródła, cohort analysis), PostHog (session replay dla każdej sesji, feature flags do testów A/B, path analysis), Hotjar (heatmapy — gdzie klienti klikają, gdzie nie, gdzie scroll-ują). Integracje with CRM (HubSpot, Pipedrive), Stripe (revenue tracking), Slack (alerts na anomalie).\n\nDane fluią: customer przychodzi z Facebook Ads (GA4 trackuje), robi X-Y-Z na stronie (PostHog replayuje), konwertuje (event fired), płaci (Stripe hook), trafia do CRM. Cały funnel widoczny w jednym dashboardzie. Optymalizacja: wiesz gdzie tracisz ludzi, dlaczego tracisz, co zmienić.\n\nSEO dla skalowania: per-locale hreflang, per-locale sitemap, per-locale schema.org (LocalBusiness dla każdego rynku). Blog z kategorii — każdy artykuł targetuje keyword per locale. Internal linking: artykuły linkują do stron usług, strony linkują do case studies. Core Web Vitals 100/100 na każdej locali.\n\nDeployed na Vercel Edge — auto-preview, rollback jednym klikiem, CDN global, DDoS protection. Performance: first contentful paint <1s, total blocking time <150ms.\n\nDostarczone w 21 dni: audit (2 dni, analiza rynków, KPI per locale), strategy (2 dni, architektura, locale priority), design (4 dni, komponenty A/B-ready), dev (10 dni, CMS + analytics + A/B + integracje), deploy + monitoring (3 dni).",
         "sidebar_title": "quick facts",
         "sidebar_items": [
           { "label": "cena", "value": "od 14 900 PLN" },
@@ -71,12 +71,12 @@
         "columns": "2"
       },
       "items": [
-        { "code": "01", "icon": "Database", "title": "Headless CMS", "description": "Edytuj treści w panelu admin. Live preview, wersjonowanie, publikacja jednym klikiem.", "stat": "live", "stat_label": "preview" },
-        { "code": "02", "icon": "Globe", "title": "Multi-locale", "description": "2+ języki z automatycznym hreflang, locale routing i tłumaczeniami.", "stat": "2+", "stat_label": "języki" },
-        { "code": "03", "icon": "BarChart3", "title": "Analytics stack", "description": "GA4 + PostHog + Hotjar — funnele, session replay, heatmapy.", "stat": "3", "stat_label": "narzędzia" },
-        { "code": "04", "icon": "FlaskConical", "title": "A/B testing", "description": "Testuj warianty nagłówków, CTA, layoutów. Dane decydują, nie opinie.", "stat": "data", "stat_label": "driven" },
-        { "code": "05", "icon": "Plug", "title": "Integracje", "description": "Stripe, HubSpot, Slack, webhooks — połącz stronę z Twoim ekosystemem.", "stat": "API", "stat_label": "ready" },
-        { "code": "06", "icon": "Search", "title": "Advanced SEO", "description": "Schema.org, hreflang, auto-sitemap, Core Web Vitals monitoring.", "stat": "100", "stat_label": "lighthouse" }
+        { "code": "01", "icon": "Database", "title": "Headless CMS", "description": "Admin panel: edytuj treści per locale, drag-drop bloki, rich text, media. Live preview zanim opublikujesz. Wersjonowanie — powróć do poprzedniej wersji jednym klikiem.", "stat": "live", "stat_label": "preview" },
+        { "code": "02", "icon": "Globe", "title": "Multi-locale (i18n)", "description": "2+ języki z automatycznym hreflang tags, URL routing per locale, tłumaczeniami. SEO dla każdego rynku — każda locale osobny sitemap, osobna cache.", "stat": "2+", "stat_label": "języki" },
+        { "code": "03", "icon": "BarChart3", "title": "Analytics stack (3x)", "description": "GA4 (konwersje, cohorts, revenue), PostHog (session replay, feature flags, path analysis), Hotjar (heatmapy, nagrania). Full funnel visibility w jednym dashboardzie.", "stat": "3", "stat_label": "narzędzia" },
+        { "code": "04", "icon": "FlaskConical", "title": "A/B testing", "description": "Warianty nagłówków, CTA buttons, layoutów — automatycznie splittujemy traffic, mierzymy statystykę (confidence level). Dashboard pokazuje winner w real-time.", "stat": "data", "stat_label": "driven" },
+        { "code": "05", "icon": "Plug", "title": "Integracje", "description": "Stripe (revenue tracking, subscription webhooks), HubSpot (lead sync), Slack (anomaly alerts), Zapier (dowolny system). API-ready — hook wszelkiego eventa." },
+        { "code": "06", "icon": "Search", "title": "Advanced SEO", "description": "Per-locale hreflang, per-locale sitemap, schema.org (Article, LocalBusiness, FAQ per locale), internal linking strategy. Core Web Vitals 100/100. Lighthouse audit co tydzień." }
       ]
     },
     {
@@ -104,7 +104,7 @@
         "title": "CHCESZ",
         "title_big": "SKALOWAĆ",
         "title_suffix": "?",
-        "description": "Od 14 900 PLN, gotowa w 21 dni. Multi-locale, A/B testing, pełny analytics stack. Napisz — pokażemy roadmapę wzrostu.",
+        "description": "Od 14 900 PLN, 21 dni. Multi-locale, A/B testing wbudowany, analytics stack (GA4+PostHog+Hotjar). Bez monthly opłat za feature flags czy heatmapy — wszystko razem. Napisz — pokażemy data-driven roadmapę.",
         "cta_text": "[ zamów growth ]",
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "porównaj moduły",
