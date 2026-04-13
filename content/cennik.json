@@ -27,14 +27,14 @@
         "terminal_title": "~/mazcode/pricing",
         "terminal_footer": "indicative — real quote after audit",
         "terminal_lines": [
-          { "line": "$ mazcode pricing --list" },
-          { "line": "> PKG.01 / ESSENTIAL    4 900 PLN   14 dni" },
-          { "line": "> PKG.02 / GROWTH      14 900 PLN   21 dni" },
-          { "line": "> PKG.03 / BESPOKE    od 34k PLN   6 tyg" },
+          { "line": "<m>$</m> <p>mazcode</p> pricing --list" },
+          { "line": "<m>›</m> PKG.01 / ESSENTIAL    <v>4 900 PLN</v>   <v>14 dni</v>" },
+          { "line": "<m>›</m> PKG.02 / GROWTH      <v>14 900 PLN</v>   <v>21 dni</v>" },
+          { "line": "<m>›</m> PKG.03 / BESPOKE    <v>od 34k PLN</v>   <v>6 tyg</v>" },
           { "line": "" },
-          { "line": "> VAT 23% | fixed-price | umowa" },
-          { "line": "> revisions: 2 rundy w cenie" },
-          { "line": "$ mazcode book --call free" }
+          { "line": "<m>›</m> VAT 23% | <k>fixed-price</k> | umowa" },
+          { "line": "<m>›</m> revisions: <k>2 rundy w cenie</k>" },
+          { "line": "<p>$</p> <p>mazcode</p> book --call free" }
         ]
       }
     },

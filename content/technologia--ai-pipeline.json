@@ -1,0 +1,89 @@
+{
+  "title": "AI Pipeline — Claude Sonnet Content Engine",
+  "slug": "ai-pipeline",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "AI Content Pipeline — Claude Sonnet, SEO, Tłumaczenia — MazCode Stack",
+  "metaDescription": "AI Pipeline w MazCode: Claude Sonnet do generowania treści, SEO audit, tłumaczeń i social media. 70% oszczędności czasu na content.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "07 / AI", "variant": "acid" },
+          { "label": "CLAUDE SONNET", "variant": "amber" },
+          { "label": "CONTENT ENGINE", "variant": "blood" }
+        ],
+        "title_stroke": "AI PIPELINE.",
+        "title": "CLAUDE SONNET.",
+        "title_acid": "CONTENT ENGINE.",
+        "subtitle": "Claude Sonnet generuje copy, audytuje SEO, tłumaczy treści i tworzy alt-texty. 5 typów agentów AI, 70% oszczędności czasu na content. Wszystko zintegrowane z admin panelem.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "70% time savings on content",
+        "terminal_title": "~/mazcode/ai",
+        "terminal_footer": "ai-powered content pipeline",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>claude</p> generate --type=seo" },
+          { "line": "<m>›</m> Model    <k>claude sonnet</k>  <v>(anthropic)</v>" },
+          { "line": "<m>›</m> Agent    <k>seo-bulk</k>       <v>(running)</v>" },
+          { "line": "<m>›</m> Pages    <v>12 analyzed</v>     <p>✓</p>" },
+          { "line": "<m>›</m> Tokens   <v>24,500</v>          <p>✓</p>" },
+          { "line": "<p>$</p> <k>meta tags optimized</k> for 12 pages" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "AI który",
+        "title_accent": "pracuje za Ciebie",
+        "body": "Pipeline AI w MazCode to nie chatbot na stronie. To zestaw specjalizowanych agentów zintegrowanych z admin panelem — każdy agent wykonuje konkretne zadanie: generowanie treści, SEO audit, tłumaczenia, social media content, alt-texty dla obrazów.\n\nClaude Sonnet od Anthropic to model, który rozumie kontekst biznesowy. Nie generuje generic content — analizuje istniejące treści, ton marki i branżę, żeby wyprodukować copy, który brzmi jak Twoja firma.\n\nLimity i kontrola: 10 uruchomień dziennie, review przed publikacją, historia każdego generowania. AI wspomaga — nie zastępuje — ludzką decyzję.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "model", "value": "claude sonnet" },
+          { "label": "daily limit", "value": "10 runs" },
+          { "label": "agent types", "value": "5" },
+          { "label": "savings", "value": "70%" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "AI Pipeline",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "FileText", "title": "Blog Posts", "description": "Generowanie artykułów blogowych z briefu. Struktura, SEO, wewnętrzne linkowanie — automatycznie.", "stat": "< 30s", "stat_label": "per post" },
+        { "code": "02", "icon": "Search", "title": "SEO Meta", "description": "Bulk-optymalizacja meta title i description dla wszystkich stron. A/B warianty w zestawie.", "stat": "bulk", "stat_label": "optimization" },
+        { "code": "03", "icon": "Languages", "title": "Tłumaczenia", "description": "Automatyczne tłumaczenie treści z zachowaniem tonu marki. PL → EN, DE, UA i więcej.", "stat": "4+", "stat_label": "languages" },
+        { "code": "04", "icon": "Share2", "title": "Social Media", "description": "Generowanie postów na FB, LinkedIn, Twitter z istniejących treści. Copy dopasowany do platformy.", "stat": "3", "stat_label": "platforms" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ STRONĘ Z",
+        "title_big": "AI ENGINE",
+        "title_suffix": "?",
+        "description": "Claude Sonnet generuje content, audytuje SEO, tłumaczy treści. 70% mniej czasu na content, 100% kontroli nad jakością.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "AI jako narzędzie, nie zastępstwo"
+      }
+    }
+  ]
+}

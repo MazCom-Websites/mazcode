@@ -1,0 +1,116 @@
+{
+  "title": "E-commerce Pro",
+  "slug": "ecommerce-pro",
+  "parentPath": "/uslugi",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "E-commerce Pro — MazCode | od 49 000 PLN",
+  "metaDescription": "Pełna platforma e-commerce — inventory management, multi-payment, CRM, raporty sprzedażowe. Od 49 000 PLN, gotowa w 6 tygodni.",
+  "name": "E-commerce Pro",
+  "shortDescription": "Pełna platforma — inventory, multi-payment, CRM, raporty.",
+  "icon": "Store",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "07 / E-COM PRO", "variant": "acid" },
+          { "label": "OD 49 000 PLN", "variant": "amber" },
+          { "label": "6 TYGODNI", "variant": "blood" }
+        ],
+        "title_stroke": "E-COMMERCE",
+        "title": "PRO.",
+        "title_acid": "PEŁNA PLATFORMA.",
+        "subtitle": "Inventory management, multi-gateway payments, CRM z lead scoring, raporty sprzedażowe, automatyczny marketing. Platforma e-commerce, która rośnie razem z Twoim biznesem.",
+        "cta_text": "[ zamów e-commerce ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do oferty",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "od 49 000 PLN · 6 tyg · fixed-price",
+        "terminal_title": "~/mazcode/ecommerce-pro",
+        "terminal_footer": "inventory · payments · crm · reports",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>mazcode</p> init --ecommerce-pro" },
+          { "line": "<m>›</m> products:    <k>500+</k>           <v>(unlimited)</v>" },
+          { "line": "<m>›</m> inventory:   <k>management</k>     <v>✓</v>" },
+          { "line": "<m>›</m> payments:    <k>multi-gateway</k>  <v>✓</v>" },
+          { "line": "<m>›</m> crm:         <k>lead scoring</k>   <v>✓</v>" },
+          { "line": "<m>›</m> reports:     <k>sales + analytics</k> <v>✓</v>" },
+          { "line": "<m>›</m> price:       <v>od 49 000 PLN</v>" },
+          { "line": "<m>›</m> delivery:    <v>6 tygodni</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> deploy --production" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Sklep na",
+        "title_accent": "poważnie",
+        "body": "E-commerce Pro to nie landing z koszykiem. To pełna platforma sprzedażowa z zarządzaniem magazynem, wieloma bramkami płatności, CRM-em i raportami, które pokazują realny obraz biznesu.\n\nInventory management z alertami niskiego stanu, automatycznym reorderingiem i synchronizacją z dostawcami. Multi-gateway payments — Stripe, PayU, przelewy24, BLIK. Klient wybiera, jak płaci.\n\nCRM z lead scoring identyfikuje najgorętszych klientów. Automatyczny marketing (abandoned cart, win-back, cross-sell) pracuje na konwersję 24/7. Raporty sprzedażowe dają pełną transparentność.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "cena", "value": "od 49 000 PLN" },
+          { "label": "czas", "value": "6 tygodni" },
+          { "label": "produkty", "value": "500+" },
+          { "label": "payments", "value": "multi-gateway" },
+          { "label": "CRM", "value": "tak" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// features",
+        "title": "Co dostajesz",
+        "title_accent": "w pakiecie",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Warehouse", "title": "Inventory management", "description": "Zarządzanie magazynem, alerty niskiego stanu, synchronizacja z dostawcami.", "stat": "real-time", "stat_label": "stock" },
+        { "code": "02", "icon": "CreditCard", "title": "Multi-gateway payments", "description": "Stripe, PayU, przelewy24, BLIK — klient wybiera metodę płatności.", "stat": "4+", "stat_label": "bramki" },
+        { "code": "03", "icon": "Users", "title": "CRM + lead scoring", "description": "Identyfikacja najgorętszych klientów, historia zakupów, segmentacja.", "stat": "auto", "stat_label": "scoring" },
+        { "code": "04", "icon": "BarChart3", "title": "Raporty sprzedażowe", "description": "Revenue, AOV, conversion rate, cohort analysis, eksport CSV/PDF.", "stat": "live", "stat_label": "dashboard" },
+        { "code": "05", "icon": "Megaphone", "title": "Automatyczny marketing", "description": "Abandoned cart, win-back emails, cross-sell recommendations.", "stat": "24/7", "stat_label": "automation" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_process",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// protocol",
+        "title": "6 kroków do",
+        "title_accent": "platformy",
+        "title_suffix": ".",
+        "meta_text": "6 tygodni · agile sprints · fixed-price"
+      },
+      "items": [
+        { "num": "01", "title": "Discovery", "description": "Analiza procesów sprzedażowych, katalog produktów, wymagania.", "duration": "tydzień 1" },
+        { "num": "02", "title": "UX research", "description": "Customer journey mapping, benchmarki konwersji, wireframes.", "duration": "tydzień 1-2" },
+        { "num": "03", "title": "Architecture", "description": "Projekt systemu — baza, API, integracje, payment flow.", "duration": "tydzień 2" },
+        { "num": "04", "title": "Dev sprints (3)", "description": "Katalog + cart → payments + orders → CRM + marketing.", "duration": "tydzień 3-5" },
+        { "num": "05", "title": "Integration", "description": "Payment gateways, dostawcy, email, analytics.", "duration": "tydzień 5" },
+        { "num": "06", "title": "Launch", "description": "E2E testy, load testing, staging → production.", "duration": "tydzień 6" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "POTRZEBUJESZ",
+        "title_big": "E-COMMERCE PRO",
+        "title_suffix": "?",
+        "description": "Od 49 000 PLN, gotowa w 6 tygodni. Inventory, multi-payment, CRM, raporty. Napisz — umówimy discovery call.",
+        "cta_text": "[ zamów e-commerce ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "porównaj moduły",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "fixed-price · umowa · 6 tygodni"
+      }
+    }
+  ]
+}

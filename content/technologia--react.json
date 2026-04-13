@@ -1,0 +1,89 @@
+{
+  "title": "React 19 — Server Components & Actions",
+  "slug": "react",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "React 19 — Server Components & Actions — MazCode Stack",
+  "metaDescription": "React 19 w MazCode: Server Components, Server Actions, automatic memoization, Suspense i concurrent features. Komponentowa architektura bez kompromisów.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "02 / UI LIBRARY", "variant": "acid" },
+          { "label": "v19.0", "variant": "amber" },
+          { "label": "RSC", "variant": "blood" }
+        ],
+        "title_stroke": "REACT 19.",
+        "title": "SERVER FIRST.",
+        "title_acid": "ZERO WASTE.",
+        "subtitle": "Server Components, Actions, automatic memoization. React 19 to nie ewolucja — to rewolucja w sposobie budowania interfejsów. Mniej kodu klienta, szybsze strony, lepszy DX.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "component-driven architecture",
+        "terminal_title": "~/mazcode/react",
+        "terminal_footer": "ui library · battle-tested",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>react</p> --info" },
+          { "line": "<m>›</m> React    <k>v19.0</k>      <v>(stable)</v>" },
+          { "line": "<m>›</m> RSC      <k>enabled</k>    <p>✓</p>" },
+          { "line": "<m>›</m> Actions  <k>server</k>     <p>✓</p>" },
+          { "line": "<m>›</m> Memo     <k>automatic</k>  <p>✓</p>" },
+          { "line": "<p>$</p> components <v>162 slices</v> loaded" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Komponentowa architektura",
+        "title_accent": "bez granic",
+        "body": "React 19 fundamentalnie zmienia podział między serwerem a klientem. Server Components renderują się na serwerze i wysyłają gotowy HTML — bez JavaScript. Klient dostaje tylko to, co naprawdę potrzebuje interakcji.\n\nServer Actions eliminują potrzebę tworzenia API routes dla operacji formularzy. Walidacja, zapis, redirect — wszystko w jednej funkcji, z pełnym type safety dzięki TypeScript.\n\nAutomatic memoization w React 19 oznacza koniec ręcznego useMemo() i useCallback(). Compiler sam optymalizuje re-rendery, a my skupiamy się na logice biznesowej.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "version", "value": "19.0" },
+          { "label": "paradigm", "value": "component-based" },
+          { "label": "typing", "value": "TS strict" },
+          { "label": "slices", "value": "162" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "React 19",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Server", "title": "Server Components", "description": "Komponenty renderowane na serwerze. Zero JS na kliencie, szybszy LCP, mniejszy bundle.", "stat": "0 kb", "stat_label": "client bundle" },
+        { "code": "02", "icon": "Zap", "title": "Server Actions", "description": "Mutacje bezpośrednio z komponentów. Form → serwer → redirect. Bez API boilerplate.", "stat": "0", "stat_label": "api routes" },
+        { "code": "03", "icon": "Pause", "title": "Suspense Boundaries", "description": "Granularna kontrola nad loading states. Każda sekcja strony ładuje się niezależnie.", "stat": "async", "stat_label": "streaming" },
+        { "code": "04", "icon": "Cpu", "title": "Concurrent Features", "description": "useTransition, useDeferredValue — płynny UI nawet przy ciężkich operacjach.", "stat": "60fps", "stat_label": "always" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ STRONĘ NA",
+        "title_big": "REACT 19",
+        "title_suffix": "?",
+        "description": "Budujemy aplikacje z React 19 — Server Components, Actions, Suspense. Każda strona to architektura komponentowa od pierwszego piksela.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "162 gotowych komponentów"
+      }
+    }
+  ]
+}

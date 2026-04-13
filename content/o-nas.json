@@ -27,14 +27,14 @@
         "terminal_title": "~/mazcode/whoami",
         "terminal_footer": "kraków · pl · since 2020",
         "terminal_lines": [
-          { "line": "$ mazcode whoami" },
-          { "line": "> team         3 engineers + 1 designer" },
-          { "line": "> located      kraków, pl" },
-          { "line": "> since        2020 (6 years)" },
-          { "line": "> projects     47 shipped" },
-          { "line": "> rating       4.97 / 5 ★" },
-          { "line": "> max-load     12 projects / year" },
-          { "line": "$ mazcode philosophy --show" }
+          { "line": "<m>$</m> <p>mazcode</p> whoami" },
+          { "line": "<m>›</m> team         <k>3 engineers</k> + <k>1 designer</k>" },
+          { "line": "<m>›</m> located      <v>kraków, pl</v>" },
+          { "line": "<m>›</m> since        <v>2020</v> <v>(6 years)</v>" },
+          { "line": "<m>›</m> projects     <v>47</v> shipped" },
+          { "line": "<m>›</m> rating       <v>4.97 / 5</v> <p>★</p>" },
+          { "line": "<m>›</m> max-load     <v>12 projects / year</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> philosophy --show" }
         ]
       }
     },

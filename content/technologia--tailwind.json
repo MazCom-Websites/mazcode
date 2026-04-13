@@ -1,0 +1,89 @@
+{
+  "title": "Tailwind CSS 4 — Lightning CSS Engine",
+  "slug": "tailwind",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Tailwind CSS 4 — Lightning CSS, Design Tokens — MazCode Stack",
+  "metaDescription": "Tailwind CSS 4 z Lightning CSS engine: CSS variables, container queries, design tokens, 7 presetów tematycznych. Stylizacja bez kompromisów.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "04 / STYLING", "variant": "acid" },
+          { "label": "v4.x", "variant": "amber" },
+          { "label": "LIGHTNING CSS", "variant": "blood" }
+        ],
+        "title_stroke": "TAILWIND 4.",
+        "title": "LIGHTNING CSS.",
+        "title_acid": "DESIGN TOKENS.",
+        "subtitle": "Engine Lightning CSS, natywne CSS variables, container queries, @theme inline. 7 presetów tematycznych, utility-first, mobile-first. Stylizacja, która skaluje się bez bólu.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "~12kb CSS output",
+        "terminal_title": "~/mazcode/tailwind",
+        "terminal_footer": "styling engine · production-optimized",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>tailwind</p> build --minify" },
+          { "line": "<m>›</m> Engine   <k>lightning-css</k>  <v>(native)</v>" },
+          { "line": "<m>›</m> Output   <v>12.4kb</v>         <p>✓</p>" },
+          { "line": "<m>›</m> Vars     <k>css custom</k>     <p>✓</p>" },
+          { "line": "<m>›</m> Presets  <v>7 themes</v>       <p>✓</p>" },
+          { "line": "<p>$</p> build complete in <v>340ms</v>" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Utility-first z",
+        "title_accent": "design tokens",
+        "body": "Tailwind CSS 4 z engine Lightning CSS to najszybszy system stylizacji na rynku. Zamiast pisać custom CSS, komponujemy style z atomic utilities — każda klasa robi jedną rzecz, kompozycja daje pełną kontrolę.\n\nSystem design tokens w MazCode opiera się na CSS custom properties. Kolory, typografia, spacing, cienie — wszystko zdefiniowane raz w theme.json i propagowane do każdego komponentu. Zmiana koloru primary aktualizuje całą stronę w jednym pliku.\n\n7 presetów tematycznych (clinical, bold, editorial, organic, brutalist, notarial, minimal) daje natychmiastową zmianę wyglądu strony. Każdy preset to kompletny zestaw tokenów — wystarczy zmienić jeden config.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "version", "value": "4.x" },
+          { "label": "engine", "value": "lightning-css" },
+          { "label": "output", "value": "~12kb" },
+          { "label": "presets", "value": "7" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "Tailwind 4",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Palette", "title": "CSS Variables Theming", "description": "Kolory, fonty, spacing — wszystko w CSS custom properties. Dynamiczne motywy bez rebuild.", "stat": "7", "stat_label": "presetów" },
+        { "code": "02", "icon": "Maximize2", "title": "Container Queries", "description": "Komponenty reagują na rozmiar kontenera, nie viewportu. Prawdziwa komponentowa responsywność.", "stat": "native", "stat_label": "css" },
+        { "code": "03", "icon": "Zap", "title": "Lightning CSS Build", "description": "Natywny parser CSS w Rust. Build w milisekundach, zero overhead, pełna kompatybilność.", "stat": "340ms", "stat_label": "build" },
+        { "code": "04", "icon": "Layers", "title": "Design Tokens System", "description": "Spójne tokeny od theme.json do CSS. Automatyczne generowanie zmiennych per site.", "stat": "1", "stat_label": "source of truth" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ STRONĘ Z",
+        "title_big": "DESIGN SYSTEM",
+        "title_suffix": "?",
+        "description": "Tailwind 4 + design tokens + 7 presetów tematycznych. Każda strona z pełnym systemem wizualnym, gotowym na zmiany.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "~12kb CSS na produkcji"
+      }
+    }
+  ]
+}

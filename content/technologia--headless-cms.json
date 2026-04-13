@@ -1,0 +1,89 @@
+{
+  "title": "Headless CMS — GitHub + JSON + Admin Panel",
+  "slug": "headless-cms",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Headless JSON CMS — Git Versioning, Visual Editor — MazCode Stack",
+  "metaDescription": "Headless CMS w MazCode: JSON flat-file na GitHub, visual admin panel, git versioning, instant publish. Zero baz danych, pełna kontrola.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "06 / CMS", "variant": "acid" },
+          { "label": "HEADLESS", "variant": "amber" },
+          { "label": "GIT-BASED", "variant": "blood" }
+        ],
+        "title_stroke": "HEADLESS CMS.",
+        "title": "GIT STORAGE.",
+        "title_acid": "ZERO DATABASES.",
+        "subtitle": "Content w GitHub jako flat JSON. Visual admin panel z drag-and-drop. Git versioning z pełną historią zmian. Publish w sekundy — bez bazy danych, bez serwera, bez limitów.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "50+ stron zarządzanych",
+        "terminal_title": "~/mazcode/cms",
+        "terminal_footer": "content management · git-powered",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>git</p> commit -m \"update content\"" },
+          { "line": "<m>›</m> Storage  <k>github</k>    <v>(encrypted)</v>" },
+          { "line": "<m>›</m> Format   <k>json</k>      <v>(flat-file)</v>" },
+          { "line": "<m>›</m> Version  <k>git</k>        <p>✓</p>" },
+          { "line": "<m>›</m> Admin    <v>visual</v>     <p>✓</p>" },
+          { "line": "<p>$</p> content published in <v>1.2s</v>" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Git jako",
+        "title_accent": "CMS",
+        "body": "W MazCode nie używamy WordPressa, Contentful, ani żadnego SaaS CMS. Content żyje w GitHub jako pliki JSON — każda strona to jeden plik, każdy slice to obiekt. Proste, wersjonowane, bezpieczne.\n\nAdmin panel pozwala edytować treści bez wiedzy technicznej. Drag-and-drop slice'ów, visual preview, inline editing — wszystko w przeglądarce. Zmiany idą do GitHub jako commit, deploy triggeruje się automatycznie.\n\nSzyfrowanie AES-256-GCM chroni content na GitHub. Pliki .mcz są nieczytelne bez klucza — nawet jeśli repo jest publiczne. Decrypt odbywa się w runtime na Vercel.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "storage", "value": "github" },
+          { "label": "format", "value": "json" },
+          { "label": "versioning", "value": "git" },
+          { "label": "pages", "value": "50+" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "Headless CMS",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "GitBranch", "title": "Git Versioning", "description": "Każda zmiana to commit. Pełna historia, rollback, diff. Content branches jak w kodzie.", "stat": "∞", "stat_label": "history" },
+        { "code": "02", "icon": "Layout", "title": "Visual Editor", "description": "Drag-and-drop slice'ów, inline editing, live preview. Edycja bez otwierania IDE.", "stat": "162", "stat_label": "slices" },
+        { "code": "03", "icon": "Globe", "title": "Multi-Site", "description": "Jeden system, wiele stron. Przełączanie kontekstu jednym klikiem, shared components.", "stat": "3+", "stat_label": "sites" },
+        { "code": "04", "icon": "Lock", "title": "AES-256 Encryption", "description": "Content szyfrowany na GitHub. Pliki .mcz nieczytelne bez klucza. Zero risk wycieku.", "stat": "256-bit", "stat_label": "encryption" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ STRONĘ Z",
+        "title_big": "CMS",
+        "title_suffix": "?",
+        "description": "Headless CMS na GitHub — visual editor, git versioning, szyfrowanie. Edytuj treści bez programisty, publikuj w sekundy.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "edycja treści w < 1 min"
+      }
+    }
+  ]
+}

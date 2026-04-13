@@ -1,0 +1,114 @@
+{
+  "title": "Sklep Starter",
+  "slug": "sklep-starter",
+  "parentPath": "/uslugi",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Sklep Starter — MazCode | od 9 900 PLN",
+  "metaDescription": "Prosty e-commerce bez Shopify. Katalog produktów, koszyk, Stripe payments, do 50 produktów. Od 9 900 PLN, gotowy w 21 dni.",
+  "name": "Sklep Starter",
+  "shortDescription": "Prosty e-commerce — katalog, koszyk, Stripe, do 50 produktów.",
+  "icon": "ShoppingCart",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "04 / E-COMMERCE", "variant": "acid" },
+          { "label": "OD 9 900 PLN", "variant": "amber" },
+          { "label": "21 DNI", "variant": "blood" }
+        ],
+        "title_stroke": "SKLEP STARTER.",
+        "title": "BEZ SHOPIFY.",
+        "title_acid": "CUSTOM.",
+        "subtitle": "Prosty e-commerce z custom designem. Katalog produktów, koszyk, Stripe checkout — bez miesięcznych opłat platformowych. Do 50 produktów, gotowy w 21 dni.",
+        "cta_text": "[ zamów sklep ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do oferty",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "od 9 900 PLN · 21 dni · fixed-price",
+        "terminal_title": "~/mazcode/sklep-starter",
+        "terminal_footer": "e-commerce · stripe · custom design",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>mazcode</p> init --ecommerce-starter" },
+          { "line": "<m>›</m> products:    <k>do 50</k>          <v>(catalog)</v>" },
+          { "line": "<m>›</m> cart:        <k>session</k>        <v>✓</v>" },
+          { "line": "<m>›</m> payments:    <k>stripe</k>         <v>✓</v>" },
+          { "line": "<m>›</m> orders:      <k>management</k>     <v>✓</v>" },
+          { "line": "<m>›</m> email:       <k>transactional</k>  <v>✓</v>" },
+          { "line": "<m>›</m> price:       <v>od 9 900 PLN</v>" },
+          { "line": "<m>›</m> delivery:    <v>21 dni</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> deploy --production" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "E-commerce",
+        "title_accent": "bez platform",
+        "body": "Shopify bierze prowizję od każdej transakcji. WooCommerce wymaga hostingu i ciągłych aktualizacji. Nasz Sklep Starter to custom e-commerce bez miesięcznych opłat platformowych.\n\nKatalog do 50 produktów z filtrami i wyszukiwarką. Koszyk z session storage, checkout przez Stripe — bezpieczny, szybki, zgodny z PSD2. Order management z powiadomieniami email.\n\nDesign dopasowany do Twojej marki. Szybki jak landing page, funkcjonalny jak sklep. Mobile-first, bo 65%+ zakupów online to mobile.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "cena", "value": "od 9 900 PLN" },
+          { "label": "czas", "value": "21 dni" },
+          { "label": "produkty", "value": "do 50" },
+          { "label": "payments", "value": "Stripe" },
+          { "label": "prowizja", "value": "0% (tylko Stripe fee)" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// features",
+        "title": "Co dostajesz",
+        "title_accent": "w pakiecie",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Package", "title": "Katalog produktów", "description": "Do 50 produktów z wariantami, filtrami i wyszukiwarką.", "stat": "50", "stat_label": "produktów" },
+        { "code": "02", "icon": "ShoppingCart", "title": "Koszyk + checkout", "description": "Session-based koszyk, Stripe Checkout z 3D Secure i PSD2.", "stat": "PSD2", "stat_label": "compliant" },
+        { "code": "03", "icon": "CreditCard", "title": "Stripe payments", "description": "Karty, BLIK, przelewy. Bezpieczne, szybkie, bez prowizji platformowej.", "stat": "0%", "stat_label": "nasza prowizja" },
+        { "code": "04", "icon": "ClipboardList", "title": "Order management", "description": "Panel zamówień z statusami, filtrami i eksportem CSV.", "stat": "admin", "stat_label": "panel" },
+        { "code": "05", "icon": "Mail", "title": "Email transakcyjny", "description": "Potwierdzenie zamówienia, zmiana statusu, powiadomienia dla admina.", "stat": "auto", "stat_label": "email" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_process",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// protocol",
+        "title": "4 kroki do",
+        "title_accent": "sklepu",
+        "title_suffix": ".",
+        "meta_text": "21 dni · fixed-price · zero niespodzianek"
+      },
+      "items": [
+        { "num": "01", "title": "Audit + brief", "description": "Analiza produktów, procesu zakupowego, grupy docelowej.", "duration": "2 dni" },
+        { "num": "02", "title": "UX design", "description": "Projekt katalogu, koszyka, checkout. Optymalizacja pod konwersję.", "duration": "5 dni" },
+        { "num": "03", "title": "Dev + integracje", "description": "Kod, Stripe, email, zarządzanie zamówieniami.", "duration": "10 dni" },
+        { "num": "04", "title": "Test + deploy", "description": "Testy płatności, cross-browser, performance, deploy.", "duration": "4 dni" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "POTRZEBUJESZ",
+        "title_big": "SKLEPU",
+        "title_suffix": "?",
+        "description": "Od 9 900 PLN, gotowy w 21 dni. Bez prowizji platformowej, bez miesięcznych opłat. Napisz — wrócimy z wyceną w 2 godziny.",
+        "cta_text": "[ zamów sklep ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "porównaj moduły",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "fixed-price · umowa · 21 dni"
+      }
+    }
+  ]
+}

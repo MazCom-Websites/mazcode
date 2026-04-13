@@ -1,0 +1,89 @@
+{
+  "title": "Next.js 16 — App Router & Turbopack",
+  "slug": "nextjs",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Next.js 16 — App Router & Turbopack — MazCode Stack",
+  "metaDescription": "Dlaczego budujemy na Next.js 16: App Router, Server Components, Turbopack, streaming SSR i Partial Prerendering. Zero kompromisów w performance.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "01 / FRAMEWORK", "variant": "acid" },
+          { "label": "v16.1.6", "variant": "amber" },
+          { "label": "TURBOPACK", "variant": "blood" }
+        ],
+        "title_stroke": "NEXT.JS 16.",
+        "title": "APP ROUTER.",
+        "title_acid": "TURBOPACK.",
+        "subtitle": "Framework nowej generacji. Server Components, streaming SSR, Partial Prerendering — wszystko out of the box. Turbopack jako domyślny bundler eliminuje cold starty.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "lighthouse 100/100",
+        "terminal_title": "~/mazcode/nextjs",
+        "terminal_footer": "production-grade framework",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>next</p> --version" },
+          { "line": "<m>›</m> Next.js <k>v16.1.6</k>" },
+          { "line": "<m>›</m> Engine  <k>turbopack</k>  <v>(stable)</v>" },
+          { "line": "<m>›</m> HMR     <v>< 50ms</v>     <p>✓</p>" },
+          { "line": "<m>›</m> Build   <v>4.2s</v>        <p>✓</p>" },
+          { "line": "<p>$</p> lighthouse <v>100/100</v> <p>✓</p> all metrics" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "App Router —",
+        "title_accent": "nowy standard",
+        "body": "Next.js 16 to framework, który zmienił sposób budowania aplikacji webowych. App Router wprowadza natywne wsparcie dla React Server Components, streaming SSR i Partial Prerendering — dając nam kontrolę nad każdym bajtem wysyłanym do przeglądarki.\n\nTurbopack zastępuje Webpack jako domyślny bundler. Czas HMR spada poniżej 50ms, cold start praktycznie nie istnieje. Build całego projektu MazCode (162 slice'ów, 50+ stron) trwa 4 sekundy.\n\nKażda strona, którą budujemy, korzysta z ISR (Incremental Static Regeneration) i SSG (Static Site Generation) — klient dostaje statyczny HTML z edge CDN, bez czekania na server rendering.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "version", "value": "16.1.6" },
+          { "label": "engine", "value": "turbopack" },
+          { "label": "rendering", "value": "ISR + SSG" },
+          { "label": "routes", "value": "app router" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "Next.js 16",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Server", "title": "React Server Components", "description": "Komponenty renderowane na serwerze — zero JS wysyłanego do klienta. Mniejszy bundle, szybszy FCP.", "stat": "0 kb", "stat_label": "client js" },
+        { "code": "02", "icon": "Zap", "title": "Streaming SSR", "description": "Strona ładuje się progresywnie. Użytkownik widzi content zanim cały HTML dotrze.", "stat": "< 1s", "stat_label": "fcp" },
+        { "code": "03", "icon": "RefreshCw", "title": "Turbopack HMR", "description": "Hot Module Replacement w milisekundach. Zmiana w kodzie = natychmiastowy efekt w przeglądarce.", "stat": "< 50ms", "stat_label": "hmr" },
+        { "code": "04", "icon": "Image", "title": "Image Optimization", "description": "next/image z lazy loading, responsive sizes, WebP/AVIF auto-format. Zero ręcznej optymalizacji.", "stat": "auto", "stat_label": "format" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ STRONĘ NA",
+        "title_big": "NEXT.JS 16",
+        "title_suffix": "?",
+        "description": "Budujemy na najnowszym stable release. Lighthouse 100/100, edge deploy, streaming SSR. Bez kompromisów.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "średni czas dostawy: 14 dni"
+      }
+    }
+  ]
+}

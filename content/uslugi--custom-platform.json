@@ -1,0 +1,117 @@
+{
+  "title": "Custom Platform",
+  "slug": "custom-platform",
+  "parentPath": "/uslugi",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Custom Platform — MazCode | od 150 000 PLN",
+  "metaDescription": "Dedykowana platforma od zera. AI pipeline, automatyzacje workflow, dedicated team 3-5 osób, continuous delivery. Od 150 000 PLN, partnership na lata.",
+  "name": "Custom Platform",
+  "shortDescription": "Dedykowana aplikacja — AI, automatyzacje, dedicated team.",
+  "icon": "Cpu",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "09 / CUSTOM", "variant": "acid" },
+          { "label": "OD 150 000 PLN", "variant": "amber" },
+          { "label": "12+ TYGODNI", "variant": "blood" }
+        ],
+        "title_stroke": "CUSTOM",
+        "title": "PLATFORM.",
+        "title_acid": "AI. AUTOMATYZACJE.",
+        "subtitle": "Dedykowana platforma od zera. Custom AI pipeline, automatyzacje workflow, dedicated team (PM + dev + design), continuous delivery. Nie projekt — partnership na lata.",
+        "cta_text": "[ umów rozmowę ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do oferty",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "od 150 000 PLN · 12+ tyg · dedicated team",
+        "terminal_title": "~/mazcode/custom-platform",
+        "terminal_footer": "ai · automation · dedicated team · long-term",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>mazcode</p> init --custom-platform" },
+          { "line": "<m>›</m> team:        <k>3-5 osób</k>      <v>(dedicated)</v>" },
+          { "line": "<m>›</m> ai:          <k>custom pipeline</k> <v>✓</v>" },
+          { "line": "<m>›</m> automation:  <k>workflow</k>       <v>✓</v>" },
+          { "line": "<m>›</m> delivery:    <k>continuous</k>     <v>✓</v>" },
+          { "line": "<m>›</m> support:     <k>on-call 24/7</k>  <v>✓</v>" },
+          { "line": "<m>›</m> price:       <v>od 150 000 PLN</v>" },
+          { "line": "<m>›</m> timeline:    <v>12+ tygodni</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> partnership --start" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Nie projekt.",
+        "title_accent": "Partnership.",
+        "body": "Custom Platform to nie jednorazowy projekt z deadline'em i handoverem. To długoterminowe partnerstwo technologiczne — dedicated team, który zna Twój biznes, Twój kod i Twoje cele.\n\nCustom AI pipeline integruje modele LLM z Twoimi procesami. Automatyzacje workflow eliminują ręczną robotę. Continuous delivery oznacza, że nowe funkcje pojawiają się co tydzień, nie co kwartał.\n\nDedicated team: PM + 2-3 developerów + designer. On-call support 24/7. Jeden Slack channel, zero ticketów, zero czekania. Twój zespół technologiczny, bez overhead-u rekrutacji i HR.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "cena", "value": "od 150 000 PLN" },
+          { "label": "czas", "value": "12+ tygodni" },
+          { "label": "team", "value": "3-5 osób" },
+          { "label": "AI", "value": "tak" },
+          { "label": "support", "value": "on-call 24/7" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// features",
+        "title": "Co dostajesz",
+        "title_accent": "w pakiecie",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Bot", "title": "Custom AI pipeline", "description": "Integracja LLM z procesami biznesowymi — content, analiza, predykcje, automatyzacja.", "stat": "AI", "stat_label": "custom" },
+        { "code": "02", "icon": "Workflow", "title": "Automatyzacje workflow", "description": "Eliminacja ręcznych procesów. Event-driven architecture, cron jobs, webhooks.", "stat": "auto", "stat_label": "workflow" },
+        { "code": "03", "icon": "Users", "title": "Dedicated team", "description": "PM + 2-3 devów + designer. Twój zespół, bez kosztów rekrutacji i HR.", "stat": "3-5", "stat_label": "osób" },
+        { "code": "04", "icon": "GitBranch", "title": "Continuous delivery", "description": "CI/CD, feature flags, automatic previews. Nowe funkcje co tydzień.", "stat": "weekly", "stat_label": "releases" },
+        { "code": "05", "icon": "Headphones", "title": "On-call support 24/7", "description": "Jeden Slack channel, zero ticketów. Reakcja w minutach, nie dniach.", "stat": "24/7", "stat_label": "on-call" },
+        { "code": "06", "icon": "LineChart", "title": "Growth consulting", "description": "Regularne reviews, data-driven rekomendacje, roadmapa produktowa.", "stat": "monthly", "stat_label": "reviews" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_process",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// protocol",
+        "title": "6 kroków do",
+        "title_accent": "partnership",
+        "title_suffix": ".",
+        "meta_text": "12+ tygodni · agile · continuous delivery"
+      },
+      "items": [
+        { "num": "01", "title": "Partnership kick-off", "description": "Spotkanie zespołów, alignment na cele biznesowe, setup narzędzi.", "duration": "tydzień 1" },
+        { "num": "02", "title": "Product discovery", "description": "User research, competitive analysis, definition of MVP scope.", "duration": "tydzień 2-3" },
+        { "num": "03", "title": "MVP", "description": "Pierwsza wersja z core functionality. Deploy, feedback, iterate.", "duration": "tydzień 4-7" },
+        { "num": "04", "title": "Iterations", "description": "Tygodniowe sprinty, weekly releases, data-driven development.", "duration": "tydzień 8-10" },
+        { "num": "05", "title": "Scale", "description": "Optymalizacja performance, load testing, monitoring setup.", "duration": "tydzień 11-12" },
+        { "num": "06", "title": "Ongoing", "description": "Continuous delivery, on-call support, monthly growth reviews.", "duration": "ongoing" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "SZUKASZ",
+        "title_big": "PARTNERA TECH",
+        "title_suffix": "?",
+        "description": "Od 150 000 PLN, dedicated team 3-5 osób, AI pipeline, continuous delivery. Nie sprzedajemy projektów — budujemy partnerstwa. Napisz — umówimy CEO-to-CEO call.",
+        "cta_text": "[ umów rozmowę ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "porównaj moduły",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "dedicated team · AI · 24/7 support"
+      }
+    }
+  ]
+}

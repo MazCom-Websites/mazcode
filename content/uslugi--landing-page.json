@@ -1,0 +1,112 @@
+{
+  "title": "Landing Page",
+  "slug": "landing-page",
+  "parentPath": "/uslugi",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Landing Page — MazCode | od 1 000 PLN",
+  "metaDescription": "Jedna strona, max konwersja. Landing page pod kampanię PPC, event lub lead magnet. Od 1 000 PLN, gotowa w 5 dni.",
+  "name": "Landing Page",
+  "shortDescription": "Kampania, event, lead magnet — jedna strona, max konwersja.",
+  "icon": "Zap",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "01 / LANDING", "variant": "acid" },
+          { "label": "OD 1 000 PLN", "variant": "amber" },
+          { "label": "5 DNI", "variant": "blood" }
+        ],
+        "title_stroke": "LANDING PAGE.",
+        "title": "JEDNA STRONA.",
+        "title_acid": "MAX KONWERSJA.",
+        "subtitle": "Kampania PPC, event, lead magnet — nie potrzebujesz całego serwisu. Potrzebujesz jednej strony, która konwertuje. Pixel-perfect, mobile-first, zoptymalizowana pod jeden CTA.",
+        "cta_text": "[ zamów landing ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do oferty",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "od 1 000 PLN · 5 dni · fixed-price",
+        "terminal_title": "~/mazcode/landing-page",
+        "terminal_footer": "one page · one goal · max conversion",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>mazcode</p> init --landing" },
+          { "line": "<m>›</m> pages:       <k>1</k>              <v>(single)</v>" },
+          { "line": "<m>›</m> forms:       <k>1 lead capture</k> <v>✓</v>" },
+          { "line": "<m>›</m> mobile:      <k>first</k>          <v>✓</v>" },
+          { "line": "<m>›</m> seo:         <k>basic</k>          <v>✓</v>" },
+          { "line": "<m>›</m> price:       <v>od 1 000 PLN</v>" },
+          { "line": "<m>›</m> delivery:    <v>5 dni</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> deploy --production" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Jedna strona,",
+        "title_accent": "zero szumu",
+        "body": "Landing page to najszybszy sposób na walidację oferty. Kampania Google Ads, event, premiera produktu — nie potrzebujesz pięciu podstron i bloga. Potrzebujesz jednej strony, która robi jedną rzecz: konwertuje.\n\nProjectujemy layout pod konkretny CTA. Każdy element — nagłówek, sekcja social proof, formularz — jest zoptymalizowany pod konwersję. Mobile-first, bo 70%+ ruchu z kampanii to mobile.\n\nDostarczone w 5 dni roboczych. Brief, design, development, deploy — bez przerw, bez 'jeszcze jeden sprint'. Fixed-price w umowie, zero niespodzianek.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "cena", "value": "od 1 000 PLN" },
+          { "label": "czas", "value": "5 dni" },
+          { "label": "strony", "value": "1" },
+          { "label": "CMS", "value": "nie" },
+          { "label": "revisions", "value": "2 rundy" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// features",
+        "title": "Co dostajesz",
+        "title_accent": "w pakiecie",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Smartphone", "title": "Responsywny design", "description": "Pixel-perfect na desktop, tablet i mobile. Zero kompromisów w jakości.", "stat": "100%", "stat_label": "responsive" },
+        { "code": "02", "icon": "MousePointerClick", "title": "Lead capture form", "description": "Formularz z walidacją, auto-reply emailem i webhook do CRM.", "stat": "1", "stat_label": "CTA form" },
+        { "code": "03", "icon": "Palette", "title": "Pixel-perfect design", "description": "Custom design dopasowany do Twojego brandingu. Bez templatów.", "stat": "custom", "stat_label": "design" },
+        { "code": "04", "icon": "Search", "title": "SEO basic", "description": "Meta tagi, OpenGraph, schema.org, sitemap — gotowe pod indeksowanie.", "stat": "SEO", "stat_label": "ready" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_process",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// protocol",
+        "title": "4 kroki do",
+        "title_accent": "launch",
+        "title_suffix": ".",
+        "meta_text": "5 dni · fixed-price · zero niespodzianek"
+      },
+      "items": [
+        { "num": "01", "title": "Brief", "description": "Rozmowa o celach, grupie docelowej i CTA. Zbieramy materiały.", "duration": "1h · dzień 1" },
+        { "num": "02", "title": "Design", "description": "Projekt UI w Figma. Jedna iteracja feedbacku w cenie.", "duration": "dzień 2-3" },
+        { "num": "03", "title": "Development", "description": "Kod w Next.js, formularz, integracje, optymalizacja.", "duration": "dzień 3-4" },
+        { "num": "04", "title": "Deploy", "description": "Publikacja na Vercel, domena, SSL, testy finalne.", "duration": "dzień 5" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "POTRZEBUJESZ",
+        "title_big": "LANDING PAGE",
+        "title_suffix": "?",
+        "description": "Od 1 000 PLN, gotowa w 5 dni. Napisz — wrócimy z wyceną w 2 godziny.",
+        "cta_text": "[ zamów landing ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "porównaj moduły",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "fixed-price · umowa · 5 dni"
+      }
+    }
+  ]
+}

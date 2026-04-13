@@ -1,0 +1,113 @@
+{
+  "title": "Strona Wizytówkowa",
+  "slug": "strona-wizytowka",
+  "parentPath": "/uslugi",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Strona Wizytówkowa — MazCode | od 2 500 PLN",
+  "metaDescription": "Profesjonalna wizytówka online dla freelancerów, gabinetów i małych firm. 3-5 stron, formularz, mapa. Od 2 500 PLN, gotowa w 7 dni.",
+  "name": "Strona Wizytówkowa",
+  "shortDescription": "Freelancer, gabinet, mała firma — 3-5 stron, formularz, mapa.",
+  "icon": "User",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "02 / WIZYTÓWKA", "variant": "acid" },
+          { "label": "OD 2 500 PLN", "variant": "amber" },
+          { "label": "7 DNI", "variant": "blood" }
+        ],
+        "title_stroke": "WIZYTÓWKA",
+        "title": "ONLINE.",
+        "title_acid": "PROFESJONALNA.",
+        "subtitle": "Gabinet lekarski, kancelaria, freelancer — potrzebujesz strony, która wygląda jak milion, ale kosztuje 2 500. Custom design, formularz kontaktowy, mapa, wizytówka Google.",
+        "cta_text": "[ zamów wizytówkę ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do oferty",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "od 2 500 PLN · 7 dni · fixed-price",
+        "terminal_title": "~/mazcode/wizytowka",
+        "terminal_footer": "professional presence · 7 days",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>mazcode</p> init --wizytowka" },
+          { "line": "<m>›</m> pages:       <k>3-5</k>            <v>(multi)</v>" },
+          { "line": "<m>›</m> contact:     <k>form + map</k>     <v>✓</v>" },
+          { "line": "<m>›</m> google:      <k>business</k>       <v>✓</v>" },
+          { "line": "<m>›</m> mobile:      <k>first</k>          <v>✓</v>" },
+          { "line": "<m>›</m> price:       <v>od 2 500 PLN</v>" },
+          { "line": "<m>›</m> delivery:    <v>7 dni</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> deploy --production" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Twoja firma",
+        "title_accent": "w sieci",
+        "body": "Strona wizytówkowa to fundament obecności online. Nie musisz mieć sklepu ani bloga — ale musisz mieć miejsce, gdzie klient sprawdzi kim jesteś, co robisz i jak się z Tobą skontaktować.\n\n3-5 podstron: strona główna, o nas, usługi, kontakt z formularzem i mapą Google. Design dopasowany do Twojej branży — minimalistyczny dla kancelarii, ciepły dla gabinetu, odważny dla kreatywnych.\n\nOpcjonalnie: integracja z Google Business Profile, basic SEO, konfiguracja domeny. Wszystko w 7 dni roboczych, fixed-price, bez ukrytych kosztów.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "cena", "value": "od 2 500 PLN" },
+          { "label": "czas", "value": "7 dni" },
+          { "label": "strony", "value": "3-5" },
+          { "label": "CMS", "value": "opcjonalnie" },
+          { "label": "revisions", "value": "2 rundy" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// features",
+        "title": "Co dostajesz",
+        "title_accent": "w pakiecie",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Palette", "title": "Custom design", "description": "Projekt dopasowany do Twojej branży i brandingu. Zero gotowych templatów.", "stat": "100%", "stat_label": "custom" },
+        { "code": "02", "icon": "Mail", "title": "Formularz kontaktowy", "description": "Z walidacją, auto-reply emailem i powiadomieniem na Twoją skrzynkę.", "stat": "auto", "stat_label": "reply" },
+        { "code": "03", "icon": "MapPin", "title": "Google Maps", "description": "Interaktywna mapa z lokalizacją firmy. Pin z adresem i dojazdem.", "stat": "pin", "stat_label": "location" },
+        { "code": "04", "icon": "Smartphone", "title": "Mobile-first", "description": "Responsywny design zoptymalizowany pod telefony — bo tam są Twoi klienci.", "stat": "100%", "stat_label": "responsive" },
+        { "code": "05", "icon": "Search", "title": "Basic SEO", "description": "Meta tagi, schema.org, OpenGraph, sitemap — gotowe do indeksowania.", "stat": "SEO", "stat_label": "ready" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_process",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// protocol",
+        "title": "4 kroki do",
+        "title_accent": "wizytówki",
+        "title_suffix": ".",
+        "meta_text": "7 dni · fixed-price · zero niespodzianek"
+      },
+      "items": [
+        { "num": "01", "title": "Brief", "description": "Rozmowa o firmie, branży, grupie docelowej. Zbieramy materiały i logo.", "duration": "1h · dzień 1" },
+        { "num": "02", "title": "Design", "description": "Projekt UI/UX w Figma. Dwie rundy feedbacku.", "duration": "dzień 2-3" },
+        { "num": "03", "title": "Development", "description": "Kod, formularz, mapa, SEO, optymalizacja zdjęć.", "duration": "dzień 4-6" },
+        { "num": "04", "title": "Deploy + Google", "description": "Publikacja, domena, SSL. Opcjonalnie: Google Business Profile.", "duration": "dzień 7" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "POTRZEBUJESZ",
+        "title_big": "WIZYTÓWKI",
+        "title_suffix": "?",
+        "description": "Od 2 500 PLN, gotowa w 7 dni. Napisz — wrócimy z wyceną w 2 godziny.",
+        "cta_text": "[ zamów wizytówkę ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "porównaj moduły",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "fixed-price · umowa · 7 dni"
+      }
+    }
+  ]
+}

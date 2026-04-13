@@ -1,0 +1,89 @@
+{
+  "title": "TypeScript 5 — Strict Mode, Zero Any",
+  "slug": "typescript",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "TypeScript 5 Strict — Zero Any, Pełna Inferencja — MazCode Stack",
+  "metaDescription": "TypeScript 5 w strict mode: zero 'any', pełna inferencja typów, Zod runtime validation. Kod, który nie pęknie w produkcji.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "03 / LANGUAGE", "variant": "acid" },
+          { "label": "STRICT MODE", "variant": "amber" },
+          { "label": "ZERO ANY", "variant": "blood" }
+        ],
+        "title_stroke": "TYPESCRIPT 5.",
+        "title": "STRICT MODE.",
+        "title_acid": "ZERO ANY.",
+        "subtitle": "Każda linia kodu jest typowana. Zero 'any', pełna inferencja, strict null checks. Zod waliduje dane w runtime — TypeScript w compile time. Podwójne bezpieczeństwo.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "0 any types in codebase",
+        "terminal_title": "~/mazcode/typescript",
+        "terminal_footer": "type safety · compile-time guarantees",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>tsc</p> --strict --noEmit" },
+          { "line": "<m>›</m> Checking <v>487 files</v>..." },
+          { "line": "<m>›</m> Errors   <k>0</k>" },
+          { "line": "<m>›</m> Any uses <k>0</k>         <p>✓</p>" },
+          { "line": "<m>›</m> Coverage <v>100%</v>       <p>✓</p>" },
+          { "line": "<p>$</p> <k>strict mode enabled</k> — no compromises" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Type safety bez",
+        "title_accent": "kompromisów",
+        "body": "W MazCode każda linia kodu jest objęta TypeScript strict mode. To nie jest 'włączony TypeScript z milionem as any' — to pełna inferencja typów, strict null checks, noImplicitAny, exactOptionalPropertyTypes.\n\nZod 4 uzupełnia TypeScript o runtime validation. Schematy walidują dane z formularzy, API, CMS — a TypeScript automatycznie inferuje typy z Zod schematów. Jedna definicja, dwa poziomy bezpieczeństwa.\n\nRezultat? Bug'i łapiemy w IDE, zanim kod trafi do przeglądarki. Refactoring jest bezpieczny — zmiana interfejsu natychmiast podświetla wszystkie miejsca do aktualizacji.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "version", "value": "5.x" },
+          { "label": "mode", "value": "strict" },
+          { "label": "any count", "value": "0" },
+          { "label": "coverage", "value": "100%" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "TypeScript strict",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "ShieldCheck", "title": "Zero Any", "description": "Ani jednego 'any' w codebase. Każdy typ jest jawny lub inferowany — zero backdoorów.", "stat": "0", "stat_label": "any types" },
+        { "code": "02", "icon": "Scan", "title": "Pełna Inferencja", "description": "TypeScript sam wnioskuje typy z kontekstu. Mniej boilerplate'u, więcej czytelności.", "stat": "auto", "stat_label": "inference" },
+        { "code": "03", "icon": "Lock", "title": "Zod Runtime Validation", "description": "Schematy Zod walidują dane w runtime i generują typy TS automatycznie. DRY.", "stat": "2x", "stat_label": "safety layers" },
+        { "code": "04", "icon": "Lightbulb", "title": "IDE Intelligence", "description": "Pełny autocomplete, go-to-definition, refactoring tools. IDE wie wszystko o typach.", "stat": "100%", "stat_label": "autocomplete" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ KOD BEZ",
+        "title_big": "BUG'ÓW",
+        "title_suffix": "?",
+        "description": "TypeScript strict mode + Zod runtime validation = kod, który nie pęknie w produkcji. Zero 'any', pełna inferencja, compile-time guarantees.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "0 runtime type errors in production"
+      }
+    }
+  ]
+}

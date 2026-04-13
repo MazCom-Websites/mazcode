@@ -1,0 +1,116 @@
+{
+  "title": "Enterprise Suite",
+  "slug": "enterprise-suite",
+  "parentPath": "/uslugi",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Enterprise Suite — MazCode | od 89 000 PLN",
+  "metaDescription": "Enterprise-grade platforma. Multi-tenant, RBAC z 8+ rolami, audit trail, compliance RODO i SOC2, SLA 99.9%. Od 89 000 PLN, gotowa w 8 tygodni.",
+  "name": "Enterprise Suite",
+  "shortDescription": "Multi-tenant, RBAC, compliance, audit trail, SLA.",
+  "icon": "Shield",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "08 / ENTERPRISE", "variant": "acid" },
+          { "label": "OD 89 000 PLN", "variant": "amber" },
+          { "label": "8 TYGODNI", "variant": "blood" }
+        ],
+        "title_stroke": "ENTERPRISE",
+        "title": "SUITE.",
+        "title_acid": "COMPLIANCE. SLA.",
+        "subtitle": "Multi-tenant architecture, RBAC z 8+ rolami, pełny audit trail, compliance RODO i SOC2. SLA 99.9% z monitoring i alerting. Enterprise-grade platforma dla organizacji, które nie mogą sobie pozwolić na downtime.",
+        "cta_text": "[ zamów enterprise ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do oferty",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "od 89 000 PLN · 8 tyg · SLA 99.9%",
+        "terminal_title": "~/mazcode/enterprise-suite",
+        "terminal_footer": "multi-tenant · rbac · compliance · sla",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>mazcode</p> init --enterprise" },
+          { "line": "<m>›</m> tenants:     <k>multi</k>          <v>(isolated)</v>" },
+          { "line": "<m>›</m> auth:        <k>RBAC 8+ roles</k> <v>✓</v>" },
+          { "line": "<m>›</m> audit:       <k>trail</k>          <v>✓</v>" },
+          { "line": "<m>›</m> compliance:  <k>RODO + SOC2</k>   <v>✓</v>" },
+          { "line": "<m>›</m> sla:         <k>99.9%</k>          <v>✓</v>" },
+          { "line": "<m>›</m> price:       <v>od 89 000 PLN</v>" },
+          { "line": "<m>›</m> delivery:    <v>8 tygodni</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> deploy --production" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Enterprise",
+        "title_accent": "bez kompromisów",
+        "body": "Enterprise Suite to platforma dla organizacji, gdzie bezpieczeństwo, compliance i uptime nie są nice-to-have — są wymogiem prawnym i biznesowym.\n\nMulti-tenant architecture z pełną izolacją danych między tenantami. RBAC z 8+ rolami i granularnymi uprawnieniami. Audit trail loguje każdą akcję — kto, co, kiedy, skąd.\n\nCompliance RODO (prawo do zapomnienia, eksport danych, consent management) i przygotowanie pod SOC2. SLA 99.9% z monitoring (Datadog/Sentry), alerting i on-call rotation.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "cena", "value": "od 89 000 PLN" },
+          { "label": "czas", "value": "8 tygodni" },
+          { "label": "tenants", "value": "multi" },
+          { "label": "compliance", "value": "RODO + SOC2" },
+          { "label": "SLA", "value": "99.9%" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// features",
+        "title": "Co dostajesz",
+        "title_accent": "w pakiecie",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Building2", "title": "Multi-tenant architecture", "description": "Izolacja danych, osobne konfiguracje, wspólny codebase.", "stat": "isolated", "stat_label": "tenants" },
+        { "code": "02", "icon": "Lock", "title": "RBAC z 8+ rolami", "description": "Granularne uprawnienia, MFA, session management, IP whitelist.", "stat": "8+", "stat_label": "ról" },
+        { "code": "03", "icon": "ScrollText", "title": "Audit trail + logging", "description": "Każda akcja logowana — kto, co, kiedy, IP, user agent.", "stat": "100%", "stat_label": "tracked" },
+        { "code": "04", "icon": "ShieldCheck", "title": "Compliance RODO + SOC2", "description": "Prawo do zapomnienia, eksport danych, consent management, polityki.", "stat": "RODO", "stat_label": "compliant" },
+        { "code": "05", "icon": "Activity", "title": "SLA 99.9% + monitoring", "description": "Uptime monitoring, Datadog/Sentry, alerting, on-call rotation.", "stat": "99.9%", "stat_label": "uptime" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_process",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// protocol",
+        "title": "6 kroków do",
+        "title_accent": "enterprise",
+        "title_suffix": ".",
+        "meta_text": "8 tygodni · security-first · fixed-price"
+      },
+      "items": [
+        { "num": "01", "title": "Discovery + requirements", "description": "Mapowanie wymagań biznesowych, regulacyjnych i technicznych.", "duration": "tydzień 1" },
+        { "num": "02", "title": "Security architecture", "description": "Projekt multi-tenant, RBAC, audit trail, compliance framework.", "duration": "tydzień 2" },
+        { "num": "03", "title": "Dev sprints (4)", "description": "Auth + tenants → core features → compliance → integrations.", "duration": "tydzień 3-6" },
+        { "num": "04", "title": "Compliance audit", "description": "Weryfikacja RODO, testy penetracyjne, security review.", "duration": "tydzień 7" },
+        { "num": "05", "title": "Staging", "description": "Environment staging, load testing, failover testing.", "duration": "tydzień 7-8" },
+        { "num": "06", "title": "Production", "description": "Deploy, monitoring setup, SLA activation, handover.", "duration": "tydzień 8" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "POTRZEBUJESZ",
+        "title_big": "ENTERPRISE",
+        "title_suffix": "?",
+        "description": "Od 89 000 PLN, gotowa w 8 tygodni. Multi-tenant, RBAC, compliance, SLA 99.9%. Napisz — umówimy discovery call z naszym architektem.",
+        "cta_text": "[ zamów enterprise ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "porównaj moduły",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "fixed-price · umowa · SLA 99.9%"
+      }
+    }
+  ]
+}

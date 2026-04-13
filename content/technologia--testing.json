@@ -1,0 +1,89 @@
+{
+  "title": "Testing Suite — Vitest + Playwright",
+  "slug": "testing",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Testing Suite — Vitest, Playwright E2E, TDD — MazCode Stack",
+  "metaDescription": "Testing w MazCode: Vitest 4 unit tests, Playwright E2E, 3000+ testów, 90%+ coverage. TDD workflow, accessibility audit, CI/CD pipeline.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "08 / TESTING", "variant": "acid" },
+          { "label": "VITEST + PW", "variant": "amber" },
+          { "label": "TDD", "variant": "blood" }
+        ],
+        "title_stroke": "TESTING SUITE.",
+        "title": "TDD WORKFLOW.",
+        "title_acid": "ZERO REGRESJI.",
+        "subtitle": "Vitest 4 dla unit testów, Playwright dla E2E, axe-core dla accessibility. 3000+ testów, 90%+ coverage, TDD jako obowiązkowy workflow. Każda zmiana przechodzi przez pipeline.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "3000+ tests · 90%+ coverage",
+        "terminal_title": "~/mazcode/test",
+        "terminal_footer": "quality assurance · automated",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>vitest</p> run --coverage" },
+          { "line": "<m>›</m> Tests    <v>3142 passed</v>   <p>✓</p>" },
+          { "line": "<m>›</m> Failed   <k>0</k>             <p>✓</p>" },
+          { "line": "<m>›</m> Coverage <v>91.2%</v>          <p>✓</p>" },
+          { "line": "<m>›</m> E2E      <v>66 specs</v>      <p>✓</p>" },
+          { "line": "<p>$</p> all tests passed in <v>12.4s</v>" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "TDD jako",
+        "title_accent": "standard",
+        "body": "W MazCode test pisze się PRZED kodem. Red → Green → Refactor — ten cykl jest obowiązkowy dla każdego nowego slice'a, komponentu i modułu. Vitest 4 z @testing-library/react daje szybkie, niezawodne unit testy.\n\nPlaywright obsługuje E2E smoke suite — 11 spec files, 66 testów, 3 minuty runtime. Real Auth0 login, content CRUD roundtrip, API contract testing, accessibility audit z axe-core. Wszystko na production build.\n\nCI/CD pipeline automatycznie uruchamia testy przy każdym push. Zero merge bez zielonych testów, zero deploy bez E2E smoke. Regresje łapiemy zanim dotrą do użytkownika.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "unit framework", "value": "vitest 4" },
+          { "label": "e2e", "value": "playwright" },
+          { "label": "tests", "value": "3000+" },
+          { "label": "coverage", "value": "90%+" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "Testing Suite",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "CheckCircle", "title": "TDD Workflow", "description": "Test PRZED kodem. Red → Green → Refactor. Obowiązkowy cykl dla każdego nowego komponentu.", "stat": "100%", "stat_label": "tdd coverage" },
+        { "code": "02", "icon": "Camera", "title": "Snapshot Testing", "description": "Visual regression detection. Każda zmiana w UI jest śledzona i porównywana z baseline.", "stat": "auto", "stat_label": "detection" },
+        { "code": "03", "icon": "Monitor", "title": "E2E Smoke Suite", "description": "Playwright z real Auth0, content CRUD, API contract testing. 66 testów, 3 min runtime.", "stat": "66", "stat_label": "e2e specs" },
+        { "code": "04", "icon": "Accessibility", "title": "Accessibility Audit", "description": "axe-core integrated — WCAG 2.1 AA compliance check na każdej stronie. Zero critical violations.", "stat": "AA", "stat_label": "wcag 2.1" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ STRONĘ BEZ",
+        "title_big": "BUG'ÓW",
+        "title_suffix": "?",
+        "description": "3000+ testów, 90%+ coverage, TDD workflow, E2E smoke suite. Każda strona przechodzi przez pełny pipeline jakości.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "zero regresji na produkcji"
+      }
+    }
+  ]
+}

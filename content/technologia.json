@@ -27,15 +27,15 @@
         "terminal_title": "~/mazcode/stack",
         "terminal_footer": "production-grade · battle-tested",
         "terminal_lines": [
-          { "line": "$ mazcode stack --show" },
-          { "line": "> framework     next.js 16     (turbopack)" },
-          { "line": "> language      typescript 5   (strict)" },
-          { "line": "> runtime       edge + node    (hybrid)" },
-          { "line": "> styling       tailwind 4     (css vars)" },
-          { "line": "> cms           headless json  (github)" },
-          { "line": "> deploy        vercel edge    (global)" },
-          { "line": "> ai            claude sonnet  (content)" },
-          { "line": "$ lighthouse    100/100 ✓ all metrics" }
+          { "line": "<m>$</m> <p>mazcode</p> stack --show" },
+          { "line": "<m>›</m> framework     <k>next.js 16</k>     <v>(turbopack)</v>" },
+          { "line": "<m>›</m> language      <k>typescript 5</k>   <v>(strict)</v>" },
+          { "line": "<m>›</m> runtime       <k>edge + node</k>    <v>(hybrid)</v>" },
+          { "line": "<m>›</m> styling       <k>tailwind 4</k>     <v>(css vars)</v>" },
+          { "line": "<m>›</m> cms           <k>headless json</k>  <v>(github)</v>" },
+          { "line": "<m>›</m> deploy        <k>vercel edge</k>    <v>(global)</v>" },
+          { "line": "<m>›</m> ai            <k>claude sonnet</k>  <v>(content)</v>" },
+          { "line": "<p>$</p> lighthouse    <v>100/100</v> <p>✓</p> all metrics" }
         ]
       }
     },
@@ -75,7 +75,8 @@
           "title": "Next.js 16 + Turbopack",
           "description": "App Router, Server Components, RSC streaming, Partial Prerendering. Najnowszy stable.",
           "stat": "16.1",
-          "stat_label": "current"
+          "stat_label": "current",
+          "link": "/technologia/nextjs"
         },
         {
           "code": "02",
@@ -83,7 +84,8 @@
           "title": "React 19",
           "description": "Server Components, Actions, useFormStatus, use() hook, automatic memoization.",
           "stat": "19.0",
-          "stat_label": "stable"
+          "stat_label": "stable",
+          "link": "/technologia/react"
         },
         {
           "code": "03",
@@ -91,7 +93,8 @@
           "title": "TypeScript 5 Strict",
           "description": "Zero 'any', pełna inferencja, strict null checks. Kod, który nie pęknie w produkcji.",
           "stat": "0",
-          "stat_label": "any types"
+          "stat_label": "any types",
+          "link": "/technologia/typescript"
         },
         {
           "code": "04",
@@ -99,7 +102,8 @@
           "title": "Tailwind CSS 4",
           "description": "Engine Lightning CSS, CSS vars, @theme, native container queries.",
           "stat": "4.0",
-          "stat_label": "cutting edge"
+          "stat_label": "cutting edge",
+          "link": "/technologia/tailwind"
         },
         {
           "code": "05",
@@ -107,7 +111,8 @@
           "title": "Vercel Edge",
           "description": "Global edge network. 30ms TTFB z dowolnego miejsca na świecie.",
           "stat": "30ms",
-          "stat_label": "edge ttfb"
+          "stat_label": "edge ttfb",
+          "link": "/technologia/vercel"
         },
         {
           "code": "06",
@@ -115,7 +120,8 @@
           "title": "Headless JSON CMS",
           "description": "Content w GitHub, edycja w panelu admin, deploy instant. Zero baz danych do uploaded files.",
           "stat": "0 db",
-          "stat_label": "dla content"
+          "stat_label": "dla content",
+          "link": "/technologia/headless-cms"
         },
         {
           "code": "07",
@@ -123,7 +129,8 @@
           "title": "Claude AI Pipeline",
           "description": "Automatyczne generowanie copy, SEO, tłumaczeń i alt-textów przez Claude Sonnet.",
           "stat": "70%",
-          "stat_label": "czas savings"
+          "stat_label": "czas savings",
+          "link": "/technologia/ai-pipeline"
         },
         {
           "code": "08",
@@ -131,7 +138,8 @@
           "title": "Vitest + Playwright",
           "description": "Unit tests + E2E + visual regression. 246 plików testowych, ~1500 testów.",
           "stat": "90%+",
-          "stat_label": "coverage"
+          "stat_label": "coverage",
+          "link": "/technologia/testing"
         },
         {
           "code": "09",

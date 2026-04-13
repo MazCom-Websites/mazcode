@@ -27,14 +27,14 @@
         "terminal_title": "~/mazcode/init",
         "terminal_footer": "no signup · no spam · no commitment",
         "terminal_lines": [
-          { "line": "$ mazcode init --free-audit" },
-          { "line": "> Response time        ~ 2h" },
-          { "line": "> Audit duration       20 min" },
-          { "line": "> Cost                 0 PLN" },
-          { "line": "> Output               5-15 fix items" },
-          { "line": "> Signup required      no" },
-          { "line": "> Slots available Q1   3/12" },
-          { "line": "$ send --form below_" }
+          { "line": "<m>$</m> <p>mazcode</p> init --free-audit" },
+          { "line": "<m>›</m> Response time        <v>~ 2h</v>" },
+          { "line": "<m>›</m> Audit duration       <v>20 min</v>" },
+          { "line": "<m>›</m> Cost                 <v>0 PLN</v>" },
+          { "line": "<m>›</m> Output               <k>5-15 fix items</k>" },
+          { "line": "<m>›</m> Signup required      <e>no</e>" },
+          { "line": "<m>›</m> Slots available Q1   <v>3/12</v>" },
+          { "line": "<p>$</p> <k>send --form below</k> <v>_</v>" }
         ]
       }
     },

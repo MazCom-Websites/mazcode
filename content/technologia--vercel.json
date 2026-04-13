@@ -1,0 +1,89 @@
+{
+  "title": "Vercel Edge — Global CDN & Zero Cold Starts",
+  "slug": "vercel",
+  "parentPath": "/technologia",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Vercel Edge — Global CDN, 30ms TTFB — MazCode Stack",
+  "metaDescription": "Vercel Edge Network: 70+ regionów, 30ms TTFB, zero cold starts, preview deployments. Hosting bez kompromisów na performance.",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "05 / HOSTING", "variant": "acid" },
+          { "label": "EDGE NETWORK", "variant": "amber" },
+          { "label": "30ms TTFB", "variant": "blood" }
+        ],
+        "title_stroke": "VERCEL EDGE.",
+        "title": "GLOBAL CDN.",
+        "title_acid": "ZERO COLD STARTS.",
+        "subtitle": "Strony deployowane na edge network z 70+ regionów. 30ms TTFB z dowolnego miejsca na świecie. Zero cold starts, automatyczny scaling, preview URLs dla każdego brancha.",
+        "cta_text": "[ porozmawiajmy ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do stacku",
+        "cta_secondary_link": { "url": "/technologia" },
+        "trust_text": "99.99% uptime SLA",
+        "terminal_title": "~/mazcode/vercel",
+        "terminal_footer": "edge-first hosting platform",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>vercel</p> deploy --prod" },
+          { "line": "<m>›</m> Region   <k>70+ edge</k>   <v>(global)</v>" },
+          { "line": "<m>›</m> TTFB     <v>30ms</v>        <p>✓</p>" },
+          { "line": "<m>›</m> Uptime   <v>99.99%</v>      <p>✓</p>" },
+          { "line": "<m>›</m> SSL      <k>auto</k>        <p>✓</p>" },
+          { "line": "<p>$</p> deployed to <v>production</v> <p>✓</p>" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Edge-first",
+        "title_accent": "hosting",
+        "body": "Vercel Edge Network to platforma stworzona dla Next.js. Każda strona jest automatycznie deployowana na 70+ edge nodes na całym świecie — użytkownik dostaje statyczny HTML z najbliższego serwera w 30ms.\n\nPreview deployments dają każdemu pull requestowi osobny URL. Klient widzi zmiany przed merge, designer sprawdza pixel-perfect, tester weryfikuje na production-like środowisku — wszystko bez konfiguracji.\n\nAuto-scaling oznacza zero DevOps. Vercel sam skaluje zasoby pod ruch — od 10 do 10 milionów requestów, bez ręcznej interwencji. Płacisz za usage, nie za idle serwery.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "regions", "value": "70+" },
+          { "label": "ttfb", "value": "30ms" },
+          { "label": "uptime", "value": "99.99%" },
+          { "label": "build", "value": "next.js" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// key features",
+        "title": "Dlaczego",
+        "title_accent": "Vercel Edge",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Globe", "title": "Edge Functions", "description": "Kod uruchamiany na edge — middleware, redirecty, A/B testy blisko użytkownika.", "stat": "< 10ms", "stat_label": "latency" },
+        { "code": "02", "icon": "Eye", "title": "Preview URLs", "description": "Każdy PR dostaje osobny deployment. Review, testy, akceptacja — bez konfiguracji.", "stat": "auto", "stat_label": "per branch" },
+        { "code": "03", "icon": "TrendingUp", "title": "Auto-Scaling", "description": "Zero DevOps. Vercel skaluje pod ruch automatycznie — od 0 do milionów requestów.", "stat": "∞", "stat_label": "scaling" },
+        { "code": "04", "icon": "BarChart3", "title": "Web Analytics", "description": "Built-in analytics: Core Web Vitals, TTFB, FCP, LCP w real-time. Bez external scripts.", "stat": "real-time", "stat_label": "metrics" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "CHCESZ STRONĘ NA",
+        "title_big": "EDGE",
+        "title_suffix": "?",
+        "description": "Global CDN, 30ms TTFB, zero cold starts, preview deployments. Twoja strona bliżej użytkownika niż kiedykolwiek.",
+        "cta_text": "[ zamów projekt ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "zobacz cennik",
+        "cta_secondary_link": { "url": "/cennik" },
+        "trust_text": "99.99% uptime gwarancja"
+      }
+    }
+  ]
+}

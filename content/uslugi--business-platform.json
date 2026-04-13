@@ -1,0 +1,116 @@
+{
+  "title": "Business Platform",
+  "slug": "business-platform",
+  "parentPath": "/uslugi",
+  "status": "published",
+  "publishedAt": "2026-04-10T00:00:00Z",
+  "metaTitle": "Business Platform — MazCode | od 29 000 PLN",
+  "metaDescription": "Platforma z logiką biznesową — custom backend, Auth0 RBAC, panel klienta, integracje API. Od 29 000 PLN, gotowa w 5 tygodni.",
+  "name": "Business Platform",
+  "shortDescription": "Custom backend, auth, panel klienta, integracje API.",
+  "icon": "Server",
+  "slices": [
+    {
+      "slice_type": "agency_dark_hero",
+      "variation": "default",
+      "primary": {
+        "breadcrumb_tags": [
+          { "label": "06 / PLATFORM", "variant": "acid" },
+          { "label": "OD 29 000 PLN", "variant": "amber" },
+          { "label": "5 TYGODNI", "variant": "blood" }
+        ],
+        "title_stroke": "BUSINESS",
+        "title": "PLATFORM.",
+        "title_acid": "CUSTOM BACKEND.",
+        "subtitle": "Platforma z logiką biznesową. Auth0 z rolami, panel klienta, REST API, integracje z CRM i ERP. Nie kolejna strona — narzędzie, które automatyzuje Twój biznes.",
+        "cta_text": "[ zamów platformę ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "wróć do oferty",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "od 29 000 PLN · 5 tyg · fixed-price",
+        "terminal_title": "~/mazcode/business-platform",
+        "terminal_footer": "auth · api · integrations · custom logic",
+        "terminal_lines": [
+          { "line": "<m>$</m> <p>mazcode</p> init --business-platform" },
+          { "line": "<m>›</m> auth:        <k>Auth0 RBAC</k>    <v>✓</v>" },
+          { "line": "<m>›</m> panel:       <k>client dashboard</k> <v>✓</v>" },
+          { "line": "<m>›</m> api:         <k>REST + webhooks</k> <v>✓</v>" },
+          { "line": "<m>›</m> integrations: <k>CRM + ERP</k>    <v>✓</v>" },
+          { "line": "<m>›</m> email:       <k>workflow</k>       <v>✓</v>" },
+          { "line": "<m>›</m> price:       <v>od 29 000 PLN</v>" },
+          { "line": "<m>›</m> delivery:    <v>5 tygodni</v>" },
+          { "line": "<p>$</p> <p>mazcode</p> deploy --production" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_text_block",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// overview",
+        "title": "Więcej niż",
+        "title_accent": "strona",
+        "body": "Business Platform to nie strona z formularzem kontaktowym. To platforma z własnym backendem, systemem autoryzacji i logiką biznesową dopasowaną do Twojego procesu.\n\nAuth0 z RBAC daje Ci kontrolę nad tym, kto ma dostęp do czego. Panel klienta pozwala użytkownikom zarządzać swoimi danymi, zamówieniami, dokumentami. REST API łączy platformę z Twoimi systemami.\n\nIntegracje z CRM (HubSpot, Salesforce), ERP, systemami płatności, email workflow — wszystko zautomatyzowane, wszystko monitorowane.",
+        "sidebar_title": "quick facts",
+        "sidebar_items": [
+          { "label": "cena", "value": "od 29 000 PLN" },
+          { "label": "czas", "value": "5 tygodni" },
+          { "label": "auth", "value": "Auth0 RBAC" },
+          { "label": "panel klienta", "value": "tak" },
+          { "label": "API", "value": "REST + webhooks" }
+        ]
+      }
+    },
+    {
+      "slice_type": "cyberdeck_feature_list",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// features",
+        "title": "Co dostajesz",
+        "title_accent": "w pakiecie",
+        "columns": "2"
+      },
+      "items": [
+        { "code": "01", "icon": "Lock", "title": "Auth0 z rolami", "description": "Enterprise-grade auth z RBAC. Login, rejestracja, reset hasła, MFA.", "stat": "RBAC", "stat_label": "roles" },
+        { "code": "02", "icon": "LayoutDashboard", "title": "Panel klienta", "description": "Dashboard dla użytkowników — dane, zamówienia, dokumenty, notyfikacje.", "stat": "custom", "stat_label": "dashboard" },
+        { "code": "03", "icon": "Plug", "title": "REST API", "description": "Dokumentowane endpointy, webhooks, rate limiting, API keys.", "stat": "REST", "stat_label": "documented" },
+        { "code": "04", "icon": "RefreshCw", "title": "Integracje CRM/ERP", "description": "HubSpot, Salesforce, ERP — dwukierunkowa synchronizacja danych.", "stat": "2-way", "stat_label": "sync" },
+        { "code": "05", "icon": "Mail", "title": "Email workflow", "description": "Automatyczne emaile: onboarding, powiadomienia, raporty, reminders.", "stat": "auto", "stat_label": "workflow" },
+        { "code": "06", "icon": "Shield", "title": "Security stack", "description": "HTTPS, CSP, rate limiting, CORS, CSRF protection, audit logging.", "stat": "A+", "stat_label": "security" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_process",
+      "variation": "default",
+      "primary": {
+        "eyebrow": "// protocol",
+        "title": "5 kroków do",
+        "title_accent": "platformy",
+        "title_suffix": ".",
+        "meta_text": "5 tygodni · agile · fixed-price"
+      },
+      "items": [
+        { "num": "01", "title": "Discovery", "description": "Mapowanie procesów biznesowych, user stories, wymagania techniczne.", "duration": "tydzień 1" },
+        { "num": "02", "title": "Architecture", "description": "Projekt systemu — auth, API, integracje, baza danych, infrastruktura.", "duration": "tydzień 1-2" },
+        { "num": "03", "title": "Frontend + backend", "description": "Równoległy rozwój UI i API. Sprint reviews co tydzień.", "duration": "tydzień 2-4" },
+        { "num": "04", "title": "Integration", "description": "Podłączenie CRM, ERP, payment gateway, email service.", "duration": "tydzień 4" },
+        { "num": "05", "title": "Test + deploy", "description": "E2E testy, security audit, staging → production.", "duration": "tydzień 5" }
+      ]
+    },
+    {
+      "slice_type": "cyberdeck_big_cta",
+      "variation": "default",
+      "primary": {
+        "title": "POTRZEBUJESZ",
+        "title_big": "PLATFORMY",
+        "title_suffix": "?",
+        "description": "Od 29 000 PLN, gotowa w 5 tygodni. Auth, panel klienta, API, integracje. Napisz — umówimy discovery call.",
+        "cta_text": "[ zamów platformę ]",
+        "cta_link": { "url": "/kontakt" },
+        "cta_secondary_text": "porównaj moduły",
+        "cta_secondary_link": { "url": "/uslugi" },
+        "trust_text": "fixed-price · umowa · 5 tygodni"
+      }
+    }
+  ]
+}
