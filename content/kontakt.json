@@ -11,30 +11,59 @@
       "variation": "default",
       "primary": {
         "breadcrumb_tags": [
-          { "label": "05 / CONTACT", "variant": "acid" },
-          { "label": "RESPONSE < 2H", "variant": "amber" },
-          { "label": "FREE AUDIT", "variant": "blood" }
+          {
+            "label": "05 / CONTACT",
+            "variant": "acid"
+          },
+          {
+            "label": "RESPONSE < 2H",
+            "variant": "amber"
+          },
+          {
+            "label": "FREE AUDIT",
+            "variant": "blood"
+          }
         ],
         "title_stroke": "READY TO",
         "title": "SHIP",
         "title_acid": "IT?",
         "subtitle": "Umów darmową 20-minutową rozmowę. Pokażemy Ci konkretnie, co tracisz na obecnej stronie, co naprawić w pierwszej kolejności i ile to może znaczyć w przychodach. Bez zobowiązań.",
         "cta_text": "[ wypełnij formularz ]",
-        "cta_link": { "url": "#formularz" },
+        "cta_link": {
+          "url": "#formularz"
+        },
         "cta_secondary_text": "hi@mazcode.pl",
-        "cta_secondary_link": { "url": "mailto:mazcom.kontakt@gmail.com" },
+        "cta_secondary_link": {
+          "url": "mailto:mazcom.kontakt@gmail.com"
+        },
         "trust_text": "zwykle odp. w 2h",
         "terminal_title": "~/mazcode/init",
         "terminal_footer": "no signup · no spam · no commitment",
         "terminal_lines": [
-          { "line": "<m>$</m> <p>mazcode</p> init --free-audit" },
-          { "line": "<m>›</m> Response time        <v>~ 2h</v>" },
-          { "line": "<m>›</m> Audit duration       <v>20 min</v>" },
-          { "line": "<m>›</m> Cost                 <v>0 PLN</v>" },
-          { "line": "<m>›</m> Output               <k>5-15 fix items</k>" },
-          { "line": "<m>›</m> Signup required      <e>no</e>" },
-          { "line": "<m>›</m> Slots available Q1   <v>3/12</v>" },
-          { "line": "<p>$</p> <k>send --form below</k> <v>_</v>" }
+          {
+            "line": "<m>$</m> <p>mazcode</p> init --free-audit"
+          },
+          {
+            "line": "<m>›</m> Response time        <v>~ 2h</v>"
+          },
+          {
+            "line": "<m>›</m> Audit duration       <v>20 min</v>"
+          },
+          {
+            "line": "<m>›</m> Cost                 <v>0 PLN</v>"
+          },
+          {
+            "line": "<m>›</m> Output               <k>5-15 fix items</k>"
+          },
+          {
+            "line": "<m>›</m> Signup required      <e>no</e>"
+          },
+          {
+            "line": "<m>›</m> Slots available Q1   <v>3/12</v>"
+          },
+          {
+            "line": "<p>$</p> <k>send --form below</k> <v>_</v>"
+          }
         ]
       }
     },
@@ -53,10 +82,26 @@
         "hours": "Pn–Pt 9:00 — 17:00"
       },
       "items": [
-        { "platform": "github", "label": "github", "url": "https://github.com/mazcode" },
-        { "platform": "linkedin", "label": "linkedin", "url": "https://linkedin.com/company/mazcode" },
-        { "platform": "twitter", "label": "twitter / x", "url": "https://x.com/mazcode" },
-        { "platform": "instagram", "label": "instagram", "url": "https://instagram.com/mazcode" }
+        {
+          "platform": "github",
+          "label": "github",
+          "url": "https://github.com/mazcode"
+        },
+        {
+          "platform": "linkedin",
+          "label": "linkedin",
+          "url": "https://linkedin.com/company/mazcode"
+        },
+        {
+          "platform": "twitter",
+          "label": "twitter / x",
+          "url": "https://x.com/mazcode"
+        },
+        {
+          "platform": "instagram",
+          "label": "instagram",
+          "url": "https://instagram.com/mazcode"
+        }
       ]
     },
     {
@@ -104,11 +149,24 @@
         "title_suffix": "?",
         "description": "Zadzwoń albo napisz bezpośrednio. Odbieramy osobiście, bez sekretariatów i tickets.",
         "cta_text": "[ +48 503 401 451 ]",
-        "cta_link": { "url": "tel:+48503401451" },
+        "cta_link": {
+          "url": "tel:+48798734507"
+        },
         "cta_secondary_text": "email bezpośredni",
-        "cta_secondary_link": { "url": "mailto:mazcom.kontakt@gmail.com" },
-        "trust_text": "Kraków · PL · Pn–Pt 9:00–17:00"
+        "cta_secondary_link": {
+          "url": "mailto:mazcom.kontakt@gmail.com"
+        },
+        "trust_text": "Biała Podlaska · PL · Pn–Pt 9:00–17:00"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
 }
