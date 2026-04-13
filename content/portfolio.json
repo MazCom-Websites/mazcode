@@ -128,23 +128,6 @@
           "url": "https://exura-ortho.pl"
         },
         {
-          "code": "02",
-          "client": "wloszczynski",
-          "title": "Kancelaria Włoszczyński",
-          "description": "Elegancka strona notariatu z bazą aktów prawnych i systemem rezerwacji spotkań.",
-          "image": {
-            "url": "https://placehold.co/800x500/060807/9eff00?text=W%C5%81OSZCZY%C5%83SKI",
-            "alt": "Kancelaria Włoszczyński"
-          },
-          "metric_value": "+350%",
-          "metric_label": "zapytania online",
-          "metric_2_value": "Top 3",
-          "metric_2_label": "google local",
-          "tech_stack": "Next.js · MDX · Framer",
-          "category": "Prawo",
-          "url": "https://wloszczynski-notariusz.pl"
-        },
-        {
           "code": "03",
           "client": "styleshop",
           "title": "StyleShop E-commerce",
@@ -224,25 +207,215 @@
         "description": "19 wariantów designu strony głównej. Każda w innym stylu — od cyberpunka po Art Deco, od Vaporwave po Nordic Calm. Kliknij, żeby zobaczyć live preview."
       },
       "items": [
-        { "code": "01", "name": "Cyberdeck Terminal", "description": "Ciemny terminal z acid green neonem. Scanlines, grid background, blinking cursor.", "viz_url": "/viz/01-cyberdeck.html", "screenshot_desktop": "/screenshots/viz/01-cyberdeck-desktop.webp", "screenshot_tablet": "/screenshots/viz/01-cyberdeck-tablet.webp", "screenshot_mobile": "/screenshots/viz/01-cyberdeck-mobile.webp", "tech_stack": "JetBrains Mono · Grid Pattern · Scanlines · VT323", "category": "Dark" },
-        { "code": "02", "name": "Liquid Iridescent", "description": "Gradient iridescent z płynnymi przejściami kolorów. Futurystyczny, premium.", "viz_url": "/viz/02-liquid-iridescent.html", "screenshot_desktop": "/screenshots/viz/02-liquid-iridescent-desktop.webp", "screenshot_tablet": "/screenshots/viz/02-liquid-iridescent-tablet.webp", "screenshot_mobile": "/screenshots/viz/02-liquid-iridescent-mobile.webp", "tech_stack": "Gradient Mesh · Blur Layers · Fraunces Serif", "category": "Gradient" },
-        { "code": "03", "name": "Brutalist Grid", "description": "Surowy grid z dużą typografią i kontrastami. Bold, bezkompromisowy.", "viz_url": "/viz/03-brutalist-grid.html", "screenshot_desktop": "/screenshots/viz/03-brutalist-grid-desktop.webp", "screenshot_tablet": "/screenshots/viz/03-brutalist-grid-tablet.webp", "screenshot_mobile": "/screenshots/viz/03-brutalist-grid-mobile.webp", "tech_stack": "Monospace · Hard Grid · High Contrast · Oversize Type", "category": "Brutalist" },
-        { "code": "04", "name": "Deep Space", "description": "Kosmiczny motyw z particle effects i star field. Immersywny, epicki.", "viz_url": "/viz/04-deep-space.html", "screenshot_desktop": "/screenshots/viz/04-deep-space-desktop.webp", "screenshot_tablet": "/screenshots/viz/04-deep-space-tablet.webp", "screenshot_mobile": "/screenshots/viz/04-deep-space-mobile.webp", "tech_stack": "Particle Field · Star Parallax · Nebula Gradients", "category": "Space" },
-        { "code": "05", "name": "Neo Noir", "description": "Film noir — dramatyczne cienie, grain overlay, weneckie żaluzje, typewriter animation.", "viz_url": "/viz/05-neo-noir.html", "screenshot_desktop": "/screenshots/viz/05-neo-noir-desktop.webp", "screenshot_tablet": "/screenshots/viz/05-neo-noir-tablet.webp", "screenshot_mobile": "/screenshots/viz/05-neo-noir-mobile.webp", "tech_stack": "Playfair Display · Crimson Pro · Film Grain · Vignette", "category": "Dark" },
-        { "code": "06", "name": "Organic Flow", "description": "Biomorphiczne kształty, flowing curves, tona ziemi. Natura spotyka tech.", "viz_url": "/viz/06-organic-flow.html", "screenshot_desktop": "/screenshots/viz/06-organic-flow-desktop.webp", "screenshot_tablet": "/screenshots/viz/06-organic-flow-tablet.webp", "screenshot_mobile": "/screenshots/viz/06-organic-flow-mobile.webp", "tech_stack": "Fraunces · DM Sans · Blob Shapes · Wave Dividers", "category": "Organic" },
-        { "code": "07", "name": "Swiss Grid", "description": "Swiss International Style — ścisły grid, red accent, Neue Grafik precision.", "viz_url": "/viz/07-swiss-grid.html", "screenshot_desktop": "/screenshots/viz/07-swiss-grid-desktop.webp", "screenshot_tablet": "/screenshots/viz/07-swiss-grid-tablet.webp", "screenshot_mobile": "/screenshots/viz/07-swiss-grid-mobile.webp", "tech_stack": "Archivo · IBM Plex Sans · 12-col Grid · Baseline", "category": "Minimal" },
-        { "code": "08", "name": "Retro Arcade", "description": "8-bit pixel art, CRT scanlines, neon glow, INSERT COIN aesthetic.", "viz_url": "/viz/08-retro-arcade.html", "screenshot_desktop": "/screenshots/viz/08-retro-arcade-desktop.webp", "screenshot_tablet": "/screenshots/viz/08-retro-arcade-tablet.webp", "screenshot_mobile": "/screenshots/viz/08-retro-arcade-mobile.webp", "tech_stack": "Press Start 2P · VT323 · CRT Effect · Pixel Art", "category": "Retro" },
-        { "code": "09", "name": "Editorial", "description": "Magazyn editorialowy — drop caps, pull quotes, multi-column layout, reading bar.", "viz_url": "/viz/09-editorial.html", "screenshot_desktop": "/screenshots/viz/09-editorial-desktop.webp", "screenshot_tablet": "/screenshots/viz/09-editorial-tablet.webp", "screenshot_mobile": "/screenshots/viz/09-editorial-mobile.webp", "tech_stack": "Playfair Display · Source Serif 4 · CSS Columns · Paper", "category": "Editorial" },
-        { "code": "10", "name": "Glassmorphism", "description": "Frosted glass panels, floating color orbs, backdrop blur, layered depth.", "viz_url": "/viz/10-glassmorphism.html", "screenshot_desktop": "/screenshots/viz/10-glassmorphism-desktop.webp", "screenshot_tablet": "/screenshots/viz/10-glassmorphism-tablet.webp", "screenshot_mobile": "/screenshots/viz/10-glassmorphism-mobile.webp", "tech_stack": "Outfit · Wix Madefor · Backdrop Filter · Glass Cards", "category": "Glass" },
-        { "code": "11", "name": "Art Deco", "description": "1920s glamour — złote ornamenty, geometric patterns, sunburst rays, Gatsby era.", "viz_url": "/viz/11-art-deco.html", "screenshot_desktop": "/screenshots/viz/11-art-deco-desktop.webp", "screenshot_tablet": "/screenshots/viz/11-art-deco-tablet.webp", "screenshot_mobile": "/screenshots/viz/11-art-deco-mobile.webp", "tech_stack": "Poiret One · Raleway · Gold Gradient · Chevron Pattern", "category": "Luxury" },
-        { "code": "12", "name": "Vaporwave", "description": "Retrofuturyzm — chrome text, perspective grid, sunset gradient, palm trees.", "viz_url": "/viz/12-vaporwave.html", "screenshot_desktop": "/screenshots/viz/12-vaporwave-desktop.webp", "screenshot_tablet": "/screenshots/viz/12-vaporwave-tablet.webp", "screenshot_mobile": "/screenshots/viz/12-vaporwave-mobile.webp", "tech_stack": "Audiowide · Exo 2 · Chrome Shimmer · Perspective Grid", "category": "Retro" },
-        { "code": "13", "name": "Nordic Calm", "description": "Skandynawski minimalizm — massive whitespace, muted pastels, hygge warmth.", "viz_url": "/viz/13-nordic-calm.html", "screenshot_desktop": "/screenshots/viz/13-nordic-calm-desktop.webp", "screenshot_tablet": "/screenshots/viz/13-nordic-calm-tablet.webp", "screenshot_mobile": "/screenshots/viz/13-nordic-calm-mobile.webp", "tech_stack": "DM Serif Display · DM Sans · Caveat · Soft Shadows", "category": "Minimal" },
-        { "code": "14", "name": "Industrial", "description": "Raw concrete — stencil typography, caution stripes, brutalist thick borders.", "viz_url": "/viz/14-industrial.html", "screenshot_desktop": "/screenshots/viz/14-industrial-desktop.webp", "screenshot_tablet": "/screenshots/viz/14-industrial-tablet.webp", "screenshot_mobile": "/screenshots/viz/14-industrial-mobile.webp", "tech_stack": "Oswald · Barlow · Concrete Texture · Caution Stripe", "category": "Brutalist" },
-        { "code": "15", "name": "Tropical Bold", "description": "Festiwalowa energia — confetti, wave dividers, tilted cards, bounce animations.", "viz_url": "/viz/15-tropical-bold.html", "screenshot_desktop": "/screenshots/viz/15-tropical-bold-desktop.webp", "screenshot_tablet": "/screenshots/viz/15-tropical-bold-tablet.webp", "screenshot_mobile": "/screenshots/viz/15-tropical-bold-mobile.webp", "tech_stack": "Fredoka · Nunito · SVG Waves · Confetti Particles", "category": "Playful" },
-        { "code": "16", "name": "Gradient Mesh", "description": "Aurora borealis — floating gradient orbs, glass cards, mesh grain overlay.", "viz_url": "/viz/16-gradient-mesh.html", "screenshot_desktop": "/screenshots/viz/16-gradient-mesh-desktop.webp", "screenshot_tablet": "/screenshots/viz/16-gradient-mesh-tablet.webp", "screenshot_mobile": "/screenshots/viz/16-gradient-mesh-mobile.webp", "tech_stack": "Syne · Manrope · Aurora Orbs · Gradient Text", "category": "Gradient" },
-        { "code": "17", "name": "Paper Craft", "description": "Rękodzieło — paper texture, torn edges, tape strips, dog-ear corners.", "viz_url": "/viz/17-paper-craft.html", "screenshot_desktop": "/screenshots/viz/17-paper-craft-desktop.webp", "screenshot_tablet": "/screenshots/viz/17-paper-craft-tablet.webp", "screenshot_mobile": "/screenshots/viz/17-paper-craft-mobile.webp", "tech_stack": "Abril Fatface · Merriweather · Kraft Texture · Torn Edge", "category": "Organic" },
-        { "code": "18", "name": "Monochrome Luxury", "description": "High fashion B&W — ultra-thin borders, massive whitespace, gold accents only.", "viz_url": "/viz/18-monochrome-lux.html", "screenshot_desktop": "/screenshots/viz/18-monochrome-lux-desktop.webp", "screenshot_tablet": "/screenshots/viz/18-monochrome-lux-tablet.webp", "screenshot_mobile": "/screenshots/viz/18-monochrome-lux-mobile.webp", "tech_stack": "Cormorant Garamond · Montserrat · Gold Accent · Ultra Thin", "category": "Luxury" },
-        { "code": "19", "name": "Neon Tokyo", "description": "Cyberpunk Japan — neon glow, rain effect, vertical Japanese text, torii gate.", "viz_url": "/viz/19-neon-tokyo.html", "screenshot_desktop": "/screenshots/viz/19-neon-tokyo-desktop.webp", "screenshot_tablet": "/screenshots/viz/19-neon-tokyo-tablet.webp", "screenshot_mobile": "/screenshots/viz/19-neon-tokyo-mobile.webp", "tech_stack": "Orbitron · Exo 2 · Neon Glow · Rain CSS · Katakana", "category": "Dark" }
+        {
+          "code": "01",
+          "name": "Cyberdeck Terminal",
+          "description": "Ciemny terminal z acid green neonem. Scanlines, grid background, blinking cursor.",
+          "viz_url": "/viz/01-cyberdeck.html",
+          "screenshot_desktop": "/screenshots/viz/01-cyberdeck-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/01-cyberdeck-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/01-cyberdeck-mobile.webp",
+          "tech_stack": "JetBrains Mono · Grid Pattern · Scanlines · VT323",
+          "category": "Dark"
+        },
+        {
+          "code": "02",
+          "name": "Liquid Iridescent",
+          "description": "Gradient iridescent z płynnymi przejściami kolorów. Futurystyczny, premium.",
+          "viz_url": "/viz/02-liquid-iridescent.html",
+          "screenshot_desktop": "/screenshots/viz/02-liquid-iridescent-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/02-liquid-iridescent-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/02-liquid-iridescent-mobile.webp",
+          "tech_stack": "Gradient Mesh · Blur Layers · Fraunces Serif",
+          "category": "Gradient"
+        },
+        {
+          "code": "03",
+          "name": "Brutalist Grid",
+          "description": "Surowy grid z dużą typografią i kontrastami. Bold, bezkompromisowy.",
+          "viz_url": "/viz/03-brutalist-grid.html",
+          "screenshot_desktop": "/screenshots/viz/03-brutalist-grid-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/03-brutalist-grid-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/03-brutalist-grid-mobile.webp",
+          "tech_stack": "Monospace · Hard Grid · High Contrast · Oversize Type",
+          "category": "Brutalist"
+        },
+        {
+          "code": "04",
+          "name": "Deep Space",
+          "description": "Kosmiczny motyw z particle effects i star field. Immersywny, epicki.",
+          "viz_url": "/viz/04-deep-space.html",
+          "screenshot_desktop": "/screenshots/viz/04-deep-space-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/04-deep-space-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/04-deep-space-mobile.webp",
+          "tech_stack": "Particle Field · Star Parallax · Nebula Gradients",
+          "category": "Space"
+        },
+        {
+          "code": "05",
+          "name": "Neo Noir",
+          "description": "Film noir — dramatyczne cienie, grain overlay, weneckie żaluzje, typewriter animation.",
+          "viz_url": "/viz/05-neo-noir.html",
+          "screenshot_desktop": "/screenshots/viz/05-neo-noir-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/05-neo-noir-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/05-neo-noir-mobile.webp",
+          "tech_stack": "Playfair Display · Crimson Pro · Film Grain · Vignette",
+          "category": "Dark"
+        },
+        {
+          "code": "06",
+          "name": "Organic Flow",
+          "description": "Biomorphiczne kształty, flowing curves, tona ziemi. Natura spotyka tech.",
+          "viz_url": "/viz/06-organic-flow.html",
+          "screenshot_desktop": "/screenshots/viz/06-organic-flow-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/06-organic-flow-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/06-organic-flow-mobile.webp",
+          "tech_stack": "Fraunces · DM Sans · Blob Shapes · Wave Dividers",
+          "category": "Organic"
+        },
+        {
+          "code": "07",
+          "name": "Swiss Grid",
+          "description": "Swiss International Style — ścisły grid, red accent, Neue Grafik precision.",
+          "viz_url": "/viz/07-swiss-grid.html",
+          "screenshot_desktop": "/screenshots/viz/07-swiss-grid-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/07-swiss-grid-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/07-swiss-grid-mobile.webp",
+          "tech_stack": "Archivo · IBM Plex Sans · 12-col Grid · Baseline",
+          "category": "Minimal"
+        },
+        {
+          "code": "08",
+          "name": "Retro Arcade",
+          "description": "8-bit pixel art, CRT scanlines, neon glow, INSERT COIN aesthetic.",
+          "viz_url": "/viz/08-retro-arcade.html",
+          "screenshot_desktop": "/screenshots/viz/08-retro-arcade-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/08-retro-arcade-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/08-retro-arcade-mobile.webp",
+          "tech_stack": "Press Start 2P · VT323 · CRT Effect · Pixel Art",
+          "category": "Retro"
+        },
+        {
+          "code": "09",
+          "name": "Editorial",
+          "description": "Magazyn editorialowy — drop caps, pull quotes, multi-column layout, reading bar.",
+          "viz_url": "/viz/09-editorial.html",
+          "screenshot_desktop": "/screenshots/viz/09-editorial-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/09-editorial-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/09-editorial-mobile.webp",
+          "tech_stack": "Playfair Display · Source Serif 4 · CSS Columns · Paper",
+          "category": "Editorial"
+        },
+        {
+          "code": "10",
+          "name": "Glassmorphism",
+          "description": "Frosted glass panels, floating color orbs, backdrop blur, layered depth.",
+          "viz_url": "/viz/10-glassmorphism.html",
+          "screenshot_desktop": "/screenshots/viz/10-glassmorphism-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/10-glassmorphism-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/10-glassmorphism-mobile.webp",
+          "tech_stack": "Outfit · Wix Madefor · Backdrop Filter · Glass Cards",
+          "category": "Glass"
+        },
+        {
+          "code": "11",
+          "name": "Art Deco",
+          "description": "1920s glamour — złote ornamenty, geometric patterns, sunburst rays, Gatsby era.",
+          "viz_url": "/viz/11-art-deco.html",
+          "screenshot_desktop": "/screenshots/viz/11-art-deco-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/11-art-deco-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/11-art-deco-mobile.webp",
+          "tech_stack": "Poiret One · Raleway · Gold Gradient · Chevron Pattern",
+          "category": "Luxury"
+        },
+        {
+          "code": "12",
+          "name": "Vaporwave",
+          "description": "Retrofuturyzm — chrome text, perspective grid, sunset gradient, palm trees.",
+          "viz_url": "/viz/12-vaporwave.html",
+          "screenshot_desktop": "/screenshots/viz/12-vaporwave-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/12-vaporwave-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/12-vaporwave-mobile.webp",
+          "tech_stack": "Audiowide · Exo 2 · Chrome Shimmer · Perspective Grid",
+          "category": "Retro"
+        },
+        {
+          "code": "13",
+          "name": "Nordic Calm",
+          "description": "Skandynawski minimalizm — massive whitespace, muted pastels, hygge warmth.",
+          "viz_url": "/viz/13-nordic-calm.html",
+          "screenshot_desktop": "/screenshots/viz/13-nordic-calm-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/13-nordic-calm-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/13-nordic-calm-mobile.webp",
+          "tech_stack": "DM Serif Display · DM Sans · Caveat · Soft Shadows",
+          "category": "Minimal"
+        },
+        {
+          "code": "14",
+          "name": "Industrial",
+          "description": "Raw concrete — stencil typography, caution stripes, brutalist thick borders.",
+          "viz_url": "/viz/14-industrial.html",
+          "screenshot_desktop": "/screenshots/viz/14-industrial-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/14-industrial-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/14-industrial-mobile.webp",
+          "tech_stack": "Oswald · Barlow · Concrete Texture · Caution Stripe",
+          "category": "Brutalist"
+        },
+        {
+          "code": "15",
+          "name": "Tropical Bold",
+          "description": "Festiwalowa energia — confetti, wave dividers, tilted cards, bounce animations.",
+          "viz_url": "/viz/15-tropical-bold.html",
+          "screenshot_desktop": "/screenshots/viz/15-tropical-bold-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/15-tropical-bold-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/15-tropical-bold-mobile.webp",
+          "tech_stack": "Fredoka · Nunito · SVG Waves · Confetti Particles",
+          "category": "Playful"
+        },
+        {
+          "code": "16",
+          "name": "Gradient Mesh",
+          "description": "Aurora borealis — floating gradient orbs, glass cards, mesh grain overlay.",
+          "viz_url": "/viz/16-gradient-mesh.html",
+          "screenshot_desktop": "/screenshots/viz/16-gradient-mesh-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/16-gradient-mesh-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/16-gradient-mesh-mobile.webp",
+          "tech_stack": "Syne · Manrope · Aurora Orbs · Gradient Text",
+          "category": "Gradient"
+        },
+        {
+          "code": "17",
+          "name": "Paper Craft",
+          "description": "Rękodzieło — paper texture, torn edges, tape strips, dog-ear corners.",
+          "viz_url": "/viz/17-paper-craft.html",
+          "screenshot_desktop": "/screenshots/viz/17-paper-craft-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/17-paper-craft-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/17-paper-craft-mobile.webp",
+          "tech_stack": "Abril Fatface · Merriweather · Kraft Texture · Torn Edge",
+          "category": "Organic"
+        },
+        {
+          "code": "18",
+          "name": "Monochrome Luxury",
+          "description": "High fashion B&W — ultra-thin borders, massive whitespace, gold accents only.",
+          "viz_url": "/viz/18-monochrome-lux.html",
+          "screenshot_desktop": "/screenshots/viz/18-monochrome-lux-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/18-monochrome-lux-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/18-monochrome-lux-mobile.webp",
+          "tech_stack": "Cormorant Garamond · Montserrat · Gold Accent · Ultra Thin",
+          "category": "Luxury"
+        },
+        {
+          "code": "19",
+          "name": "Neon Tokyo",
+          "description": "Cyberpunk Japan — neon glow, rain effect, vertical Japanese text, torii gate.",
+          "viz_url": "/viz/19-neon-tokyo.html",
+          "screenshot_desktop": "/screenshots/viz/19-neon-tokyo-desktop.webp",
+          "screenshot_tablet": "/screenshots/viz/19-neon-tokyo-tablet.webp",
+          "screenshot_mobile": "/screenshots/viz/19-neon-tokyo-mobile.webp",
+          "tech_stack": "Orbitron · Exo 2 · Neon Glow · Rain CSS · Katakana",
+          "category": "Dark"
+        }
       ]
     },
     {
@@ -264,5 +437,14 @@
         "trust_text": "3 sloty Q1 · odpowiadamy w 2h"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "metaTitle": "",
+    "metaDescription": "",
+    "metaImage": "",
+    "ogImage": "",
+    "robots": "",
+    "keywords": "",
+    "canonicalUrl": ""
+  }
 }
