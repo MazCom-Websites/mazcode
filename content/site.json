@@ -1,24 +1,43 @@
 {
-  "title": "Site Config",
-  "status": "published",
   "siteName": "MazCode",
   "siteDescription": "Nowoczesne strony internetowe — szybkie, piękne, zoptymalizowane pod SEO.",
   "siteUrl": "https://mazcode.pl",
   "navbar": {
     "links": [
-      { "name": "Usługi", "path": "/uslugi" },
-      { "name": "Realizacje", "path": "/portfolio" },
-      { "name": "Cennik", "path": "/cennik" },
-      { "name": "Technologia", "path": "/technologia" },
-      { "name": "O nas", "path": "/o-nas" }
+      {
+        "name": "Usługi",
+        "path": "/uslugi"
+      },
+      {
+        "name": "Realizacje",
+        "path": "/portfolio"
+      },
+      {
+        "name": "Cennik",
+        "path": "/cennik"
+      },
+      {
+        "name": "Technologia",
+        "path": "/technologia"
+      },
+      {
+        "name": "O nas",
+        "path": "/o-nas"
+      }
     ],
-    "cta": { "text": "Kontakt", "path": "/kontakt" }
+    "cta": {
+      "text": "Kontakt",
+      "path": "/kontakt"
+    }
   },
   "contact": {
-    "phone": "+48 503 401 451",
+    "phone": "+48 798734507",
     "email": "mazcom.kontakt@gmail.com",
     "address": "",
-    "openingHours": { "weekdays": "", "weekends": "" }
+    "openingHours": {
+      "weekdays": "",
+      "weekends": ""
+    }
   },
   "social": {
     "github": "https://github.com/MazCom-Websites"
@@ -27,6 +46,13 @@
     "copyright": "© {year} MazCode. Wszystkie prawa zastrzeżone.",
     "services": []
   },
+  "cloudinaryFolder": "uploads",
   "locale": "pl-PL",
+  "webhooks": [],
+  "analytics": {},
+  "supportedLocales": [
+    "pl"
+  ],
+  "defaultLocale": "pl",
   "domain": "mazcode.pl"
 }
