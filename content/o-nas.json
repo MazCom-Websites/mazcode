@@ -4,7 +4,7 @@
   "path": "/o-nas",
   "publishedAt": "2026-04-07T00:00:00Z",
   "metaTitle": "O nas — MazCode | 6 lat. 47 projektów. Zero kompromisów.",
-  "metaDescription": "Jesteśmy małym zespołem, który pracuje tylko z firmami traktującymi design jak broń. Bez templatów, bez 'prześlemy ofertę mailem'. Kraków · PL.",
+  "metaDescription": "Jesteśmy małym zespołem, który pracuje tylko z firmami traktującymi design jak broń. Bez templatów, bez 'prześlemy ofertę mailem'. Biała Podlaska · PL.",
   "slices": [
     {
       "slice_type": "agency_dark_hero",
@@ -25,11 +25,11 @@
         "cta_secondary_link": { "url": "/portfolio" },
         "trust_text": "★★★★★ 4.97 / 47 opinii",
         "terminal_title": "~/mazcode/whoami",
-        "terminal_footer": "kraków · pl · since 2020",
+        "terminal_footer": "Biała Podlaska · pl · since 2020",
         "terminal_lines": [
           { "line": "<m>$</m> <p>mazcode</p> whoami" },
           { "line": "<m>›</m> team         <k>3 engineers</k> + <k>1 designer</k>" },
-          { "line": "<m>›</m> located      <v>kraków, pl</v>" },
+          { "line": "<m>›</m> located      <v>Biała Podlaska, pl</v>" },
           { "line": "<m>›</m> since        <v>2020</v> <v>(6 years)</v>" },
           { "line": "<m>›</m> projects     <v>47</v> shipped" },
           { "line": "<m>›</m> rating       <v>4.97 / 5</v> <p>★</p>" },
@@ -152,7 +152,7 @@
       "variation": "default",
       "primary": { "speed": 42 },
       "items": [
-        { "text": "kraków · pl" },
+        { "text": "Biała Podlaska · pl" },
         { "text": "since 2020" },
         { "text": "47 projects shipped" },
         { "text": "4.97 / 5 ★ nps" },
@@ -175,7 +175,7 @@
         "cta_link": { "url": "/kontakt" },
         "cta_secondary_text": "zobacz portfolio",
         "cta_secondary_link": { "url": "/portfolio" },
-        "trust_text": "odpowiadamy w 2h · kraków · pl"
+        "trust_text": "odpowiadamy w 2h · Biała Podlaska · pl"
       }
     }
   ]
