@@ -41,11 +41,13 @@ jobs:
       - name: Install dependencies
         run: cd builder && npm ci
 
-      - name: Copy content + config + forms
+      - name: Copy content + config + forms + assets
         # Builder expects this layout under `builder/content/`:
         #   <root>/<page>.json              from tenant content/
         #   <root>/config/<file>.json       from tenant config/
         #   <root>/forms/<file>.json        from tenant forms/
+        # Static assets (OG images etc.) go to builder/public/images/:
+        #   <root>/Images/<file>            from tenant Images/  → served at /images/<file>
         run: |
           rm -rf builder/content
           mkdir -p builder/content
@@ -60,6 +62,10 @@ jobs:
             mkdir -p builder/content/forms
             cp -r ${{ github.workspace }}/forms/. builder/content/forms/
           fi
+          if [ -d "${{ github.workspace }}/Images" ]; then
+            mkdir -p builder/public/images
+            cp -r ${{ github.workspace }}/Images/. builder/public/images/
+          fi
 
       - name: Decrypt content
         # decrypts builder/content/*.mcz + builder/content/{config,forms}/*.mcz
@@ -72,8 +78,6 @@ jobs:
         env:
           NEXT_PUBLIC_SITE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
-          NEXT_PUBLIC_TENANT_SLUG: ${{ vars.TENANT_SLUG }}
-          NEXT_PUBLIC_FORM_API_SHORT: ${{ vars.FORM_API_SHORT }}
           NEXT_PUBLIC_GA_ID: ${{ vars.GA_ID }}
           NEXT_PUBLIC_HOTJAR_ID: ${{ vars.HOTJAR_ID }}
           NEXT_PUBLIC_HOTJAR_SNIPPET_VERSION: ${{ vars.HOTJAR_SNIPPET_VERSION }}
