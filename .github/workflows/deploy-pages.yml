@@ -47,7 +47,7 @@ jobs:
         #   <root>/config/<file>.json       from tenant config/
         #   <root>/forms/<file>.json        from tenant forms/
         # Static assets (OG images etc.) go to builder/public/images/:
-        #   <root>/Images/<file>            from tenant Images/  → served at /images/<file>
+        #   <root>/images/<file>            from tenant images/  → served at /images/<file>
         run: |
           rm -rf builder/content
           mkdir -p builder/content
@@ -62,9 +62,9 @@ jobs:
             mkdir -p builder/content/forms
             cp -r ${{ github.workspace }}/forms/. builder/content/forms/
           fi
-          if [ -d "${{ github.workspace }}/Images" ]; then
+          if [ -d "${{ github.workspace }}/images" ]; then
             mkdir -p builder/public/images
-            cp -r ${{ github.workspace }}/Images/. builder/public/images/
+            cp -r ${{ github.workspace }}/images/. builder/public/images/
           fi
 
       - name: Decrypt content
