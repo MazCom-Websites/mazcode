@@ -124,20 +124,56 @@ jobs:
             cp -r ${{ github.workspace }}/images/. builder/public/images/
           fi
 
+      - name: Stage public assets
+        # Next kopiuje katalog public/ z KATALOGU PROJEKTU, a ten jest teraz
+        # builder/deploy/pages, nie builder. Bez tego kroku eksport wychodzi
+        # BEZ ANI JEDNEGO PLIKU statycznego i kończy się POWODZENIEM.
+        # Zmierzone na canary mazcode.pl 2026-08-21: wszystkie /images/*
+        # oddawały 404 przy zielonym buildzie, poprawnej sitemapie i poprawnym
+        # kanale RSS — czyli dokładnie ta awaria, której nie widać z logu.
+        # Kopiujemy CAŁE builder/public, bo stara ścieżka eksportowała je
+        # w całości: to parytet, nie okazja do sprzątania.
+        # Musi biec PO kroku z obrazami (tamten dokłada je do builder/public).
+        run: |
+          mkdir -p builder/deploy/pages/public
+          cp -r builder/public/. builder/deploy/pages/public/
+
+      - name: Scope slice registry
+        # Przycięcie rejestru slice'ów i mapy ikon do tego, czego treść tej
+        # strony NAPRAWDĘ używa. Robił to prepare-static-export.mjs w środku;
+        # deploy/pages niczego nie kasuje, więc te dwa kroki stoją osobno.
+        # Muszą biec PO tym, jak treść znajdzie się w builder/content.
+        run: |
+          cd builder
+          node scripts/slices/scope-slice-registry.mjs
+          node scripts/slices/scope-icon-map.mjs
+
       - name: Build static site
-        run: cd builder && npm run build:pages
+        # Buduje aplikację deploy/pages (shimy tras publicznych) zamiast
+        # npm run build:pages (destrukcyjny prepare-static-export.mjs).
+        # Katalog aplikacji idzie ARGUMENTEM Next CLI, a NIE przez cd:
+        # contentRoot() oraz oba skrypty scope* sklejają ścieżki z
+        # process.cwd(), więc cwd musi zostać w korzeniu buildera.
+        # Reguła i uzasadnienie: deploy/CLAUDE.md.
+        run: cd builder && npx next build deploy/pages --webpack
         env:
+          # Czytane przez src/app/(site)/[[...slug]]/page.tsx — bez tego trasa
+          # dotyka searchParams i wywraca output: export.
+          STATIC_EXPORT: '1'
           NEXT_PUBLIC_SITE_URL: https://${{ vars.SITE_DOMAIN }}${{ vars.PAGES_BASE_PATH }}
           NEXT_PUBLIC_FORM_API_URL: ${{ vars.FORM_API_URL }}
+          # Tenant slug — baked into the static build so client-side form
+          # components address the multi-tenant submission endpoint:
+          #   POST <FORM_API_URL>/api/forms/<TENANT_SLUG>/<formId>
+          # Without it, forms fall back to a same-origin /api/form/* path that
+          # does not exist on a static GitHub Pages export (forms 404).
           NEXT_PUBLIC_TENANT_SLUG: ${{ vars.TENANT_SLUG }}
           # SHORT-path proxy hosts (api./mail.mazcode.pl) strip the /api/forms
           # convention via next.config rewrites; '1' makes getFormSubmitUrl emit
           # <base>/<tenant>/<form>. Empty for full-path hosts (admin.mazcode.pl).
           NEXT_PUBLIC_FORM_API_SHORT: ${{ vars.FORM_API_SHORT }}
-          # Analytics (GA4/Hotjar/PostHog) comes ONLY from config/site.json analytics block, never env.
+          # Analytics (GA4/Hotjar/PostHog) comes ONLY from config/site.json — never env.
           CONTENT_ENCRYPTION_KEY: ${{ secrets.CONTENT_ENCRYPTION_KEY }}
-          # Dummy Auth0 vars — required for top-level Auth0Client instantiation
-          # during static build, but admin/API routes are not emitted in export.
           AUTH0_DOMAIN: dummy.auth0.com
           AUTH0_CLIENT_ID: dummy-client-id
           AUTH0_CLIENT_SECRET: dummy-client-secret-min-32-chars-long
@@ -154,7 +190,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: builder/out
+          # distDir: 'out' w deploy/pages/next.config.ts jest wzgledne wobec
+          # KATALOGU APLIKACJI, nie wobec cwd — stad zagniezdzona sciezka.
+          path: builder/deploy/pages/out
 
       - name: Deploy to GitHub Pages
         id: deployment
